@@ -1,0 +1,6 @@
+.vscode
+e2e_tests
+node_modules
+Guru99Bank.log
+Projects/Guru99BankTestAutomation/TestReports/*
+Projects/Guru99BankTestAutomation/OldTestReports
