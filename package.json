@@ -29,7 +29,8 @@
     "log4js": "6.1.2",
     "zip-a-folder": "0.0.12",
     "move-file": "2.0.0",
-    "hostname": "1.0.4"
+    "hostname": "1.0.4",
+    "jasmine-allure-reporter": "1.0.2"
   },
   "repository": {
     "type": "git",

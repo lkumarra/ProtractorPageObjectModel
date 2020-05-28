@@ -23,7 +23,7 @@ export let NewCostumerData = {
 };
 export let HomePageData = {
     welcomeMessage: "Welcome To Manager's Page of Guru99 Bank",
-    managerId: "Manger Id : mngr242402"
+    managerId: "Manger Id : mngr261615"
 };
 export let EditCostumerData = {
     costumerIDField: {

@@ -4,6 +4,7 @@ import * as nodemailer from 'nodemailer';
 import * as moveFile from 'move-file';
 let HtmlReporter = require('protractor-beautiful-reporter');
 var jasmineReporters = require('jasmine-reporters');
+var AllureReporter = require('jasmine-allure-reporter');
 let colors = require('colors');
 let displayProcessor = require('jasmine-spec-reporter').DisplayProcessor;
 let globals = require('protractor');
@@ -140,12 +141,13 @@ export let config: Config = {
       
           });
           jasmine.getEnv().addReporter(junitReporter);
+          jasmine.getEnv().addReporter(new AllureReporter({
+            resultsDir: 'allure-results'
+          }));
     },
     onComplete: async () => {
-
         // async..await is not allowed in global scope, must use a wrapper
         async function main() {
-
             // Generate test SMTP service account from ethereal.email
             // Only needed if you don't have a real mail account for testing
             let testAccount = await nodemailer.createTestAccount();
@@ -177,5 +179,4 @@ export let config: Config = {
         }
         await main().catch(console.error);
     }
-
 };
