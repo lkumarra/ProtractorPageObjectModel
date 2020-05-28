@@ -9,7 +9,7 @@ export let params = {
             fromUser: "lavendrarajput2001@gmail.com", // sender address
             toUser: "lavendrarajput2001@gmail.com", // list of receivers
             subjectOfMail: "Guru99Bank Test Automation reports", // Subject line
-            textOfMail: "Hi Lavendra\n \nPlease find the attached reports of test exection\n \nThanks\nNodeMailer",
+            textOfMail: "Hi Lavendra\n \nPlease find the link  reports of test exection\n  http://localhost:8080/job/Protractor_Test_Automation \nThanks\nNodeMailer",
         }
     }
 };
