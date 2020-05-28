@@ -21,12 +21,6 @@
       "jasminewd2"
     ]
   },
-  "angularCompilerOptions": {
-    "annotateForClosureCompiler": true,
-    "strictMetadataEmit": true,
-    "skipTemplateCodegen": true,
-    "genDir": "./e2e_tests/lib-gen-dir/"
-  },
   "exclude": [
     "node_modules"
   ],

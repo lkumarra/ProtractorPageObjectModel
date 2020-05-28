@@ -3,6 +3,7 @@ import { suites, params } from '../Suites/Suites';
 import * as nodemailer from 'nodemailer';
 import * as moveFile from 'move-file';
 let HtmlReporter = require('protractor-beautiful-reporter');
+var jasmineReporters = require('jasmine-reporters');
 let colors = require('colors');
 let displayProcessor = require('jasmine-spec-reporter').DisplayProcessor;
 let globals = require('protractor');
@@ -66,7 +67,7 @@ export let config: Config = {
         print: () => {
         } // print jasmine result (suppress protractor's default "dot" reporter)
     },
-    onPrepare: () => {
+    onPrepare: async () => {
         let browser = globals.browser;
         let currentDate: Date = new Date();
         let specReporter: any;
@@ -77,7 +78,7 @@ export let config: Config = {
             convert(currentDate.getDate()) + '_' + convert(currentDate.getHours()) + '-' +
             convert(currentDate.getMinutes());
         //Move the old reportd to old reports folder.
-        moveFile(reportPath, oldReportPath + "/" + reportFolder + "_" + totalDateString + "_").catch();
+        await moveFile(reportPath, oldReportPath + "/" + reportFolder + "_" + totalDateString).catch();
         console.log('The file has been moved');
         browser.manage().window().maximize();
         browser.manage().timeouts().implicitlyWait(10000);
@@ -124,6 +125,21 @@ export let config: Config = {
             }
 
         }).getJasmine2Reporter());
+        var junitReporter = new jasmineReporters.JUnitXmlReporter({
+
+            // setup the output path for the junit reports
+            savePath: reportPath,
+      
+            // conslidate all true:
+            //   output/junitresults.xml
+            //
+            // conslidate all set to false:
+            //   output/junitresults-example1.xml
+            //   output/junitresults-example2.xml
+            consolidateAll: true
+      
+          });
+          jasmine.getEnv().addReporter(junitReporter);
     },
     onComplete: async () => {
 
