@@ -8,7 +8,7 @@ var AllureReporter = require('jasmine-allure-reporter');
 let colors = require('colors');
 let displayProcessor = require('jasmine-spec-reporter').DisplayProcessor;
 let globals = require('protractor');
-let totalDateString:string;
+let totalDateString: string;
 let jsonsFolderName = 'jsons';
 let screenshotsFolderName = 'screenshots';
 let reportName = "Guru99Bank"
@@ -62,6 +62,12 @@ export let config: Config = {
     capabilities: {
         'browserName': params.browserName,
     },
+    // multiCapabilities: [{
+    //     "browserName": "chrome"
+    // },
+    // {
+    //     "browserName":"firefox"
+    // }],
     jasmineNodeOpts: {
         showColors: true,
         defaultTimeoutInterval: 600000 * 3,
@@ -130,7 +136,7 @@ export let config: Config = {
 
             // setup the output path for the junit reports
             savePath: reportPath,
-      
+
             // conslidate all true:
             //   output/junitresults.xml
             //
@@ -138,12 +144,12 @@ export let config: Config = {
             //   output/junitresults-example1.xml
             //   output/junitresults-example2.xml
             consolidateAll: true
-      
-          });
-          jasmine.getEnv().addReporter(junitReporter);
-          jasmine.getEnv().addReporter(new AllureReporter({
+
+        });
+        jasmine.getEnv().addReporter(junitReporter);
+        jasmine.getEnv().addReporter(new AllureReporter({
             resultsDir: 'allure-results'
-          }));
+        }));
     },
     onComplete: async () => {
 
