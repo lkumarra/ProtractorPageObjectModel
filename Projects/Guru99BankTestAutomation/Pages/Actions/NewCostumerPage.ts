@@ -182,6 +182,7 @@ export class NewCostumerPage implements INewCostumer {
      * Verify costumer name field message without entering any value.
      */
     public async constumerNameBlankVerify(): Promise<string> {
+        await testUtil.clearTextBox(newCostumerElements.costumerNameLocator())
         await testUtil.clickOnElement(newCostumerElements.costumerNameLocator());
         await testUtil.clickOnElement(newCostumerElements.dateOfBirthLocator());
         return await testUtil.getWebElementText(newCostumerElements.costumerNameMessageLocator());

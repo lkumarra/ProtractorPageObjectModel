@@ -164,8 +164,9 @@ export class TestUtil implements ITestUtil {
      * Clear the text of textbox.
      * @param webElement 
      */
-    public async clearTextBox(webElement: ElementFinder) {
-        await webElement.clear();
+    public async clearTextBox(locator: Locator) {
+        let element:ElementFinder = await this.getElement(locator)
+        await element.clear();
     }
 
 }

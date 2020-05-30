@@ -33,7 +33,7 @@ describe("Edit costumer page test workflow", () => {
 
     it("Verify costumer id field by entering space", async () => {
         let text:string = await editCostumerPage.verifyCostumerIdWithInvalidCharacters(data.whiteSpace);
-        expect(text).toBe(data.whiteSpace)
+        expect(text).toBe(message.whiteSpace)
     })
 
 })
