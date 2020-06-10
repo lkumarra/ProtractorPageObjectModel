@@ -1,5 +1,7 @@
 export let params = {
   browserName: "chrome",
+  sharedTestFiles: true,
+  maxInstance:4,
   nodeMailer: {
     auth: {
       userEmail: "lavendrarajput2001@gmail.com", // generated ethereal user

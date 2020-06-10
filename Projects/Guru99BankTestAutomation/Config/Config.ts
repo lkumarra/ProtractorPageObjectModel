@@ -67,7 +67,7 @@ export let config: Config = {
   useAllAngular2AppRoots: true,
   framework: "jasmine2",
   capabilities: {
-    browserName: params.browserName,
+    browserName: params.browserName
   },
   // multiCapabilities: [{
   //     "browserName": "chrome"
