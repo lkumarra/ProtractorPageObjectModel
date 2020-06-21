@@ -7,7 +7,7 @@
 # Commands to Execute the TestCases:
 1. *npm install ("To install all dependencies").*
 2. *npm run webdrivermanager:update("To update or install all executable binaries")*
-3. *npm run test("To Start the Executaion")*
+3. *npm run test("To Start the Executation")*
 
 # Reports will Gererated in:
 1. *allure-results("Allure reports will generated")*
