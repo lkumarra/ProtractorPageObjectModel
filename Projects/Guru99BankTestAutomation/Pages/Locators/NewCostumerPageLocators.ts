@@ -1,4 +1,5 @@
-import { by, Locator } from "protractor";
+import { ElementFinder } from 'protractor';
+import { findBy } from '../../Utils/PageFactory';
 let newCostumerElements: NewCostumerElements;
 export class NewCostumerElements {
   /**
@@ -11,119 +12,151 @@ export class NewCostumerElements {
     return newCostumerElements;
   }
 
-  /**
-   * Web element initialization
-   */
-  private costumerName: Locator = by.name("name");
-  private maleRadioButton: Locator = by.xpath("//input[@value = 'm']");
-  private femaleRadioButton: Locator = by.xpath("//input[@value = 'f']");
-  private dob: Locator = by.name("dob");
-  private address: Locator = by.xpath("//textarea[@name = 'addr']");
-  private city: Locator = by.name("city");
-  private state: Locator = by.name("state");
-  private pin: Locator = by.name("pinno");
-  private mobile: Locator = by.name("telephoneno");
-  private email: Locator = by.name("emailid");
-  private password: Locator = by.name("password");
-  private submit: Locator = by.xpath('//input[@value  = "Submit"]');
-  private reset: Locator = by.xpath('//input[@value  = "Reset"]');
-  private costumerNameMessage: Locator = by.css("label#message");
+  //#region  PageFactory
+
+  @findBy("Name", "name")
+  private costumerName:ElementFinder;
+
+  @findBy("Xpath", "//input[@value = 'm']")
+  private maleRadioButton:ElementFinder;
+
+  @findBy("Xpath", "//input[@value = 'f']")
+  private femaleRadioButton:ElementFinder;
+
+  @findBy("Name", "dob")
+  private dob:ElementFinder;
+
+  @findBy("Xpath", "//textarea[@name = 'addr']")
+  private address:ElementFinder;
+
+  @findBy("Name", "city")
+  private city:ElementFinder;
+
+  @findBy("Name", "state")
+  private state:ElementFinder;
+
+  @findBy("Name", "pinno")
+  private pin:ElementFinder;
+
+  @findBy("Name", "telephoneno")
+  private mobile:ElementFinder;
+
+  @findBy("Name", "emailid")
+  private email:ElementFinder;
+
+  @findBy("Name", "password")
+  private password:ElementFinder;
+
+  @findBy("Xpath", '//input[@value  = "Submit"]')
+  private submit:ElementFinder;
+
+  @findBy("Xpath", '//input[@value  = "Reset"]')
+  private reset:ElementFinder;
+
+  @findBy("Css", "label#message")
+  private costumerNameMessage:ElementFinder;
+
+  //#region 
+
+  //#region  GetterMethods
 
   /**
    * Return costumer name locator
    */
-  public costumerNameLocator(): Locator {
+  public getCostumerNameLocator(): ElementFinder {
     return this.costumerName;
   }
 
   /**
    * Return male radio button locator
    */
-  public maleRadioButtonLocator(): Locator {
+  public getMaleRadioButtonLocator(): ElementFinder {
     return this.maleRadioButton;
   }
 
   /**
    * Return female radio button locator
    */
-  public femaleRadioButtonLocator(): Locator {
+  public getFemaleRadioButtonLocator(): ElementFinder {
     return this.femaleRadioButton;
   }
 
   /**
    * Return date of birth locator
    */
-  public dateOfBirthLocator(): Locator {
+  public getDateOfBirthLocator(): ElementFinder {
     return this.dob;
   }
 
   /**
    * Return address locator
    */
-  public addressLocator(): Locator {
+  public getAddressLocator(): ElementFinder {
     return this.address;
   }
 
   /**
    * Return city locator
    */
-  public cityLocator(): Locator {
+  public getCityLocator(): ElementFinder {
     return this.city;
   }
 
   /**
    * Return state locator
    */
-  public stateLocator(): Locator {
+  public getStateLocator(): ElementFinder {
     return this.state;
   }
 
   /**
    * Return pin locator
    */
-  public pinCodeLocator(): Locator {
+  public getPinCodeLocator(): ElementFinder {
     return this.pin;
   }
 
   /**
    * Return male locator
    */
-  public mobileLocator(): Locator {
+  public getMobileLocator(): ElementFinder {
     return this.mobile;
   }
 
   /**
    * Return email locator
    */
-  public emailLocator(): Locator {
+  public getEmailLocator(): ElementFinder {
     return this.email;
   }
 
   /**
    * Return password locator
    */
-  public passwordLocator(): Locator {
+  public getPasswordLocator(): ElementFinder {
     return this.password;
   }
 
   /**
    * Return sub,it locator
    */
-  public submitLocator(): Locator {
+  public getSubmitLocator(): ElementFinder {
     return this.submit;
   }
 
   /**
    * Return reset locator
    */
-  public resetLocator(): Locator {
+  public getResetLocator(): ElementFinder {
     return this.reset;
   }
 
   /**
    * Retrun costmer name message locator
    */
-  public costumerNameMessageLocator(): Locator {
+  public getCostumerNameMessageLocator(): ElementFinder {
     return this.costumerNameMessage;
   }
+
+  //#endregion
 }

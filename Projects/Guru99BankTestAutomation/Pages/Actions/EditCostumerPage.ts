@@ -10,7 +10,7 @@ export class EditCostumerPage implements IEditCostumerPage {
    */
   public async setCostumerId(costumerId: string) {
     await testUtil.enterTextIntoTextBox(
-      editCostumerElemets.costumerIDLocator(),
+      editCostumerElemets.getCostumerIDLocator(),
       costumerId
     );
   }
@@ -19,14 +19,14 @@ export class EditCostumerPage implements IEditCostumerPage {
    * Click on submit button on edit costumer page
    */
   public async clickOnSubmitButton() {
-    await testUtil.clickOnElement(editCostumerElemets.submitButtonLocator());
+    await testUtil.clickOnElement(editCostumerElemets.getSubmitButtonLocator());
   }
 
   /**
    * Click on reset button on edit costumer page
    */
   public async clickOnResetButton() {
-    await testUtil.clickOnElement(editCostumerElemets.resetButtonLocator());
+    await testUtil.clickOnElement(editCostumerElemets.getResetButtonLocator());
   }
 
   /**
@@ -34,7 +34,7 @@ export class EditCostumerPage implements IEditCostumerPage {
    */
   public async getCostumerIDMessage(): Promise<string> {
     return testUtil.getWebElementText(
-      editCostumerElemets.costumerIDMessageLocator()
+      editCostumerElemets.getCostumerIDMessageLocator()
     );
   }
 

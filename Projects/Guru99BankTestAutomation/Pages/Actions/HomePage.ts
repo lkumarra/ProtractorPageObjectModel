@@ -13,7 +13,7 @@ export class HomePage implements IHomePage {
    */
   public async verifyWelcomeMessage(): Promise<string> {
     let text = await testUtil.getWebElementText(
-      homePageElements.welcomeMessageLocator()
+      homePageElements.getWelcomeMessageLocator()
     );
     LogUtils.debugMessage("Welcome message is : " + text, HomePage.name);
     return text;
@@ -24,7 +24,7 @@ export class HomePage implements IHomePage {
    */
   public async verifyManagerId(): Promise<string> {
     let text = await testUtil.getWebElementText(
-      homePageElements.managerIdLocator()
+      homePageElements.getManagerIdLocator()
     );
     LogUtils.debugMessage("Manager ID is : " + text, HomePage.name);
     return text;
@@ -36,7 +36,7 @@ export class HomePage implements IHomePage {
    * @return Return the object of New Costumer page
    */
   public async clickOnNewCostumerLink(): Promise<NewCostumerPage> {
-    await testUtil.clickOnElement(homePageElements.newCostumerLinkLocator());
+    await testUtil.clickOnElement(homePageElements.getNewCostumerLinkLocator());
     LogUtils.debugMessage("Clicked on NewCustomer Link ", HomePage.name);
     return new NewCostumerPage();
   }
@@ -47,7 +47,7 @@ export class HomePage implements IHomePage {
    * @return Return the object on Edit costumer page
    */
   public async clickOnEditCostumerLink(): Promise<EditCostumerPage> {
-    await testUtil.clickOnElement(homePageElements.editCostumerLinkLocator());
+    await testUtil.clickOnElement(homePageElements.getEditCostumerLinkLocator());
     LogUtils.debugMessage("Clicked on EditCustomer Link ", HomePage.name);
     return new EditCostumerPage();
   }

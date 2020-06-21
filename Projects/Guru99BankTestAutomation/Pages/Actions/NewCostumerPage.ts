@@ -11,7 +11,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setCostumerName(costumerName: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.costumerNameLocator(),
+      newCostumerElements.getCostumerNameLocator(),
       costumerName
     );
   }
@@ -20,7 +20,9 @@ export class NewCostumerPage implements INewCostumerPage {
    * Select male gender on new costumer page
    */
   public async selectMale() {
-    await testUtil.clickOnElement(newCostumerElements.maleRadioButtonLocator());
+    await testUtil.clickOnElement(
+      newCostumerElements.getMaleRadioButtonLocator()
+    );
   }
 
   /**
@@ -28,7 +30,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async selectFemale() {
     await testUtil.clickOnElement(
-      newCostumerElements.femaleRadioButtonLocator()
+      newCostumerElements.getFemaleRadioButtonLocator()
     );
   }
 
@@ -38,7 +40,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setDateOfBirth(dob: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.dateOfBirthLocator(),
+      newCostumerElements.getDateOfBirthLocator(),
       dob
     );
   }
@@ -49,7 +51,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setAddress(address: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.addressLocator(),
+      newCostumerElements.getAddressLocator(),
       address
     );
   }
@@ -60,7 +62,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setCity(city: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.cityLocator(),
+      newCostumerElements.getCityLocator(),
       city
     );
   }
@@ -71,7 +73,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setState(state: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.stateLocator(),
+      newCostumerElements.getStateLocator(),
       state
     );
   }
@@ -82,7 +84,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setPinCode(pin: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.pinCodeLocator(),
+      newCostumerElements.getPinCodeLocator(),
       pin
     );
   }
@@ -93,7 +95,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setMobileNumber(mobile: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.mobileLocator(),
+      newCostumerElements.getMobileLocator(),
       mobile
     );
   }
@@ -104,7 +106,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setEmail(email: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.emailLocator(),
+      newCostumerElements.getEmailLocator(),
       email
     );
   }
@@ -115,7 +117,7 @@ export class NewCostumerPage implements INewCostumerPage {
    */
   public async setPassword(password: string) {
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.passwordLocator(),
+      newCostumerElements.getPasswordLocator(),
       password
     );
   }
@@ -124,14 +126,14 @@ export class NewCostumerPage implements INewCostumerPage {
    * Click on subbmit button
    */
   public async clickOnSubmit() {
-    await testUtil.clickOnElement(newCostumerElements.submitLocator());
+    await testUtil.clickOnElement(newCostumerElements.getSubmitLocator());
   }
 
   /**
    * Click on reset button
    */
   public async clickOnReset() {
-    await testUtil.clickOnElement(newCostumerElements.resetLocator());
+    await testUtil.clickOnElement(newCostumerElements.getResetLocator());
   }
   /**
    * Add the details in add new costumer form
@@ -230,7 +232,7 @@ export class NewCostumerPage implements INewCostumerPage {
       NewCostumerPage.name
     );
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.costumerNameLocator(),
+      newCostumerElements.getCostumerNameLocator(),
       invalidCostumerName
     );
     LogUtils.debugMessage(
@@ -238,7 +240,7 @@ export class NewCostumerPage implements INewCostumerPage {
       NewCostumerPage.name
     );
     let text: string = await testUtil.getWebElementText(
-      newCostumerElements.costumerNameMessageLocator()
+      newCostumerElements.getCostumerNameMessageLocator()
     );
     LogUtils.debugMessage(
       "Invaid message : " + text + " is shown",
@@ -259,12 +261,12 @@ export class NewCostumerPage implements INewCostumerPage {
       NewCostumerPage.name
     );
     await testUtil.enterTextIntoTextBox(
-      newCostumerElements.costumerNameLocator(),
+      newCostumerElements.getCostumerNameLocator(),
       maxCharacters
     );
     let lenght: string = (
       await testUtil.getAttributeOfElement(
-        newCostumerElements.costumerNameLocator(),
+        newCostumerElements.getCostumerNameLocator(),
         "value"
       )
     ).length.toString();
@@ -279,11 +281,11 @@ export class NewCostumerPage implements INewCostumerPage {
    * Verify costumer name field message without entering any value.
    */
   public async constumerNameBlankVerify(): Promise<string> {
-    await testUtil.clearTextBox(newCostumerElements.costumerNameLocator());
-    await testUtil.clickOnElement(newCostumerElements.costumerNameLocator());
-    await testUtil.clickOnElement(newCostumerElements.dateOfBirthLocator());
+    await testUtil.clearTextBox(newCostumerElements.getCostumerNameLocator());
+    await testUtil.clickOnElement(newCostumerElements.getCostumerNameLocator());
+    await testUtil.clickOnElement(newCostumerElements.getDateOfBirthLocator());
     return await testUtil.getWebElementText(
-      newCostumerElements.costumerNameMessageLocator()
+      newCostumerElements.getCostumerNameMessageLocator()
     );
   }
 }

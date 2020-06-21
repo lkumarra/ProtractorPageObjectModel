@@ -12,7 +12,7 @@ export class LoginPage implements ILoginPage {
    */
   public async setUserName(userName: string) {
     await testUtil.enterTextIntoTextBox(
-      loginPageElements.userIdLocator(),
+      loginPageElements.getUserIdLocator(),
       userName
     );
   }
@@ -23,7 +23,7 @@ export class LoginPage implements ILoginPage {
    */
   public async setPassword(password: string) {
     await testUtil.enterTextIntoTextBox(
-      loginPageElements.passwordLocator(),
+      loginPageElements.getPasswordLocator(),
       password
     );
   }
@@ -32,14 +32,14 @@ export class LoginPage implements ILoginPage {
    * Click on login button on login page
    */
   public async clickOnLogin() {
-    await testUtil.clickOnElement(loginPageElements.loginButtonLocator());
+    await testUtil.clickOnElement(loginPageElements.getLoginButtonLocator());
   }
 
   /**
    * Click on reset button on login page
    */
   public async clickOnReset() {
-    await testUtil.clickOnElement(loginPageElements.resetButtonLocator());
+    await testUtil.clickOnElement(loginPageElements.getResetButtonLocator());
   }
   /**
    * Enter the login credentials on login page

@@ -1,4 +1,5 @@
-import { by, Locator } from "protractor";
+import { by, Locator, element, ElementFinder } from "protractor";
+import { findBy } from "../../Utils/PageFactory";
 let loginPageElements: LoginPageElements;
 export class LoginPageElements {
   /**
@@ -11,39 +12,50 @@ export class LoginPageElements {
     return loginPageElements;
   }
 
-  /**
-   * Element initialization
-   */
-  private userId: Locator = by.name("uid");
-  private password: Locator = by.name("password");
-  private loginButton: Locator = by.name("btnLogin");
-  private resetButton: Locator = by.xpath("btnReset");
+  //#region PageFactory
+  @findBy("Name", "uid")
+  private userId: ElementFinder;
+
+  @findBy("Name", "password")
+  private password: ElementFinder;
+
+  @findBy("Name", "btnLogin")
+  private loginButton: ElementFinder;
+
+  @findBy("Name", "btnReset")
+  private resetButton: ElementFinder;
+
+  //#endregion
+
+  //#region  GetterMethods
 
   /**
    * Return userid locator
    */
-  public userIdLocator(): Locator {
+  public getUserIdLocator(): ElementFinder {
     return this.userId;
   }
 
   /**
    * Retrun password locator
    */
-  public passwordLocator(): Locator {
+  public getPasswordLocator(): ElementFinder {
     return this.password;
   }
 
   /**
    * Return login button locator
    */
-  public loginButtonLocator(): Locator {
+  public getLoginButtonLocator(): ElementFinder {
     return this.loginButton;
   }
 
   /**
    * Return reset button locator
    */
-  public resetButtonLocator(): Locator {
+  public getResetButtonLocator(): ElementFinder {
     return this.resetButton;
   }
+
+  //#endregion
 }

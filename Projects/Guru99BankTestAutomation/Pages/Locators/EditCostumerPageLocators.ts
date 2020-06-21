@@ -1,4 +1,5 @@
-import { Locator, by } from "protractor";
+import { Locator, by, element, ElementFinder } from 'protractor';
+import { findBy } from '../../Utils/PageFactory';
 let editCostumerElements: EditCostumerElements;
 export class EditCostumerElements {
   /**
@@ -11,36 +12,52 @@ export class EditCostumerElements {
     return editCostumerElements;
   }
 
-  private costumerID: Locator = by.name("cusid");
-  private submitButton: Locator = by.name("AccSubmit");
-  private resetButton: Locator = by.name("res");
-  private costumerIDMessage: Locator = by.id("message14");
+  //#region  PageFactory
+
+  @findBy("Name", "cusid")
+  private costumerID:ElementFinder;
+
+  @findBy("Name", "AccSubmit")
+  private submitButton:ElementFinder;
+
+  @findBy("Name", "res")
+  private resetButton:ElementFinder;
+
+  @findBy("Id", "message14")
+  private costumerIDMessage:ElementFinder;
+
+  //#endregion
+
+  //#region GetterMethods
 
   /**
    * Return costumer id locator
    */
-  public costumerIDLocator(): Locator {
+  public getCostumerIDLocator(): ElementFinder {
     return this.costumerID;
   }
 
   /**
    * Return submit button locator
    */
-  public submitButtonLocator(): Locator {
+  public getSubmitButtonLocator(): ElementFinder {
     return this.submitButton;
   }
 
   /**
    * Return reset button locator
    */
-  public resetButtonLocator(): Locator {
+  public getResetButtonLocator(): ElementFinder {
     return this.resetButton;
   }
 
   /**
    * Return costumer id message locator
    */
-  public costumerIDMessageLocator(): Locator {
+  public getCostumerIDMessageLocator(): ElementFinder {
     return this.costumerIDMessage;
   }
+
+  //#endregion
+
 }

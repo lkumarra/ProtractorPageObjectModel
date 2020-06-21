@@ -116,10 +116,9 @@ export class TestUtil implements ITestUtil {
    * Performed click action on the webelement
    * @param webElement Webelement on which click action is performed
    */
-  public async clickOnElement(locator: Locator) {
-    let element: ElementFinder = await this.getElement(locator);
-    await TestUtil.elmentToBeClickableWait(element);
-    await element.click();
+  public async clickOnElement(locator: ElementFinder) {
+    await TestUtil.elmentToBeClickableWait(locator);
+    await locator.click();
   }
 
   /**
@@ -127,11 +126,10 @@ export class TestUtil implements ITestUtil {
    * @param webElement Webelement on which values to be enter
    * @param keyValues Values which user wants to enter
    */
-  public async enterTextIntoTextBox(locator: Locator, keyValues: string) {
-    let element: ElementFinder = await this.getElement(locator);
-    await TestUtil.elmentToBeClickableWait(element);
-    await element.clear();
-    await element.sendKeys(keyValues);
+  public async enterTextIntoTextBox(locator: ElementFinder, keyValues: string) {
+    await TestUtil.elmentToBeClickableWait(locator);
+    await locator.clear();
+    await locator.sendKeys(keyValues);
   }
 
   /**
@@ -140,12 +138,11 @@ export class TestUtil implements ITestUtil {
    * @param keyValues
    */
   public async enterTextIntoTextBoxWithoutClear(
-    locator: Locator,
+    locator: ElementFinder,
     keyValues: string
   ): Promise<void> {
-    let element: ElementFinder = await this.getElement(locator);
-    await TestUtil.elmentToBeClickableWait(element);
-    await element.sendKeys(keyValues);
+    await TestUtil.elmentToBeClickableWait(locator);
+    await locator.sendKeys(keyValues);
   }
 
   /**
@@ -153,10 +150,9 @@ export class TestUtil implements ITestUtil {
    * @param webElement Webelement to get text
    * @returns Return the text of the web element
    */
-  public async getWebElementText(locator: Locator): Promise<string> {
-    let element: ElementFinder = await this.getElement(locator);
-    await TestUtil.elementToBeVisiblePresent(element);
-    return element.getText();
+  public async getWebElementText(locator: ElementFinder): Promise<string> {
+    await TestUtil.elementToBeVisiblePresent(locator);
+    return locator.getText();
   }
 
   /**
@@ -165,12 +161,11 @@ export class TestUtil implements ITestUtil {
    * @returns Return the attribute of the web element
    */
   public async getAttributeOfElement(
-    locator: Locator,
+    locator: ElementFinder,
     attributeName: string
   ): Promise<string> {
-    let element: ElementFinder = await this.getElement(locator);
-    await TestUtil.elementToBeVisiblePresent(element);
-    return element.getAttribute(attributeName);
+    await TestUtil.elementToBeVisiblePresent(locator);
+    return locator.getAttribute(attributeName);
   }
 
   /**
@@ -199,8 +194,7 @@ export class TestUtil implements ITestUtil {
    * Clear the text of textbox.
    * @param webElement
    */
-  public async clearTextBox(locator: Locator) {
-    let element: ElementFinder = await this.getElement(locator);
-    await element.clear();
+  public async clearTextBox(locator: ElementFinder) {
+    await locator.clear();
   }
 }

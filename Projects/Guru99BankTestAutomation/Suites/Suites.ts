@@ -17,8 +17,8 @@ export let params = {
   },
 };
 export let suites = [
-  "../TestCases/LoginPageTest.js",
-  "../TestCases/HomePageTest.js",
-  "../TestCases/NewCostumerPageTest.js",
+  // "../TestCases/LoginPageTest.js",
+  // "../TestCases/HomePageTest.js",
+  // "../TestCases/NewCostumerPageTest.js",
   "../TestCases/EditCostumerPageTest.js",
 ];
