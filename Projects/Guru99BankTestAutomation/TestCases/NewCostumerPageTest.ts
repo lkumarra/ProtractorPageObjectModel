@@ -1,17 +1,19 @@
-import { TestBase } from "../TestBase/TestBase";
-import { DATA, NewCostumerData } from "../TestData/Data";
-import { LoginPage } from "../Pages/Actions/LoginPage";
+import { Page } from "../Pages/BasePage/Page";
+import { NewCostumerData, DATA } from "../TestData/Data";
 import { ILoginPage } from "../Interface/ILoginPage";
+import { LoginPage } from "../Pages/Actions/LoginPage";
 import { IHomePage } from "../Interface/IHomePage";
 import { INewCostumerPage } from "../Interface/INewCostumerPage";
+
 let inputData = NewCostumerData.costumerNameField.inputData;
 let verificationData = NewCostumerData.costumerNameField.verificationMessage;
 let loginPage: ILoginPage = new LoginPage();
 let homePage: IHomePage;
 let newCostumerPage: INewCostumerPage;
+
 describe("Guru99Bank New costumer test cases workflow", () => {
   beforeAll(async () => {
-    await TestBase.initalization(DATA.URL);
+    await Page.initalization(DATA.URL);
     homePage = await loginPage.login(DATA.USER_NAME, DATA.PASSWORD);
     newCostumerPage = await homePage.clickOnNewCostumerLink();
   });

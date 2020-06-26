@@ -1,13 +1,15 @@
-import { TestBase } from "../TestBase/TestBase";
-import { DATA, HomePageData } from "../TestData/Data";
-import { LoginPage } from "../Pages/Actions/LoginPage";
-import { IHomePage } from "../Interface/IHomePage";
+import { Page } from "../Pages/BasePage/Page";
 import { ILoginPage } from "../Interface/ILoginPage";
+import { IHomePage } from "../Interface/IHomePage";
+import { LoginPage } from "../Pages/Actions/LoginPage";
+import { DATA, HomePageData } from "../TestData/Data";
+
 let loginPage: ILoginPage = new LoginPage();
 let homePage: IHomePage;
+
 describe("Guru99Bank Home Page Test Cases Workflow", () => {
   beforeAll(async () => {
-    await TestBase.initalization(DATA.URL);
+    await Page.initalization(DATA.URL);
     homePage = await loginPage.login(DATA.USER_NAME, DATA.PASSWORD);
   });
 

@@ -16,7 +16,7 @@
 # TestExecution can simply started by Running:
 1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
 
-# Jenkins Report link will be send after execution.
+# To Send Email after execution please set username and password as environement variable.
 
 # Project Structure:
 1. *Project ("Main Project Folder ")*

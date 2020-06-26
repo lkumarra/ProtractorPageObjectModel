@@ -1,6 +1,8 @@
-import { by, Locator, element, ElementFinder } from "protractor";
+import { ElementFinder } from "protractor";
 import { findBy } from "../../Utils/PageFactory";
+
 let loginPageElements: LoginPageElements;
+
 export class LoginPageElements {
   /**
    * Return the object of LoginPageElements

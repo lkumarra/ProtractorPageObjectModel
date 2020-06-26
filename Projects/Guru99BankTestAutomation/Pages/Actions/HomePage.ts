@@ -1,11 +1,13 @@
 import { TestUtil } from "../../Utils/TestUtil";
 import { HomePageElements } from "../Locators/HomePageLocators";
-import { NewCostumerPage } from "./NewCostumerPage";
-import { EditCostumerPage } from "./EditCostumerPage";
 import { IHomePage } from "../../Interface/IHomePage";
 import { LogUtils } from "../../LogManager/LogUtils";
+import { EditCostumerPage } from "./EditCostumerPage";
+import { NewCostumerPage } from "./NewCostumerPage";
+
 let homePageElements: HomePageElements = HomePageElements.getInstance();
 let testUtil: TestUtil = TestUtil.getInstance();
+
 export class HomePage implements IHomePage {
   /**
    *Return the message of welcome message after user login successfully
@@ -47,7 +49,9 @@ export class HomePage implements IHomePage {
    * @return Return the object on Edit costumer page
    */
   public async clickOnEditCostumerLink(): Promise<EditCostumerPage> {
-    await testUtil.clickOnElement(homePageElements.getEditCostumerLinkLocator());
+    await testUtil.clickOnElement(
+      homePageElements.getEditCostumerLinkLocator()
+    );
     LogUtils.debugMessage("Clicked on EditCustomer Link ", HomePage.name);
     return new EditCostumerPage();
   }

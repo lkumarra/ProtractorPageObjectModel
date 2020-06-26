@@ -1,10 +1,12 @@
 import { TestUtil } from "../../Utils/TestUtil";
 import { LoginPageElements } from "../Locators/LoginPageLocators";
+import { ILoginPage } from "../../Interface/ILoginPage";
 import { HomePage } from "./HomePage";
 import { LogUtils } from "../../LogManager/LogUtils";
-import { ILoginPage } from "../../Interface/ILoginPage";
+
 let loginPageElements: LoginPageElements = LoginPageElements.getInstance();
 let testUtil: TestUtil = TestUtil.getInstance();
+
 export class LoginPage implements ILoginPage {
   /**
    * Set username on login page

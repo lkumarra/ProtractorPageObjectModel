@@ -15,7 +15,7 @@
     "jasmine2-custom-message": "0.9.3",
     "just-handlebars-helpers": "1.0.16",
     "npm": "6.14.5",
-    "protractor": "7.0.0",
+    "protractor": "5.4.3",
     "protractor-beautiful-reporter": "1.3.5",
     "protractor-image-comparison": "1.7.2",
     "selenium-server-standalone-jar": "3.141.59",
@@ -31,7 +31,8 @@
     "move-file": "2.0.0",
     "hostname": "1.0.4",
     "jenkins-api": "0.3.1",
-    "jasmine-allure-reporter": "1.0.2"
+    "jasmine-allure-reporter": "1.0.2",
+    "reflect-metadata": "0.1.13"
   },
   "repository": {
     "type": "git",

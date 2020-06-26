@@ -1,9 +1,10 @@
-import { TestBase } from "../TestBase/TestBase";
-import { DATA, EditCostumerData } from "../TestData/Data";
-import { LoginPage } from "../Pages/Actions/LoginPage";
+import { EditCostumerData, DATA } from "../TestData/Data";
 import { ILoginPage } from "../Interface/ILoginPage";
+import { LoginPage } from "../Pages/Actions/LoginPage";
 import { IHomePage } from "../Interface/IHomePage";
 import { IEditCostumerPage } from "../Interface/IEditCostumerPage";
+import { Page } from "../Pages/BasePage/Page";
+
 let data = EditCostumerData.costumerIDField;
 let message = EditCostumerData.verification;
 let loginPage: ILoginPage = new LoginPage();
@@ -12,7 +13,7 @@ let editCostumerPage: IEditCostumerPage;
 
 describe("Edit costumer page test workflow", () => {
   beforeAll(async () => {
-    await TestBase.initalization(DATA.URL);
+    await Page.initalization(DATA.URL);
     homePage = await loginPage.login(DATA.USER_NAME, DATA.PASSWORD);
     editCostumerPage = await homePage.clickOnEditCostumerLink();
   });

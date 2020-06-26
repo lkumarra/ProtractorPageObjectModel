@@ -2,7 +2,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "allowJs": true,
-    "target": "Es5",
+    "target": "ES2017",
     "downlevelIteration": true,
     "lib": ["es2017"],
     "module": "CommonJS",
@@ -12,8 +12,8 @@
     "removeComments": false,
     "noImplicitAny": false,
     "noEmitOnError": false,
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "outDir": "e2e_tests/",
     "types": [
       "node",

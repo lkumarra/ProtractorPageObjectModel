@@ -1,12 +1,11 @@
+/**
+ * Export the mail information such as from to etc.
+ */
 export let params = {
   browserName: "chrome",
   sharedTestFiles: true,
-  maxInstance:4,
+  maxInstance: 4,
   nodeMailer: {
-    auth: {
-      userEmail: "lavendrarajput2001@gmail.com", // generated ethereal user
-      password: "Lav123456@", // generated ethereal password
-    },
     sendMail: {
       fromUser: "lavendrarajput2001@gmail.com", // sender address
       toUser: "lavendrarajput2001@gmail.com", // list of receivers
@@ -16,9 +15,13 @@ export let params = {
     },
   },
 };
+
+/**
+ * Export the test suite of spec files.
+ */
 export let suites = [
-  // "../TestCases/LoginPageTest.js",
-  // "../TestCases/HomePageTest.js",
-  // "../TestCases/NewCostumerPageTest.js",
+  "../TestCases/LoginPageTest.js",
+   "../TestCases/HomePageTest.js",
+   "../TestCases/NewCostumerPageTest.js",
   "../TestCases/EditCostumerPageTest.js",
 ];

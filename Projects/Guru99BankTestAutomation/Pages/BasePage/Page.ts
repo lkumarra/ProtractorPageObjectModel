@@ -1,5 +1,5 @@
 import { browser } from "protractor";
-export class TestBase {
+export class Page {
   /**
    * Enter the url and performed initial steps
    * @param url Url of the application

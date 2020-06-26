@@ -1,5 +1,6 @@
-import { Locator, by, element, ElementFinder } from 'protractor';
-import { findBy } from '../../Utils/PageFactory';
+import { ElementFinder } from "protractor";
+import { findBy } from "../../Utils/PageFactory";
+
 let editCostumerElements: EditCostumerElements;
 export class EditCostumerElements {
   /**
@@ -15,16 +16,16 @@ export class EditCostumerElements {
   //#region  PageFactory
 
   @findBy("Name", "cusid")
-  private costumerID:ElementFinder;
+  private costumerID: ElementFinder;
 
   @findBy("Name", "AccSubmit")
-  private submitButton:ElementFinder;
+  private submitButton: ElementFinder;
 
   @findBy("Name", "res")
-  private resetButton:ElementFinder;
+  private resetButton: ElementFinder;
 
   @findBy("Id", "message14")
-  private costumerIDMessage:ElementFinder;
+  private costumerIDMessage: ElementFinder;
 
   //#endregion
 
@@ -59,5 +60,4 @@ export class EditCostumerElements {
   }
 
   //#endregion
-
 }

@@ -1,24 +1,24 @@
 import { Config } from "protractor";
-import { suites, params } from "../Suites/Suites";
+import { params, suites } from "../Suites/Suites";
 import * as nodemailer from "nodemailer";
 import * as moveFile from "move-file";
 let HtmlReporter = require("protractor-beautiful-reporter");
-var jasmineReporters = require("jasmine-reporters");
-var AllureReporter = require("jasmine-allure-reporter");
+let jasmineReporters = require("jasmine-reporters");
+let AllureReporter = require("jasmine-allure-reporter");
 let colors = require("colors");
 let displayProcessor = require("jasmine-spec-reporter").DisplayProcessor;
 let globals = require("protractor");
 let totalDateString: string;
-let jsonsFolderName = "jsons";
-let screenshotsFolderName = "screenshots";
-let reportName = "Guru99Bank";
+let jsonsFolderName: string = "jsons";
+let screenshotsFolderName: string = "screenshots";
+let reportName: string = "Guru99Bank";
 let hideSkippedTest: any;
-let process = require("process");
-let reportDirectory =
+import * as process from "process";
+let reportDirectory: string =
   process.cwd() + "/Projects/Guru99BankTestAutomation/TestReports/";
-let reportFolder = "Guru99BankTestReports";
-let reportPath = reportDirectory + reportFolder;
-let oldReportPath =
+let reportFolder: string = "Guru99BankTestReports";
+let reportPath: string = reportDirectory + reportFolder;
+let oldReportPath: string =
   process.cwd() + "/Projects/Guru99BankTestAutomation/OldTestReports";
 let convert = (input) => {
   let output;
@@ -67,7 +67,7 @@ export let config: Config = {
   useAllAngular2AppRoots: true,
   framework: "jasmine2",
   capabilities: {
-    browserName: params.browserName
+    browserName: params.browserName,
   },
   // multiCapabilities: [{
   //     "browserName": "chrome"
@@ -188,8 +188,8 @@ export let config: Config = {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: params.nodeMailer.auth.userEmail, // generated ethereal user
-          pass: params.nodeMailer.auth.password, // generated ethereal password
+          user: process.env["email"].toString(), // generated ethereal user
+          pass: process.env["password"].toString(), // generated ethereal password
         },
       });
       // send mail with defined transport object

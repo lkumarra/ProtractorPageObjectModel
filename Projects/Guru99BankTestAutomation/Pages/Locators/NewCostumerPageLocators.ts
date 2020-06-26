@@ -1,6 +1,8 @@
-import { ElementFinder } from 'protractor';
-import { findBy } from '../../Utils/PageFactory';
+import { ElementFinder } from "protractor";
+import { findBy } from "../../Utils/PageFactory";
+
 let newCostumerElements: NewCostumerElements;
+
 export class NewCostumerElements {
   /**
    * Create the instance of NewCustomerElements class.
@@ -15,48 +17,48 @@ export class NewCostumerElements {
   //#region  PageFactory
 
   @findBy("Name", "name")
-  private costumerName:ElementFinder;
+  private costumerName: ElementFinder;
 
   @findBy("Xpath", "//input[@value = 'm']")
-  private maleRadioButton:ElementFinder;
+  private maleRadioButton: ElementFinder;
 
   @findBy("Xpath", "//input[@value = 'f']")
-  private femaleRadioButton:ElementFinder;
+  private femaleRadioButton: ElementFinder;
 
   @findBy("Name", "dob")
-  private dob:ElementFinder;
+  private dob: ElementFinder;
 
   @findBy("Xpath", "//textarea[@name = 'addr']")
-  private address:ElementFinder;
+  private address: ElementFinder;
 
   @findBy("Name", "city")
-  private city:ElementFinder;
+  private city: ElementFinder;
 
   @findBy("Name", "state")
-  private state:ElementFinder;
+  private state: ElementFinder;
 
   @findBy("Name", "pinno")
-  private pin:ElementFinder;
+  private pin: ElementFinder;
 
   @findBy("Name", "telephoneno")
-  private mobile:ElementFinder;
+  private mobile: ElementFinder;
 
   @findBy("Name", "emailid")
-  private email:ElementFinder;
+  private email: ElementFinder;
 
   @findBy("Name", "password")
-  private password:ElementFinder;
+  private password: ElementFinder;
 
   @findBy("Xpath", '//input[@value  = "Submit"]')
-  private submit:ElementFinder;
+  private submit: ElementFinder;
 
   @findBy("Xpath", '//input[@value  = "Reset"]')
-  private reset:ElementFinder;
+  private reset: ElementFinder;
 
   @findBy("Css", "label#message")
-  private costumerNameMessage:ElementFinder;
+  private costumerNameMessage: ElementFinder;
 
-  //#region 
+  //#region
 
   //#region  GetterMethods
 

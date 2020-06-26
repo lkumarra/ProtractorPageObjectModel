@@ -2,8 +2,10 @@ import { TestUtil } from "../../Utils/TestUtil";
 import { NewCostumerElements } from "../Locators/NewCostumerPageLocators";
 import { INewCostumerPage } from "../../Interface/INewCostumerPage";
 import { LogUtils } from "../../LogManager/LogUtils";
+
 let newCostumerElements: NewCostumerElements = NewCostumerElements.getInstance();
 let testUtil: TestUtil = TestUtil.getInstance();
+
 export class NewCostumerPage implements INewCostumerPage {
   /**
    * Set costumer name on new costumer page

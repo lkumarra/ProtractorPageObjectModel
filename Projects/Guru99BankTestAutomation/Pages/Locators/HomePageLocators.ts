@@ -1,8 +1,9 @@
-import { ElementFinder } from 'protractor';
+import { ElementFinder } from "protractor";
 import { findBy } from "../../Utils/PageFactory";
-let homePageElements: HomePageElements;
-export class HomePageElements {
 
+let homePageElements: HomePageElements;
+
+export class HomePageElements {
   /**
    * Return the instance of HomePage
    */
@@ -13,19 +14,19 @@ export class HomePageElements {
     return homePageElements;
   }
 
-  //#region  PageFactory 
+  //#region  PageFactory
 
   @findBy("Xpath", "//marquee[@class = 'heading3']")
-  private welcomeMessage:ElementFinder;
+  private welcomeMessage: ElementFinder;
 
   @findBy("Css", "tr.heading3>td:first-child")
-  private managerId:ElementFinder;
+  private managerId: ElementFinder;
 
   @findBy("LinkText", "New Customer")
-  private newCostumerLink:ElementFinder;
+  private newCostumerLink: ElementFinder;
 
   @findBy("LinkText", "Edit Customer")
-  private editCostumerLink:ElementFinder
+  private editCostumerLink: ElementFinder;
 
   //#endregion
 

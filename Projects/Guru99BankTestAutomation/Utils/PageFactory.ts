@@ -1,11 +1,11 @@
 import { element, by, ElementFinder } from "protractor";
 
 /**
- * 
- * @param how 
- * @param locator 
+ * Find element finder on the basis of element finder stretgy such as id, xpath, css, name etc.
+ * @param how element stretgy such as id, xpath.
+ * @param locator Locators for finding element finder.
  */
-function findElementFinder(how: string, locator: string):ElementFinder{
+function findElementFinder(how: string, locator: string): ElementFinder {
   let webElement: ElementFinder;
   switch (how.toUpperCase()) {
     case "XPATH": {
@@ -32,18 +32,25 @@ function findElementFinder(how: string, locator: string):ElementFinder{
       webElement = element(by.partialLinkText(locator));
       break;
     }
-    case "NGMODEL": {
+    case "MODEL": {
       webElement = element(by.model(locator));
       break;
+    }
+    case "BINDING": {
+      webElement = element(by.binding(locator));
+      break;
+    }
+    case "EXACTBINDING": {
+      webElement = element(by.exactBinding(locator));
     }
   }
   return webElement;
 }
 
 /**
- * 
- * @param how 
- * @param selector 
+ * Page factory implementation.
+ * @param how element stretgy such as id, xpath.
+ * @param locator Locators for finding element finder.
  */
 export function findBy(how: string, selector: string) {
   return (target: any, propertyKey: string) => {
@@ -51,7 +58,7 @@ export function findBy(how: string, selector: string) {
       configurable: true,
       enumerable: true,
       get: function () {
-        return findElementFinder(how, selector)
+        return findElementFinder(how, selector);
       },
     });
   };

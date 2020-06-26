@@ -2,24 +2,26 @@ import {
   ElementFinder,
   browser,
   ExpectedConditions,
-  Config,
   Locator,
   element,
+  ProtractorExpectedConditions,
 } from "protractor";
-import { Workbook, Row, Cell, Worksheet } from "exceljs";
+import { Workbook, Worksheet } from "exceljs";
 import { ITestUtil } from "../Interface/ITestUtil";
-let until = ExpectedConditions;
+
+let until: ProtractorExpectedConditions = ExpectedConditions;
 let process = require("process");
 const EXCEL_SHEET_PATH =
   process.cwd() +
   "\\Projects\\Guru99BankTestAutomation\\TestData\\Guru99Bank.xlsx";
-let testUtil: TestUtil;
+let testUtil: TestUtil = null;
+
 export class TestUtil implements ITestUtil {
   /**
    * Return the object of TestUtil class.
    */
   public static getInstance(): TestUtil {
-    if (testUtil == null) {
+    if (testUtil === null) {
       testUtil = new TestUtil();
     }
     return testUtil;
@@ -90,7 +92,7 @@ export class TestUtil implements ITestUtil {
     time: number = 30
   ) {
     await browser.wait(
-      until.elementToBeClickable(webElement),
+      until.presenceOf(webElement),
       time,
       "Element is not present on page limit was " + time + " second"
     );
@@ -106,7 +108,7 @@ export class TestUtil implements ITestUtil {
     time: number = 30
   ) {
     await browser.wait(
-      until.elementToBeClickable(webElement),
+      until.visibilityOf(webElement),
       time,
       "Element is not present on page limit was " + time + " second"
     );
