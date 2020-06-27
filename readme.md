@@ -19,7 +19,7 @@
 # To Send TestReports on Email Please set email and password as env varaible .
 
 # TestReport will be generated as
-![PDF](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Banl.pdf "TestReport")
+![PDF](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
 
 ![HTML](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
 
