@@ -11,12 +11,13 @@
 
 # Reports will Gererated in:
 1. *allure-results("Allure reports will generated")*
-2. *TestReports Folder ("Jnuit and Html Reports")*
+2. *TestReports Folder ("Junit , Pdf and Html Reports")*
 
 # TestExecution can simply started by Running:
 1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
 
-# To Send TestReports on Email Please set email and password as env varaible .
+# During run time spec report will look like that:
+[![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)]
 
 # TestReport will be generated as
 [![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
@@ -41,3 +42,6 @@
 11. *TestData("This Folder Contains all test data")*
 12. *TestReports("This Folder Contains the Fresh Test Reports")*
 13. *Utils("This Folder Contains all Utility Functions")*
+
+# To Send TestReports on Email Please set email and password as env varaible .
+**For More detail refer the link https://github.com/lkumarra/ProtractorPageObjectModel/blob/master/Projects/Guru99BankTestAutomation/Config/Config.ts**

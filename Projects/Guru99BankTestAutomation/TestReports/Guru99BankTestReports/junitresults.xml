@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="14" time="55.819">
- <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2020-06-27T18:37:15" hostname="localhost" time="13.874" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="4.36" />
+<testsuites disabled="0" errors="0" failures="0" tests="14" time="53.773">
+ <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2020-06-27T19:29:38" hostname="localhost" time="12.398" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="2.554" />
  </testsuite>
- <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2020-06-27T18:37:29" hostname="localhost" time="8.276" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="0.386" />
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.425" />
+ <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2020-06-27T19:29:51" hostname="localhost" time="8.337" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="1.608" />
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.487" />
  </testsuite>
- <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2020-06-27T18:37:37" hostname="localhost" time="11.548" errors="0" tests="5" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="1.085" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.796" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.781" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="1.691" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.613" />
+ <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2020-06-27T19:29:59" hostname="localhost" time="11.046" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="1.132" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.709" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.618" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="0.749" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.91" />
  </testsuite>
- <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2020-06-27T18:37:49" hostname="localhost" time="11.289" errors="0" tests="4" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="0.622" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="0.592" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="0.43" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.676" />
+ <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2020-06-27T19:30:10" hostname="localhost" time="11.493" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="0.681" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="0.666" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="0.911" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.315" />
  </testsuite>
- <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2020-06-27T18:38:00" hostname="localhost" time="10.832" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.777" />
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="1.034" />
+ <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2020-06-27T19:30:22" hostname="localhost" time="10.499" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.737" />
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="0.733" />
  </testsuite>
 </testsuites>
