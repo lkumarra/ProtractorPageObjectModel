@@ -16,10 +16,12 @@
 # TestExecution can simply started by Running:
 1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
 
-# To Send Email after execution please set username and password as environement variable.
+# To Send TestReports on Email Please set email and password as env varaible .
 
 # TestReport will be generated as
-![Alt text](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/Guru99Bank.html "TestReport")
+![PDF](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Banl.pdf "TestReport")
+
+![HTML](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
 
 # Project Structure:
 1. *Project ("Main Project Folder ")*
