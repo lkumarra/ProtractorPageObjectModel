@@ -1,9 +1,12 @@
-import { Config } from "protractor";
+import { Config, browser } from "protractor";
 import { params, suites } from "../Suites/Suites";
 import * as nodemailer from "nodemailer";
 import * as moveFile from "move-file";
 let HtmlReporter = require("protractor-beautiful-reporter");
 let jasmineReporters = require("jasmine-reporters");
+let exec = require("child_process");
+let locateChrome = require("locate-chrome");
+var fs = require("fs");
 let AllureReporter = require("jasmine-allure-reporter");
 let colors = require("colors");
 let displayProcessor = require("jasmine-spec-reporter").DisplayProcessor;
@@ -20,6 +23,10 @@ let reportFolder: string = "Guru99BankTestReports";
 let reportPath: string = reportDirectory + reportFolder;
 let oldReportPath: string =
   process.cwd() + "/Projects/Guru99BankTestAutomation/OldTestReports";
+let reportURl: string =
+  reportDirectory + reportFolder + "/" + reportName + ".html";
+let pdfReport: string =
+  reportDirectory + reportFolder + "/" + reportName + ".pdf";
 let convert = (input) => {
   let output;
   if (input < 10) {
@@ -102,6 +109,7 @@ export let config: Config = {
       reportPath,
       oldReportPath + "/" + reportFolder + "_" + totalDateString
     ).catch();
+    process.setMaxListeners(100);
     console.log("The file has been moved");
     browser.manage().window().maximize();
     browser.manage().timeouts().implicitlyWait(10000);
@@ -177,6 +185,24 @@ export let config: Config = {
     );
   },
   onComplete: async () => {
+    locateChrome((where) => {
+      // Print pdf report from html report
+      console.log("Converting html report to pdf file");
+      let command =
+        '"' +
+        where +
+        '"' +
+        " --headless --disable-gpu --print-to-pdf=" +
+        reportPath +
+        "/" +
+        reportName +
+        ".pdf --no-margins " +
+        reportURl
+      exec.execSync(command);
+      console.log("Report Converted to pdf successfully")
+    });
+    // ...
+
     // async..await is not allowed in global scope, must use a wrapper
     async function main() {
       // Generate test SMTP service account from ethereal.email
@@ -199,6 +225,11 @@ export let config: Config = {
         subject: params.nodeMailer.sendMail.subjectOfMail, // Subject line
         text: params.nodeMailer.sendMail.textOfMail, // plain text body
         priority: "high",
+        attachments: [
+          {
+            path: pdfReport,
+          },
+        ],
       });
 
       console.log("Message sent: %s", info.messageId);

@@ -11,7 +11,7 @@ export let params = {
       toUser: "lavendrarajput2001@gmail.com", // list of receivers
       subjectOfMail: "Guru99Bank Test Automation reports", // Subject line
       textOfMail:
-        "Hi Lavendra\n \nPlease find the link  reports of test exection\n  http://localhost:8080/job/Protractor_Test_Automation \nThanks\nNodeMailer",
+        "Hi Lavendra\n \nPlease find the attached screenshot of testreports \nThanks\nNodeMailer",
     },
   },
 };
@@ -21,8 +21,8 @@ export let params = {
  */
 export let suites = [
   "../TestCases/LoginPageTest.js",
-   "../TestCases/HomePageTest.js",
-   "../TestCases/NewCostumerPageTest.js",
+  "../TestCases/HomePageTest.js",
+  "../TestCases/NewCostumerPageTest.js",
   "../TestCases/EditCostumerPageTest.js",
-  "../TestCases/DeleteCustomerPageTest.js"
+  "../TestCases/DeleteCustomerPageTest.js",
 ];

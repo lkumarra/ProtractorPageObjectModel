@@ -1,6 +1,6 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3bc1a267efad4e1eaa614b4dd8404c35)](https://www.codacy.com/manual/lkumarra/ProtractorPageObjectModel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorPageObjectModel&amp;utm_campaign=Badge_Grade)
 
-# Prerequisite to Start Execution:
+# Pre-requisite to Start Execution:
 1. *Java (JDK)*
 2. *Nodejs*
 
@@ -17,6 +17,9 @@
 1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
 
 # To Send Email after execution please set username and password as environement variable.
+
+# TestReport will be generated as
+![Alt text](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/Guru99Bank.html "TestReport")
 
 # Project Structure:
 1. *Project ("Main Project Folder ")*

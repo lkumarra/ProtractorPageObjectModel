@@ -18,7 +18,7 @@ export class DeleteCustomerElements{
     //#region  PageFactory
 
     @findBy(How.NAME, "cusid")
-    private cuctomerId:ElementFinder;
+    private customerId:ElementFinder;
 
     @findBy(How.NAME, "AccSubmit")
     private submitButton:ElementFinder;
@@ -38,7 +38,7 @@ export class DeleteCustomerElements{
      * @returns ElementFinder of CustomerID TextBox.
      */
     public getCustomerIDLocator():ElementFinder{
-        return this.cuctomerId;
+        return this.customerId;
     }
 
     /**
