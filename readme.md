@@ -21,9 +21,11 @@
 # TestReport will be generated as
 [![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
 
-![HTML](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
 
 # Project Structure:
+
+[![Project Structure](./Projects/Guru99BankTestAutomation/SampleReport/ProjectStructure.JPG)]
 1. *Project ("Main Project Folder ")*
 2. *Guru99BankTestAutomation ("Name of the Project")*
 3. *Config ("This folder contains config.ts configuration file for Protractor")*
