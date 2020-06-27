@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy } from "../../Utils/PageFactory";
+import { findBy, How } from '../../Utils/PageFactory';
 
 let loginPageElements: LoginPageElements;
 
@@ -15,16 +15,16 @@ export class LoginPageElements {
   }
 
   //#region PageFactory
-  @findBy("Name", "uid")
+  @findBy(How.NAME, "uid")
   private userId: ElementFinder;
 
-  @findBy("Name", "password")
+  @findBy(How.NAME, "password")
   private password: ElementFinder;
 
-  @findBy("Name", "btnLogin")
+  @findBy(How.NAME, "btnLogin")
   private loginButton: ElementFinder;
 
-  @findBy("Name", "btnReset")
+  @findBy(How.NAME, "btnReset")
   private resetButton: ElementFinder;
 
   //#endregion

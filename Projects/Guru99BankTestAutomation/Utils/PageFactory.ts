@@ -16,6 +16,10 @@ function findElementFinder(how: string, locator: string): ElementFinder {
       webElement = element(by.css(locator));
       break;
     }
+    case "CLASS": {
+      webElement = element(by.className(locator));
+      break;
+    }
     case "ID": {
       webElement = element(by.id(locator));
       break;
@@ -43,6 +47,9 @@ function findElementFinder(how: string, locator: string): ElementFinder {
     case "EXACTBINDING": {
       webElement = element(by.exactBinding(locator));
     }
+    default: {
+      throw "Element finder stretgy is not valid";
+    }
   }
   return webElement;
 }
@@ -62,4 +69,16 @@ export function findBy(how: string, selector: string) {
       },
     });
   };
+}
+export class How {
+  //#endregion Finding Strategy
+  public static XPATH: string = "Xpath";
+  public static ID: string = "Id";
+  public static NAME: string = "Name";
+  public static CSS: string = "Css";
+  public static CLASS: string = "Class";
+  public static MODEL: string = "Model";
+  public static LINKTEXT: string = "Linktext";
+  public static BINDING: string = "Binding";
+  //#endregion
 }

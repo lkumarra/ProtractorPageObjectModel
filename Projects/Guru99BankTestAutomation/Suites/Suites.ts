@@ -24,4 +24,5 @@ export let suites = [
    "../TestCases/HomePageTest.js",
    "../TestCases/NewCostumerPageTest.js",
   "../TestCases/EditCostumerPageTest.js",
+  "../TestCases/DeleteCustomerPageTest.js"
 ];

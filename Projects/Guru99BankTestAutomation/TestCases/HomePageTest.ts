@@ -1,13 +1,18 @@
+//#region  ModuleImports
 import { Page } from "../Pages/BasePage/Page";
 import { ILoginPage } from "../Interface/ILoginPage";
 import { IHomePage } from "../Interface/IHomePage";
 import { LoginPage } from "../Pages/Actions/LoginPage";
 import { DATA, HomePageData } from "../TestData/Data";
+//#endregion
 
+//#region Fields
 let loginPage: ILoginPage = new LoginPage();
 let homePage: IHomePage;
+//#endregion
 
-describe("Guru99Bank Home Page Test Cases Workflow", () => {
+//#region TestWorkFlow
+describe("Guru99Bank HomePage TestCases Workflow", () => {
   beforeAll(async () => {
     await Page.initalization(DATA.URL);
     homePage = await loginPage.login(DATA.USER_NAME, DATA.PASSWORD);
@@ -23,3 +28,4 @@ describe("Guru99Bank Home Page Test Cases Workflow", () => {
     expect(await homePage.verifyManagerId()).toBe(HomePageData.managerId);
   });
 });
+//#endregion

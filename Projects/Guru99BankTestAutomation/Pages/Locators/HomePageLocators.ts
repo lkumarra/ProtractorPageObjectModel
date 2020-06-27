@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy } from "../../Utils/PageFactory";
+import { findBy, How } from '../../Utils/PageFactory';
 
 let homePageElements: HomePageElements;
 
@@ -16,17 +16,20 @@ export class HomePageElements {
 
   //#region  PageFactory
 
-  @findBy("Xpath", "//marquee[@class = 'heading3']")
+  @findBy(How.XPATH, "//marquee[@class = 'heading3']")
   private welcomeMessage: ElementFinder;
 
-  @findBy("Css", "tr.heading3>td:first-child")
+  @findBy(How.CSS, "tr.heading3>td:first-child")
   private managerId: ElementFinder;
 
-  @findBy("LinkText", "New Customer")
+  @findBy(How.LINKTEXT, "New Customer")
   private newCostumerLink: ElementFinder;
 
-  @findBy("LinkText", "Edit Customer")
+  @findBy(How.LINKTEXT, "Edit Customer")
   private editCostumerLink: ElementFinder;
+
+  @findBy(How.LINKTEXT, "Delete Customer")
+  private deleteCustomerLink:ElementFinder;
 
   //#endregion
 
@@ -40,24 +43,31 @@ export class HomePageElements {
   }
 
   /**
-   * Return managerId locator
+   * Return managerId locator.
    */
   public getManagerIdLocator(): ElementFinder {
     return this.managerId;
   }
 
   /**
-   * Return new costume link locator
+   * Return new costume link locator.
    */
   public getNewCostumerLinkLocator(): ElementFinder {
     return this.newCostumerLink;
   }
 
   /**
-   * Return edit costumer link locator
+   * Return edit costumer link locator.
    */
   public getEditCostumerLinkLocator(): ElementFinder {
     return this.editCostumerLink;
+  }
+
+  /**
+   * Return delete customer link locator.
+   */
+  public getDeleteCustomerLinkLocator():ElementFinder{
+    return this.deleteCustomerLink;
   }
 
   //#endregion

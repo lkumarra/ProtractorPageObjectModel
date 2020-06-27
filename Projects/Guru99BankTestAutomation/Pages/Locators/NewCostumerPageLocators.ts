@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy } from "../../Utils/PageFactory";
+import { findBy, How } from "../../Utils/PageFactory";
 
 let newCostumerElements: NewCostumerElements;
 
@@ -16,46 +16,46 @@ export class NewCostumerElements {
 
   //#region  PageFactory
 
-  @findBy("Name", "name")
+  @findBy(How.NAME, "name")
   private costumerName: ElementFinder;
 
-  @findBy("Xpath", "//input[@value = 'm']")
+  @findBy(How.XPATH, "//input[@value = 'm']")
   private maleRadioButton: ElementFinder;
 
-  @findBy("Xpath", "//input[@value = 'f']")
+  @findBy(How.XPATH, "//input[@value = 'f']")
   private femaleRadioButton: ElementFinder;
 
-  @findBy("Name", "dob")
+  @findBy(How.NAME, "dob")
   private dob: ElementFinder;
 
-  @findBy("Xpath", "//textarea[@name = 'addr']")
+  @findBy(How.XPATH, "//textarea[@name = 'addr']")
   private address: ElementFinder;
 
-  @findBy("Name", "city")
+  @findBy(How.NAME, "city")
   private city: ElementFinder;
 
-  @findBy("Name", "state")
+  @findBy(How.NAME, "state")
   private state: ElementFinder;
 
-  @findBy("Name", "pinno")
+  @findBy(How.NAME, "pinno")
   private pin: ElementFinder;
 
-  @findBy("Name", "telephoneno")
+  @findBy(How.NAME, "telephoneno")
   private mobile: ElementFinder;
 
-  @findBy("Name", "emailid")
+  @findBy(How.NAME, "emailid")
   private email: ElementFinder;
 
-  @findBy("Name", "password")
+  @findBy(How.NAME, "password")
   private password: ElementFinder;
 
-  @findBy("Xpath", '//input[@value  = "Submit"]')
+  @findBy(How.XPATH, '//input[@value  = "Submit"]')
   private submit: ElementFinder;
 
-  @findBy("Xpath", '//input[@value  = "Reset"]')
+  @findBy(How.XPATH, '//input[@value  = "Reset"]')
   private reset: ElementFinder;
 
-  @findBy("Css", "label#message")
+  @findBy(How.CSS, "label#message")
   private costumerNameMessage: ElementFinder;
 
   //#region

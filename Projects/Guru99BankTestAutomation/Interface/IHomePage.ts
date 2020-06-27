@@ -1,5 +1,6 @@
 import { NewCostumerPage } from "../Pages/Actions/NewCostumerPage";
 import { EditCostumerPage } from "../Pages/Actions/EditCostumerPage";
+import { DeleteCustomerPage } from "../Pages/Actions/DeleteCustomerPage";
 export interface IHomePage {
   /**
    *Return the message of welcome message after user login successfully
@@ -20,4 +21,9 @@ export interface IHomePage {
    * Click on edit costumer link available on home page
    */
   clickOnEditCostumerLink(): Promise<EditCostumerPage>;
+
+  /**
+   * Click on Delete Customer link available on home page.
+   */
+  clickOnDeleteCustomerLink():Promise<DeleteCustomerPage>;
 }

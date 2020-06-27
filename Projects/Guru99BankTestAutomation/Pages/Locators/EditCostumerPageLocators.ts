@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy } from "../../Utils/PageFactory";
+import { findBy, How } from '../../Utils/PageFactory';
 
 let editCostumerElements: EditCostumerElements;
 export class EditCostumerElements {
@@ -15,16 +15,16 @@ export class EditCostumerElements {
 
   //#region  PageFactory
 
-  @findBy("Name", "cusid")
+  @findBy(How.NAME, "cusid")
   private costumerID: ElementFinder;
 
-  @findBy("Name", "AccSubmit")
+  @findBy(How.NAME, "AccSubmit")
   private submitButton: ElementFinder;
 
-  @findBy("Name", "res")
+  @findBy(How.NAME, "res")
   private resetButton: ElementFinder;
 
-  @findBy("Id", "message14")
+  @findBy(How.ID, "message14")
   private costumerIDMessage: ElementFinder;
 
   //#endregion

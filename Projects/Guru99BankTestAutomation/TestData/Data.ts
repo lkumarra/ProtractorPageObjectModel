@@ -37,3 +37,13 @@ export let EditCostumerData = {
     whiteSpace: "First character can not have space",
   },
 };
+export let DeleteCustomerData = {
+  customerIDField: {
+    characters: "abcdef",
+    specialCharacters: "!@#$$%^&",
+  },
+  expectedMessage: {
+    characters: "Characters are not allowed",
+    specialCharacters: "Special characters are not allowed",
+  },
+};

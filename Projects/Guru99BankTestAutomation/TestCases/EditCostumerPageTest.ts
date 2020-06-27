@@ -1,17 +1,22 @@
+//#region ModuleImports
 import { EditCostumerData, DATA } from "../TestData/Data";
 import { ILoginPage } from "../Interface/ILoginPage";
 import { LoginPage } from "../Pages/Actions/LoginPage";
 import { IHomePage } from "../Interface/IHomePage";
 import { IEditCostumerPage } from "../Interface/IEditCostumerPage";
 import { Page } from "../Pages/BasePage/Page";
+//#endregion
 
-let data = EditCostumerData.costumerIDField;
-let message = EditCostumerData.verification;
+//#region  Fields
+let data: any = EditCostumerData.costumerIDField;
+let message: any = EditCostumerData.verification;
 let loginPage: ILoginPage = new LoginPage();
 let homePage: IHomePage;
 let editCostumerPage: IEditCostumerPage;
+//#endregion
 
-describe("Edit costumer page test workflow", () => {
+//#region  TestWorkFlow
+describe("Guru99Bank EditCostumer Page TestCases Workflow", () => {
   beforeAll(async () => {
     await Page.initalization(DATA.URL);
     homePage = await loginPage.login(DATA.USER_NAME, DATA.PASSWORD);
@@ -46,3 +51,4 @@ describe("Edit costumer page test workflow", () => {
     expect(text).toBe(message.whiteSpace);
   });
 });
+//#endregion

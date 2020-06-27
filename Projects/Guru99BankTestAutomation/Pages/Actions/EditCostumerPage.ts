@@ -1,8 +1,10 @@
 import { TestUtil } from "../../Utils/TestUtil";
 import { EditCostumerElements } from "../Locators/EditCostumerPageLocators";
 import { IEditCostumerPage } from "../../Interface/IEditCostumerPage";
+
 let testUtil: TestUtil = TestUtil.getInstance();
 let editCostumerElemets: EditCostumerElements = EditCostumerElements.getInstance();
+
 export class EditCostumerPage implements IEditCostumerPage {
   /**
    * Enter text on costumer id field on edit costumer page

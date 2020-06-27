@@ -199,4 +199,12 @@ export class TestUtil implements ITestUtil {
   public async clearTextBox(locator: ElementFinder) {
     await locator.clear();
   }
+
+  /**
+   * Perform click action on elementfinder using javascript.
+   * @param locator Locator to click javascript.
+   */
+  public async jsClick(locator:ElementFinder){
+    await browser.executeScript("arguments[0].click()",locator);
+  }
 }
