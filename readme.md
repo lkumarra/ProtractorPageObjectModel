@@ -1,6 +1,6 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3bc1a267efad4e1eaa614b4dd8404c35)](https://www.codacy.com/manual/lkumarra/ProtractorPageObjectModel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorPageObjectModel&amp;utm_campaign=Badge_Grade)
 
-[Protractor](./Projects/Guru99BankTestAutomation/SampleReport/protractor.JPG)
+![Protractor](./Projects/Guru99BankTestAutomation/SampleReport/protractor.jpg)
 
 # Pre-requisite to Start Execution:
 1. *Java (JDK)*
@@ -19,16 +19,16 @@
 1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
 
 # During run time spec report will look like that:
-[Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)
+![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)
 
 # TestReport will be generated as
-[PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
+![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
 
-[PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
+![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")
 
 # Project Structure:
 
-[Project Structure](./Projects/Guru99BankTestAutomation/SampleReport/ProjectStructure.JPG)
+![Project Structure](./Projects/Guru99BankTestAutomation/SampleReport/ProjectStructure.JPG)
 1. *Project ("Main Project Folder ")*
 2. *Guru99BankTestAutomation ("Name of the Project")*
 3. *Config ("This folder contains config.ts configuration file for Protractor")*
