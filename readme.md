@@ -1,94 +1,112 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ec86f6208a9445089531a7358758d1f)](https://www.codacy.com/manual/lkumarra/ProtractorBDDFramework?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorBDDFramework&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3bc1a267efad4e1eaa614b4dd8404c35)](https://www.codacy.com/manual/lkumarra/ProtractorPageObjectModel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorPageObjectModel&amp;utm_campaign=Badge_Grade)
 
-![Protractor BDD](./CarsGuide/SampleReport/Protractor.png)
+![Protractor](./Projects/Guru99BankTestAutomation/SampleReport/protractor.jpg)
 
-# Pre-requisite to start execution:
-1. **Java (JDK)**
-2. **Nodejs**
-3. **Any IDE such as Visual Studio Code**
+# Pre-requisite to Start Execution:
+1. *Java (JDK)*
+2. *Nodejs*
+3. *Any IDE Such as visual studio code*
 
-# Commands to execute the testcases.
-1. **npm install**
+# Commands to Execute the TestCases:
+1. *npm install*
 
-    To install all dependencies
+	To install all dependencies
 
-2. **npm run webdrivermanager:update**
+2. *npm run webdrivermanager:update*
 
-    To update or install all executable binaries
+	To update or install all executable binaries
 
-3. **npm run cucumbertest**
+3. *npm run test*
 
-    To Start the Executation
+	To Start the Executation
 
-# Reports will gererated in :
-1. **TestReports Folder**
+# Reports will Gererated in:
+1. *allure-results*
 
-    Html Reports
+	Allure reports will generated"
 
-2. **HTML Report will look like**
-![HTML REPORT](./CarsGuide/SampleReport/HtmlReport.JPG)
+2. *TestReports Folder*
 
-# The Spec Report during executation will look like that :
-![Spec Report](./CarsGuide/SampleReport/SpecReport.JPG)
+	Junit , Pdf and Html Reports
 
-# TestExecution can simply started by running:
-1. **TestRunner.exe**
 
-    This executable will first install all required dependencies and then start executation.
+# TestExecution can simply started by Running:
+1. *TestRunner.exe*
 
-# Reports will send to mail after executation completed.
+	This Executable will install all dependencies and start executation
 
-# To Send HTML Report on Mail Set Username and Password as ENV Variable.
-For More info refer link https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Config/Config.ts
+# During run time spec report will look like that:
+[![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)]
 
-# Project Structure 
-![Spec Report](./CarsGuide/SampleReport/ProjectStructure.JPG)
+# TestReport will be generated as
+![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
 
-1. **CarsGuide**
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")]
 
-        Name of Project
-    
-2. **Config**
+# Project Structure:
 
-        Contains configuration file for protractor which has the code for reporting browser and mail.
+![Project Structure](./Projects/Guru99BankTestAutomation/SampleReport/ProjectStructure.JPG)
+1. *Project*
 
-3. **Features**
+	Main Project Folder 
 
-        Contains the Feature file
+2. *Guru99BankTestAutomation*
 
-4. **Hooks**
+	Name of the Project"
 
-        Contains the Hooks for Screenshot on test failure.
+3. *Config*
 
-5. **Pages**
-	1.Actions
-		This Folder Contains action class.
-	2.Locators
-		This Folder Contains Locators class.
-	3.BasePage
-		This Folder Contains Base Page Class.
-  		
-6. **Steps**
+	This folder contains config.ts configuration file for Protractor
 
-        This folder contains the StepDefinitation file.
+4. *Interface*
 
-7. **TestReports**
+	This folder contains all Interfaces these interfaces are basically guidelines to design fuctions
 
-        All test reports will be generated in this folder.
+5. *LogManager*
 
-8. **TestSuite**
+	This Folder contains all Logs Related File such as Log configuration and Log Utils
 
-        This Folder contains the suite of Steps and Feature.
+6. *OldTestReports*
 
-9. **Utils**
+	This Folder contains all old reports all the reports are moved to this folder for every fresh execution
 
-        This Folder contains the Utility and PageFactory class.
+7. *Pages*
+	1. **Actions**
 
-# Locators are kept like that:
-[![Locators](./CarsGuide/SampleReport/Locators.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Pages/Locators/CarsGuideHomePageLocators.ts)
+		All the Actions are Kept in this Folder
 
-# Features are kepts like that:
-[![Features](./CarsGuide/SampleReport/Features.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Features/SearchCars.feature)
+	2. **Locators**
 
-# Steps are Kept like that:
-[![Steps](./CarsGuide/SampleReport/Steps.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Steps/SeachCarSteps.ts)
+		All the Locators are Kept in this Folder
+
+	3. **BasePage**
+
+		This Folder Contains the Base Page Class.
+
+8. *Suites*
+
+	This Folder Contains all Spec file path"
+
+9. *TestBase*
+
+	This Folder Contains the Base File for execution
+
+10. *TestCases*
+
+	This Folder Contains all the Test Cases
+
+11. *TestData*
+
+	This Folder Contains all test data
+
+12. *TestReports*
+
+	This Folder Contains the Fresh Test Reports
+
+13. *Utils*
+
+	This Folder Contains all Utility Functions
+	
+
+# To Send TestReports on Email Please set email and password as env varaible .
+**For More detail refer the link https://github.com/lkumarra/ProtractorPageObjectModel/blob/master/Projects/Guru99BankTestAutomation/Config/Config.ts**
