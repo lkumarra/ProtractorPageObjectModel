@@ -1,49 +1,94 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3bc1a267efad4e1eaa614b4dd8404c35)](https://www.codacy.com/manual/lkumarra/ProtractorPageObjectModel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorPageObjectModel&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9ec86f6208a9445089531a7358758d1f)](https://www.codacy.com/manual/lkumarra/ProtractorBDDFramework?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lkumarra/ProtractorBDDFramework&amp;utm_campaign=Badge_Grade)
 
-![Protractor](./Projects/Guru99BankTestAutomation/SampleReport/protractor.jpg)
+![Protractor BDD](./CarsGuide/SampleReport/Protractor.png)
 
-# Pre-requisite to Start Execution:
-1. *Java (JDK)*
-2. *Nodejs*
+# Pre-requisite to start execution:
+1. **Java (JDK)**
+2. **Nodejs**
+3. **Any IDE such as Visual Studio Code**
 
-# Commands to Execute the TestCases:
-1. *npm install ("To install all dependencies").*
-2. *npm run webdrivermanager:update("To update or install all executable binaries")*
-3. *npm run test("To Start the Executation")*
+# Commands to execute the testcases.
+1. **npm install**
 
-# Reports will Gererated in:
-1. *allure-results("Allure reports will generated")*
-2. *TestReports Folder ("Junit , Pdf and Html Reports")*
+    To install all dependencies
 
-# TestExecution can simply started by Running:
-1. *TestRunner.exe("This Executable will install all dependencies and start executation")*
+2. **npm run webdrivermanager:update**
 
-# During run time spec report will look like that:
-[![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)]
+    To update or install all executable binaries
 
-# TestReport will be generated as
-![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
+3. **npm run cucumbertest**
 
-[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")]
+    To Start the Executation
 
-# Project Structure:
+# Reports will gererated in :
+1. **TestReports Folder**
 
-![Project Structure](./Projects/Guru99BankTestAutomation/SampleReport/ProjectStructure.JPG)
-1. *Project ("Main Project Folder ")*
-2. *Guru99BankTestAutomation ("Name of the Project")*
-3. *Config ("This folder contains config.ts configuration file for Protractor")*
-4. *Interface ("This folder contains all Interfaces these interfaces are basically guidelines to design fuctions")*
-5. *LogManager ("This Folder contains all Logs Related File such as Log configuration and Log Utils")*
-6. *OldTestReports ("This Folder contains all old reports all the reports are moved to this folder for every fresh execution")*
-7. *Pages ("This Folder Contains two folder")*
-	1. **Actions("All the Actions are Kept in this Folder")**
-	2. **Locators("All the Locators are Kept in this Folder")**
-8. *Suites ("This Folder Contains all Spec file path")*
-9. *TestBase ("This Folder Contains the Base File for execution")*
-10. *TestCases("This Folder Contains all the Test Cases")*
-11. *TestData("This Folder Contains all test data")*
-12. *TestReports("This Folder Contains the Fresh Test Reports")*
-13. *Utils("This Folder Contains all Utility Functions")*
+    Html Reports
 
-# To Send TestReports on Email Please set email and password as env varaible .
-**For More detail refer the link https://github.com/lkumarra/ProtractorPageObjectModel/blob/master/Projects/Guru99BankTestAutomation/Config/Config.ts**
+2. **HTML Report will look like**
+![HTML REPORT](./CarsGuide/SampleReport/HtmlReport.JPG)
+
+# The Spec Report during executation will look like that :
+![Spec Report](./CarsGuide/SampleReport/SpecReport.JPG)
+
+# TestExecution can simply started by running:
+1. **TestRunner.exe**
+
+    This executable will first install all required dependencies and then start executation.
+
+# Reports will send to mail after executation completed.
+
+# To Send HTML Report on Mail Set Username and Password as ENV Variable.
+For More info refer link https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Config/Config.ts
+
+# Project Structure 
+![Spec Report](./CarsGuide/SampleReport/ProjectStructure.JPG)
+
+1. **CarsGuide**
+
+        Name of Project
+    
+2. **Config**
+
+        Contains configuration file for protractor which has the code for reporting browser and mail.
+
+3. **Features**
+
+        Contains the Feature file
+
+4. **Hooks**
+
+        Contains the Hooks for Screenshot on test failure.
+
+5. **Pages**
+	1.Actions
+		This Folder Contains action class.
+	2.Locators
+		This Folder Contains Locators class.
+	3.BasePage
+		This Folder Contains Base Page Class.
+  		
+6. **Steps**
+
+        This folder contains the StepDefinitation file.
+
+7. **TestReports**
+
+        All test reports will be generated in this folder.
+
+8. **TestSuite**
+
+        This Folder contains the suite of Steps and Feature.
+
+9. **Utils**
+
+        This Folder contains the Utility and PageFactory class.
+
+# Locators are kept like that:
+[![Locators](./CarsGuide/SampleReport/Locators.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Pages/Locators/CarsGuideHomePageLocators.ts)
+
+# Features are kepts like that:
+[![Features](./CarsGuide/SampleReport/Features.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Features/SearchCars.feature)
+
+# Steps are Kept like that:
+[![Steps](./CarsGuide/SampleReport/Steps.JPG)](https://github.com/lkumarra/ProtractorBDDFramework/blob/master/CarsGuide/Steps/SeachCarSteps.ts)
