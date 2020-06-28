@@ -36,12 +36,12 @@
 	This Executable will install all dependencies and start executation
 
 # During run time spec report will look like that:
-[![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)]
+![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)
 
 # TestReport will be generated as
-![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SamplePdf.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Guru99Bank.pdf "TestReport")
 
-[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)(https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")]
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/SampleHtml.JPG "TestReport")]
 
 # Project Structure:
 
