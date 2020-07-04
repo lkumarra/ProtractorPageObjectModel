@@ -9,7 +9,5 @@ export class Page {
     await browser.get(url);
     await browser.manage().deleteAllCookies();
     await browser.manage().window().maximize();
-    console.log("Height is ******"+ await (await browser.manage().window().getSize()).height.toString())
-    console.log("Width is ***"+await (await browser.manage().window().getSize()).width.toString())
   }
 }
