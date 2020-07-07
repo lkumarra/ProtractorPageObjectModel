@@ -1,35 +1,31 @@
 import { ElementFinder } from "protractor";
-import { findBy, How } from '../../Utils/PageFactory';
-
-let homePageElements: HomePageElements;
+import { findBy, How } from "../../Utils/PageFactory";
 
 export class HomePageElements {
+  private static _instance: HomePageElements = new HomePageElements();
   /**
    * Return the instance of HomePage
    */
   public static getInstance(): HomePageElements {
-    if (homePageElements == null) {
-      homePageElements = new HomePageElements();
-    }
-    return homePageElements;
+    return this._instance;
   }
 
   //#region  PageFactory
 
   @findBy(How.XPATH, "//marquee[@class = 'heading3']")
-  private welcomeMessage: ElementFinder;
+  private _welcomeMessage: ElementFinder;
 
   @findBy(How.CSS, "tr.heading3>td:first-child")
-  private managerId: ElementFinder;
+  private _managerId: ElementFinder;
 
   @findBy(How.LINKTEXT, "New Customer")
-  private newCostumerLink: ElementFinder;
+  private _newCostumerLink: ElementFinder;
 
   @findBy(How.LINKTEXT, "Edit Customer")
-  private editCostumerLink: ElementFinder;
+  private _editCostumerLink: ElementFinder;
 
   @findBy(How.LINKTEXT, "Delete Customer")
-  private deleteCustomerLink:ElementFinder;
+  private _deleteCustomerLink: ElementFinder;
 
   //#endregion
 
@@ -39,35 +35,35 @@ export class HomePageElements {
    * Retrun welcome message login;
    */
   public getWelcomeMessageLocator(): ElementFinder {
-    return this.welcomeMessage;
+    return this._welcomeMessage;
   }
 
   /**
    * Return managerId locator.
    */
   public getManagerIdLocator(): ElementFinder {
-    return this.managerId;
+    return this._managerId;
   }
 
   /**
    * Return new costume link locator.
    */
   public getNewCostumerLinkLocator(): ElementFinder {
-    return this.newCostumerLink;
+    return this._newCostumerLink;
   }
 
   /**
    * Return edit costumer link locator.
    */
   public getEditCostumerLinkLocator(): ElementFinder {
-    return this.editCostumerLink;
+    return this._editCostumerLink;
   }
 
   /**
    * Return delete customer link locator.
    */
-  public getDeleteCustomerLinkLocator():ElementFinder{
-    return this.deleteCustomerLink;
+  public getDeleteCustomerLinkLocator(): ElementFinder {
+    return this._deleteCustomerLink;
   }
 
   //#endregion

@@ -6,10 +6,9 @@ import { EditCostumerPage } from "./EditCostumerPage";
 import { NewCostumerPage } from "./NewCostumerPage";
 import { DeleteCustomerPage } from "./DeleteCustomerPage";
 
-let homePageElements: HomePageElements = HomePageElements.getInstance();
-let testUtil: TestUtil = TestUtil.getInstance();
-
 export class HomePage implements IHomePage {
+  private _homePageElements: HomePageElements = HomePageElements.getInstance();
+  private _testUtil: TestUtil = TestUtil.getInstance();
   className: string = HomePage.name;
 
   /**
@@ -17,8 +16,8 @@ export class HomePage implements IHomePage {
    * @return
    */
   public async verifyWelcomeMessage(): Promise<string> {
-    let text = await testUtil.getWebElementText(
-      homePageElements.getWelcomeMessageLocator()
+    let text = await this._testUtil.getWebElementText(
+      this._homePageElements.getWelcomeMessageLocator()
     );
     LogUtils.debugMessage("Welcome message is : " + text, HomePage.name);
     return text;
@@ -28,8 +27,8 @@ export class HomePage implements IHomePage {
    * Verify the user login successfully by verifying the manager id
    */
   public async verifyManagerId(): Promise<string> {
-    let text = await testUtil.getWebElementText(
-      homePageElements.getManagerIdLocator()
+    let text = await this._testUtil.getWebElementText(
+      this._homePageElements.getManagerIdLocator()
     );
     LogUtils.debugMessage("Manager ID is : " + text, this.className);
     return text;
@@ -40,7 +39,7 @@ export class HomePage implements IHomePage {
    * @returns Return the object of New Costumer page
    */
   public async clickOnNewCostumerLink(): Promise<NewCostumerPage> {
-    await testUtil.clickOnElement(homePageElements.getNewCostumerLinkLocator());
+    await this._testUtil.clickOnElement(this._homePageElements.getNewCostumerLinkLocator());
     LogUtils.debugMessage("Clicked on NewCustomer Link ", this.className);
     return new NewCostumerPage();
   }
@@ -50,8 +49,8 @@ export class HomePage implements IHomePage {
    * @returns Return the object on Edit costumer page
    */
   public async clickOnEditCostumerLink(): Promise<EditCostumerPage> {
-    await testUtil.clickOnElement(
-      homePageElements.getEditCostumerLinkLocator()
+    await this._testUtil.clickOnElement(
+      this._homePageElements.getEditCostumerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on EditCustomer Link ", this.className);
     return new EditCostumerPage();
@@ -61,8 +60,8 @@ export class HomePage implements IHomePage {
    *Click On DeleteCustomer Link.
    */
   public async clickOnDeleteCustomerLink(): Promise<DeleteCustomerPage> {
-    await testUtil.clickOnElement(
-      homePageElements.getDeleteCustomerLinkLocator()
+    await this._testUtil.clickOnElement(
+      this._homePageElements.getDeleteCustomerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on Delete Customer Link", this.className);
     return new DeleteCustomerPage();

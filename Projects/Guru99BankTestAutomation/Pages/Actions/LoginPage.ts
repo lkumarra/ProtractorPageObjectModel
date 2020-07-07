@@ -4,10 +4,9 @@ import { ILoginPage } from "../../Interface/ILoginPage";
 import { HomePage } from "./HomePage";
 import { LogUtils } from "../../LogManager/LogUtils";
 
-let loginPageElements: LoginPageElements = LoginPageElements.getInstance();
-let testUtil: TestUtil = TestUtil.getInstance();
-
 export class LoginPage implements ILoginPage {
+  private _loginPageElements: LoginPageElements = LoginPageElements.getInstance();
+  private _testUtil: TestUtil = TestUtil.getInstance();
   className: string = LoginPage.name;
 
   /**
@@ -15,8 +14,8 @@ export class LoginPage implements ILoginPage {
    * @param userName
    */
   public async setUserName(userName: string) {
-    await testUtil.enterTextIntoTextBox(
-      loginPageElements.getUserIdLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._loginPageElements.getUserIdLocator(),
       userName
     );
     LogUtils.debugMessage(
@@ -30,8 +29,8 @@ export class LoginPage implements ILoginPage {
    * @param password
    */
   public async setPassword(password: string) {
-    await testUtil.enterTextIntoTextBox(
-      loginPageElements.getPasswordLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._loginPageElements.getPasswordLocator(),
       password
     );
     LogUtils.debugMessage(
@@ -44,7 +43,9 @@ export class LoginPage implements ILoginPage {
    * Click on login button on login page
    */
   public async clickOnLogin() {
-    await testUtil.clickOnElement(loginPageElements.getLoginButtonLocator());
+    await this._testUtil.clickOnElement(
+      this._loginPageElements.getLoginButtonLocator()
+    );
     LogUtils.debugMessage("Clicked on Login Button", this.className);
   }
 
@@ -52,7 +53,9 @@ export class LoginPage implements ILoginPage {
    * Click on reset button on login page
    */
   public async clickOnReset() {
-    await testUtil.clickOnElement(loginPageElements.getResetButtonLocator());
+    await this._testUtil.clickOnElement(
+      this._loginPageElements.getResetButtonLocator()
+    );
     LogUtils.debugMessage("Clicked on Reset Button", this.className);
   }
   /**

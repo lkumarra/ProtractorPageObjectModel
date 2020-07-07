@@ -3,10 +3,9 @@ import { NewCostumerElements } from "../Locators/NewCostumerPageLocators";
 import { INewCostumerPage } from "../../Interface/INewCostumerPage";
 import { LogUtils } from "../../LogManager/LogUtils";
 
-let newCostumerElements: NewCostumerElements = NewCostumerElements.getInstance();
-let testUtil: TestUtil = TestUtil.getInstance();
-
 export class NewCostumerPage implements INewCostumerPage {
+  private _newCostumerElements: NewCostumerElements = NewCostumerElements.getInstance();
+  private _testUtil: TestUtil = TestUtil.getInstance();
   className: string = NewCostumerPage.name;
 
   /**
@@ -14,8 +13,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param costumerName Costume name to be set
    */
   public async setCostumerName(costumerName: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getCostumerNameLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getCostumerNameLocator(),
       costumerName
     );
     LogUtils.debugMessage(
@@ -28,8 +27,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * Select male gender on new costumer page
    */
   public async selectMale() {
-    await testUtil.clickOnElement(
-      newCostumerElements.getMaleRadioButtonLocator()
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getMaleRadioButtonLocator()
     );
     LogUtils.debugMessage("Male option is Selected", this.className);
   }
@@ -38,8 +37,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * Select female gender on new costume page
    */
   public async selectFemale() {
-    await testUtil.clickOnElement(
-      newCostumerElements.getFemaleRadioButtonLocator()
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getFemaleRadioButtonLocator()
     );
     LogUtils.debugMessage("Female option is selected ", this.className);
   }
@@ -49,8 +48,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param dob Date of birth to be set
    */
   public async setDateOfBirth(dob: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getDateOfBirthLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getDateOfBirthLocator(),
       dob
     );
     LogUtils.debugMessage(
@@ -64,8 +63,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param address Address to be set
    */
   public async setAddress(address: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getAddressLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getAddressLocator(),
       address
     );
     LogUtils.debugMessage(
@@ -79,8 +78,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param city City to be set
    */
   public async setCity(city: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getCityLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getCityLocator(),
       city
     );
     LogUtils.debugMessage("City : " + city + " is entered", this.className);
@@ -91,8 +90,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param state State to be set
    */
   public async setState(state: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getStateLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getStateLocator(),
       state
     );
     LogUtils.debugMessage("State : " + state + " is entered", this.className);
@@ -103,8 +102,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param pin Pin code to be select
    */
   public async setPinCode(pin: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getPinCodeLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getPinCodeLocator(),
       pin
     );
     LogUtils.debugMessage("Pin : " + pin + " is entered", this.className);
@@ -115,8 +114,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param mobile Mobile number to be set
    */
   public async setMobileNumber(mobile: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getMobileLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getMobileLocator(),
       mobile
     );
     LogUtils.debugMessage(
@@ -130,8 +129,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param email Email to be set
    */
   public async setEmail(email: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getEmailLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getEmailLocator(),
       email
     );
     LogUtils.debugMessage("Email : " + email + " is entered", this.className);
@@ -142,8 +141,8 @@ export class NewCostumerPage implements INewCostumerPage {
    * @param password Password to be set
    */
   public async setPassword(password: string) {
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getPasswordLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getPasswordLocator(),
       password
     );
     LogUtils.debugMessage(
@@ -156,7 +155,9 @@ export class NewCostumerPage implements INewCostumerPage {
    * Click on subbmit button
    */
   public async clickOnSubmit() {
-    await testUtil.clickOnElement(newCostumerElements.getSubmitLocator());
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getSubmitLocator()
+    );
     LogUtils.debugMessage("Clicked on Submit Button", this.className);
   }
 
@@ -164,7 +165,9 @@ export class NewCostumerPage implements INewCostumerPage {
    * Click on reset button
    */
   public async clickOnReset() {
-    await testUtil.clickOnElement(newCostumerElements.getResetLocator());
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getResetLocator()
+    );
     LogUtils.debugMessage("Clicked on Reset Button", this.className);
   }
   /**
@@ -223,12 +226,12 @@ export class NewCostumerPage implements INewCostumerPage {
       "costumerNameInvalidCharacterVerify execution stated ",
       this.className
     );
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getCostumerNameLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getCostumerNameLocator(),
       invalidCostumerName
     );
-    let text: string = await testUtil.getWebElementText(
-      newCostumerElements.getCostumerNameMessageLocator()
+    let text: string = await this._testUtil.getWebElementText(
+      this._newCostumerElements.getCostumerNameMessageLocator()
     );
     LogUtils.debugMessage(
       "Invaid message : " + text + " is displayed",
@@ -248,13 +251,13 @@ export class NewCostumerPage implements INewCostumerPage {
       "Maximum charactes : " + maxCharacters + " are enterd",
       NewCostumerPage.name
     );
-    await testUtil.enterTextIntoTextBox(
-      newCostumerElements.getCostumerNameLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._newCostumerElements.getCostumerNameLocator(),
       maxCharacters
     );
     let lenght: string = (
-      await testUtil.getAttributeOfElement(
-        newCostumerElements.getCostumerNameLocator(),
+      await this._testUtil.getAttributeOfElement(
+        this._newCostumerElements.getCostumerNameLocator(),
         "value"
       )
     ).length.toString();
@@ -273,11 +276,17 @@ export class NewCostumerPage implements INewCostumerPage {
       "constumerNameBlankVerify executation started",
       this.className
     );
-    await testUtil.clearTextBox(newCostumerElements.getCostumerNameLocator());
-    await testUtil.clickOnElement(newCostumerElements.getCostumerNameLocator());
-    await testUtil.clickOnElement(newCostumerElements.getDateOfBirthLocator());
-    let text: string = await testUtil.getWebElementText(
-      newCostumerElements.getCostumerNameMessageLocator()
+    await this._testUtil.clearTextBox(
+      this._newCostumerElements.getCostumerNameLocator()
+    );
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getCostumerNameLocator()
+    );
+    await this._testUtil.clickOnElement(
+      this._newCostumerElements.getDateOfBirthLocator()
+    );
+    let text: string = await this._testUtil.getWebElementText(
+      this._newCostumerElements.getCostumerNameMessageLocator()
     );
     LogUtils.debugMessage(
       "The message is : " + text + " is displated",

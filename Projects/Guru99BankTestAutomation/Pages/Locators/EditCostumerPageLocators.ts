@@ -1,31 +1,28 @@
 import { ElementFinder } from "protractor";
-import { findBy, How} from '../../Utils/PageFactory';
+import { findBy, How } from "../../Utils/PageFactory";
 
-let editCostumerElements: EditCostumerElements;
 export class EditCostumerElements {
+  private static _instance: EditCostumerElements = new EditCostumerElements();
   /**
    * Return the object of Edit costumer elements
    */
   public static getInstance(): EditCostumerElements {
-    if (editCostumerElements == null) {
-      editCostumerElements = new EditCostumerElements();
-    }
-    return editCostumerElements;
+    return this._instance;
   }
 
   //#region  PageFactory
 
-  @findBy(How.NAME,"cusid")
-  private costumerID: ElementFinder;
+  @findBy(How.NAME, "cusid")
+  private _costumerID: ElementFinder;
 
   @findBy(How.NAME, "AccSubmit")
-  private submitButton: ElementFinder;
+  private _submitButton: ElementFinder;
 
   @findBy(How.NAME, "res")
-  private resetButton: ElementFinder;
+  private _resetButton: ElementFinder;
 
   @findBy(How.ID, "message14")
-  private costumerIDMessage: ElementFinder;
+  private _costumerIDMessage: ElementFinder;
 
   //#endregion
 
@@ -35,28 +32,28 @@ export class EditCostumerElements {
    * Return costumer id locator
    */
   public getCostumerIDLocator(): ElementFinder {
-    return this.costumerID;
+    return this._costumerID;
   }
 
   /**
    * Return submit button locator
    */
   public getSubmitButtonLocator(): ElementFinder {
-    return this.submitButton;
+    return this._submitButton;
   }
 
   /**
    * Return reset button locator
    */
   public getResetButtonLocator(): ElementFinder {
-    return this.resetButton;
+    return this._resetButton;
   }
 
   /**
    * Return costumer id message locator
    */
   public getCostumerIDMessageLocator(): ElementFinder {
-    return this.costumerIDMessage;
+    return this._costumerIDMessage;
   }
 
   //#endregion

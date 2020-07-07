@@ -2,17 +2,16 @@ import { TestUtil } from "../../Utils/TestUtil";
 import { EditCostumerElements } from "../Locators/EditCostumerPageLocators";
 import { IEditCostumerPage } from "../../Interface/IEditCostumerPage";
 
-let testUtil: TestUtil = TestUtil.getInstance();
-let editCostumerElemets: EditCostumerElements = EditCostumerElements.getInstance();
-
 export class EditCostumerPage implements IEditCostumerPage {
+  private _testUtil: TestUtil = TestUtil.getInstance();
+  private _editCostumerElemets: EditCostumerElements = EditCostumerElements.getInstance();
   /**
    * Enter text on costumer id field on edit costumer page
    * @param costumerId
    */
   public async setCostumerId(costumerId: string) {
-    await testUtil.enterTextIntoTextBox(
-      editCostumerElemets.getCostumerIDLocator(),
+    await this._testUtil.enterTextIntoTextBox(
+      this._editCostumerElemets.getCostumerIDLocator(),
       costumerId
     );
   }
@@ -21,22 +20,22 @@ export class EditCostumerPage implements IEditCostumerPage {
    * Click on submit button on edit costumer page
    */
   public async clickOnSubmitButton() {
-    await testUtil.clickOnElement(editCostumerElemets.getSubmitButtonLocator());
+    await this._testUtil.clickOnElement(this._editCostumerElemets.getSubmitButtonLocator());
   }
 
   /**
    * Click on reset button on edit costumer page
    */
   public async clickOnResetButton() {
-    await testUtil.clickOnElement(editCostumerElemets.getResetButtonLocator());
+    await this._testUtil.clickOnElement(this._editCostumerElemets.getResetButtonLocator());
   }
 
   /**
    * Return the message of costumer id
    */
   public async getCostumerIDMessage(): Promise<string> {
-    return testUtil.getWebElementText(
-      editCostumerElemets.getCostumerIDMessageLocator()
+    return this._testUtil.getWebElementText(
+      this._editCostumerElemets.getCostumerIDMessageLocator()
     );
   }
 
@@ -60,8 +59,8 @@ export class EditCostumerPage implements IEditCostumerPage {
   ): Promise<string> {
     await this.setCostumerId(characters);
     await this.clickOnSubmitButton();
-    let text: string = await testUtil.getAlertText();
-    await testUtil.acceptAlert();
+    let text: string = await this._testUtil.getAlertText();
+    await this._testUtil.acceptAlert();
     return text;
   }
 }

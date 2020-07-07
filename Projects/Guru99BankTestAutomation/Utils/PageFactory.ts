@@ -152,7 +152,7 @@ class PageFactory {
         webElement = PageFactory.getElementFinderByExactBinding(locator);
         break;
       }
-      case "REPEATER":{
+      case "REPEATER": {
         webElement = PageFactory.getElementFinderByRepeater(locator);
         break;
       }
@@ -173,7 +173,7 @@ export enum How {
   CLASS = "CLASS",
   MODEL = "MODEL",
   LINKTEXT = "LINKTEXT",
-  PARTIALLINKTEXT = "PARTIALLINKTEXR",
+  PARTIALLINKTEXT = "PARTIALLINKTEXT",
   BINDING = "BINDING",
   EXACTBINDING = "EXACTBINDING",
   //#endregion

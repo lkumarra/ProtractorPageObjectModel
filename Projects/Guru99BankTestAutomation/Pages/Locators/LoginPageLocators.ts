@@ -1,31 +1,27 @@
 import { ElementFinder } from "protractor";
-import { findBy, How } from '../../Utils/PageFactory';
-
-let loginPageElements: LoginPageElements;
+import { findBy, How } from "../../Utils/PageFactory";
 
 export class LoginPageElements {
+  private static _instance: LoginPageElements = new LoginPageElements();
   /**
    * Return the object of LoginPageElements
    */
   public static getInstance(): LoginPageElements {
-    if (loginPageElements == null) {
-      loginPageElements = new LoginPageElements();
-    }
-    return loginPageElements;
+    return this._instance;
   }
 
   //#region PageFactory
   @findBy(How.NAME, "uid")
-  private userId: ElementFinder;
+  private _userId: ElementFinder;
 
   @findBy(How.NAME, "password")
-  private password: ElementFinder;
+  private _password: ElementFinder;
 
   @findBy(How.NAME, "btnLogin")
-  private loginButton: ElementFinder;
+  private _loginButton: ElementFinder;
 
   @findBy(How.NAME, "btnReset")
-  private resetButton: ElementFinder;
+  private _resetButton: ElementFinder;
 
   //#endregion
 
@@ -35,28 +31,28 @@ export class LoginPageElements {
    * Return userid locator
    */
   public getUserIdLocator(): ElementFinder {
-    return this.userId;
+    return this._userId;
   }
 
   /**
    * Retrun password locator
    */
   public getPasswordLocator(): ElementFinder {
-    return this.password;
+    return this._password;
   }
 
   /**
    * Return login button locator
    */
   public getLoginButtonLocator(): ElementFinder {
-    return this.loginButton;
+    return this._loginButton;
   }
 
   /**
    * Return reset button locator
    */
   public getResetButtonLocator(): ElementFinder {
-    return this.resetButton;
+    return this._resetButton;
   }
 
   //#endregion

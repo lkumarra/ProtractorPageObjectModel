@@ -2,6 +2,7 @@ import { Config, browser } from "protractor";
 import { params, suites } from "../Suites/Suites";
 import * as nodemailer from "nodemailer";
 import * as moveFile from "move-file";
+import * as process from "process";
 let HtmlReporter = require("protractor-beautiful-reporter");
 let jasmineReporters = require("jasmine-reporters");
 let exec = require("child_process");
@@ -16,7 +17,6 @@ let jsonsFolderName: string = "jsons";
 let screenshotsFolderName: string = "screenshots";
 let reportName: string = "Guru99Bank";
 let hideSkippedTest: any;
-import * as process from "process";
 let reportDirectory: string =
   process.cwd() + "/Projects/Guru99BankTestAutomation/TestReports/";
 let reportFolder: string = "Guru99BankTestReports";
@@ -69,7 +69,6 @@ TimeProcessor.prototype.displayPendingSpec = (spec, log) => {
 
 export let config: Config = {
   SELENIUM_PROMISE_MANAGER: false,
-  // seleniumAddress: 'http://localhost:4444/wd/hub',
   suites: suites,
   useAllAngular2AppRoots: true,
   framework: "jasmine2",
