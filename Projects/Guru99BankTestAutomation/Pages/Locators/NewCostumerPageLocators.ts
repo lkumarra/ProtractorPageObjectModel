@@ -45,10 +45,10 @@ export class NewCostumerElements {
   @findBy(How.NAME, "password")
   private _password: ElementFinder;
 
-  @findBy(How.XPATH, '//input[@value  = "Submit"]')
+  @findBy(How.XPATH, "//input[@value  = 'Submit']")
   private _submit: ElementFinder;
 
-  @findBy(How.XPATH, '//input[@value  = "Reset"]')
+  @findBy(How.XPATH, "//input[@value  = 'Reset']")
   private _reset: ElementFinder;
 
   @findBy(How.CSS, "label#message")

@@ -1,6 +1,6 @@
 import { configure, getLogger, Logger } from "log4js";
 export class Log4j {
-  public static Log(className: string): Logger {
+  public static log(className: string): Logger {
     configure({
       appenders: {
         console: {
