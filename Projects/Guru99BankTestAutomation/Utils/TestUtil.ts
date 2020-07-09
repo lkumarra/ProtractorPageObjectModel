@@ -14,17 +14,14 @@ let process = require("process");
 const EXCEL_SHEET_PATH =
   process.cwd() +
   "\\Projects\\Guru99BankTestAutomation\\TestData\\Guru99Bank.xlsx";
-let testUtil: TestUtil = null;
 
 export class TestUtil implements ITestUtil {
+  private static _instanse:TestUtil = new TestUtil();
   /**
    * Return the object of TestUtil class.
    */
   public static getInstance(): TestUtil {
-    if (testUtil === null) {
-      testUtil = new TestUtil();
-    }
-    return testUtil;
+   return this._instanse;
   }
 
   /**
