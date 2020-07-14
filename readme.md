@@ -18,7 +18,7 @@
 
 3. *npm run test*
 
-	To Start the Executation
+	To Start the Execution
 
 # Reports will Gererated in:
 1. *allure-results*
