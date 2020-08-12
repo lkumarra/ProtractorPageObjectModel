@@ -1,7 +1,7 @@
 export const DATA = {
   URL: "http://www.demo.guru99.com/V4/index.php",
-  USER_NAME: "mngr270736",
-  PASSWORD: "ejaduja",
+  USER_NAME: "mngr276676",
+  PASSWORD: "mavYmyq",
 };
 export let NewCostumerData = {
   costumerNameField: {
@@ -22,7 +22,7 @@ export let NewCostumerData = {
 };
 export let HomePageData = {
   welcomeMessage: "Welcome To Manager's Page of Guru99 Bank",
-  managerId: "Manger Id : mngr270736",
+  managerId: "Manger Id : mngr276676",
 };
 export let EditCostumerData = {
   costumerIDField: {

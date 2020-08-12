@@ -1,10 +1,12 @@
 //#region Module Imports
 import { Page } from "../Pages/BasePage/Page";
 import { NewCostumerData, DATA } from "../TestData/Data";
-import { ILoginPage } from "../Interface/ILoginPage";
-import { LoginPage } from "../Pages/Actions/LoginPage";
-import { IHomePage } from "../Interface/IHomePage";
-import { INewCostumerPage } from "../Interface/INewCostumerPage";
+import {
+  ILoginPage,
+  IHomePage,
+  INewCostumerPage,
+} from "../Exports/ExportInterface";
+import { LoginPage } from "../Exports/ExportPages";
 //#endregion
 
 //#region  Fields

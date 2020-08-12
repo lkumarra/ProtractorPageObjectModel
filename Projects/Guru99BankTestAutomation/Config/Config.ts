@@ -104,10 +104,14 @@ export let config: Config = {
       "-" +
       convert(currentDate.getMinutes());
     //Move the old reportd to old reports folder.
+    try{
     await moveFile(
       reportPath,
       oldReportPath + "/" + reportFolder + "_" + totalDateString
-    ).catch();
+    );
+    }catch(e){
+      console.log("File is not present in directory so move operation can not performed")
+    }
     process.setMaxListeners(100);
     console.log("The file has been moved");
     browser.manage().window().maximize();

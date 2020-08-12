@@ -1,7 +1,6 @@
-import { TestUtil } from "../../Utils/TestUtil";
-import { NewCostumerElements } from "../Locators/NewCostumerPageLocators";
-import { INewCostumerPage } from "../../Interface/INewCostumerPage";
-import { LogUtils } from "../../LogManager/LogUtils";
+import { TestUtil, LogUtils } from "../../Exports/ExportUtils";
+import { NewCostumerElements } from "../../Exports/ExportLocators";
+import { INewCostumerPage } from "../../Exports/ExportInterface";
 
 export class NewCostumerPage implements INewCostumerPage {
   private _newCostumerElements: NewCostumerElements = NewCostumerElements.getInstance();
@@ -289,7 +288,7 @@ export class NewCostumerPage implements INewCostumerPage {
       this._newCostumerElements.getCostumerNameMessageLocator()
     );
     LogUtils.debugMessage(
-      "The message is : " + text + " is displated",
+      "The message is : " + text + " : is displayed",
       this.className
     );
     return text;

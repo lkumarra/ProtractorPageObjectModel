@@ -1,11 +1,11 @@
-import { TestUtil } from "../../Utils/TestUtil";
-import { HomePageElements } from "../Locators/HomePageLocators";
-import { IHomePage } from "../../Interface/IHomePage";
-import { LogUtils } from "../../LogManager/LogUtils";
-import { EditCostumerPage } from "./EditCostumerPage";
-import { NewCostumerPage } from "./NewCostumerPage";
-import { DeleteCustomerPage } from "./DeleteCustomerPage";
-
+import { TestUtil, LogUtils } from "../../Exports/ExportUtils";
+import { HomePageElements } from "../../Exports/ExportLocators";
+import { IHomePage } from "../../Exports//ExportInterface";
+import {
+  EditCostumerPage,
+  NewCostumerPage,
+  DeleteCustomerPage,
+} from "../../Exports/ExportPages";
 export class HomePage implements IHomePage {
   private _homePageElements: HomePageElements = HomePageElements.getInstance();
   private _testUtil: TestUtil = TestUtil.getInstance();
@@ -39,7 +39,9 @@ export class HomePage implements IHomePage {
    * @returns Return the object of New Costumer page
    */
   public async clickOnNewCostumerLink(): Promise<NewCostumerPage> {
-    await this._testUtil.clickOnElement(this._homePageElements.getNewCostumerLinkLocator());
+    await this._testUtil.jsClick(
+      this._homePageElements.getNewCostumerLinkLocator()
+    );
     LogUtils.debugMessage("Clicked on NewCustomer Link ", this.className);
     return new NewCostumerPage();
   }
@@ -49,7 +51,7 @@ export class HomePage implements IHomePage {
    * @returns Return the object on Edit costumer page
    */
   public async clickOnEditCostumerLink(): Promise<EditCostumerPage> {
-    await this._testUtil.clickOnElement(
+    await this._testUtil.jsClick(
       this._homePageElements.getEditCostumerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on EditCustomer Link ", this.className);
@@ -60,7 +62,7 @@ export class HomePage implements IHomePage {
    *Click On DeleteCustomer Link.
    */
   public async clickOnDeleteCustomerLink(): Promise<DeleteCustomerPage> {
-    await this._testUtil.clickOnElement(
+    await this._testUtil.jsClick(
       this._homePageElements.getDeleteCustomerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on Delete Customer Link", this.className);

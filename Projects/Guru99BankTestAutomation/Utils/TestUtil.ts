@@ -194,6 +194,7 @@ export class TestUtil implements ITestUtil {
    * @param webElement
    */
   public async clearTextBox(locator: ElementFinder) {
+    await TestUtil.elmentToBeClickableWait(locator);
     await locator.clear();
   }
 

@@ -1,8 +1,7 @@
 //#region  ModuleImports
 import { Page } from "../Pages/BasePage/Page";
-import { ILoginPage } from "../Interface/ILoginPage";
-import { IHomePage } from "../Interface/IHomePage";
-import { LoginPage } from "../Pages/Actions/LoginPage";
+import { ILoginPage, IHomePage } from "../Exports/ExportInterface";
+import { LoginPage } from "../Exports/ExportPages";
 import { DATA, HomePageData } from "../TestData/Data";
 //#endregion
 

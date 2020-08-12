@@ -1,9 +1,11 @@
 //#region ModuleImports
 import { EditCostumerData, DATA } from "../TestData/Data";
-import { ILoginPage } from "../Interface/ILoginPage";
-import { LoginPage } from "../Pages/Actions/LoginPage";
-import { IHomePage } from "../Interface/IHomePage";
-import { IEditCostumerPage } from "../Interface/IEditCostumerPage";
+import {
+  ILoginPage,
+  IHomePage,
+  IEditCostumerPage,
+} from "../Exports/ExportInterface";
+import { LoginPage } from "../Exports/ExportPages";
 import { Page } from "../Pages/BasePage/Page";
 //#endregion
 

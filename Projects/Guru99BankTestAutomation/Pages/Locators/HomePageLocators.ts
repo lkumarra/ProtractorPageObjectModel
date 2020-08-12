@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy, How } from "../../Utils/PageFactory";
+import { findBy, How } from "../../Exports/ExportUtils";
 
 export class HomePageElements {
   private static _instance: HomePageElements = new HomePageElements();
