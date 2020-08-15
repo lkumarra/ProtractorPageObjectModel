@@ -22,7 +22,9 @@
     ]
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./Projects/Guru99BankTestAutomation/OldTestReports",
+    "./Projects/Guru99BankTestAutomation/TestReports"
   ],
   "include": [
     "Projects"

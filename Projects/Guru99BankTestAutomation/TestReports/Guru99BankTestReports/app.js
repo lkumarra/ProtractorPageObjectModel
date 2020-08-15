@@ -287,8 +287,8 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -297,177 +297,207 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209533726,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209533727,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209533738,
+                "timestamp": 1597497945730,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209534355,
+                "timestamp": 1597497945731,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497946354,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497946655,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209534675,
+                "timestamp": 1597497947093,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209534675,
+                "timestamp": 1597497947094,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209534929,
+                "timestamp": 1597497947547,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209535014,
+                "timestamp": 1597497947621,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209535085,
+                "timestamp": 1597497947671,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497950947,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://csync.loopme.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209537817,
+                "timestamp": 1597497950963,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://ads.playground.xyz/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209538586,
+                "timestamp": 1597497950973,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://tribalfusion.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209538884,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209539066,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209539066,
+                "timestamp": 1597497950973,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://simpli.fi/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209539223,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://subscription.omnithrottle.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209540130,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1597209540620,
+                "timestamp": 1597497950973,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209540624,
+                "timestamp": 1597497950993,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209540624,
+                "timestamp": 1597497950993,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://subscription.omnithrottle.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1597497952058,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a resource at http://id.sharedid.org/ was set with `SameSite=None` but without `Secure`. A future release of Chrome will only deliver cookies marked `SameSite=None` if they are also marked `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1597497952866,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
+                "timestamp": 1597497952902,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209542768,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209542793,
+                "timestamp": 1597497953143,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209543026,
+                "timestamp": 1597497953420,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497953426,
                 "type": ""
             },
             {
                 "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209543107,
+                "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497953574,
                 "type": ""
             },
             {
                 "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209543107,
+                "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497953575,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497955156,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497955156,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209543571,
+                "timestamp": 1597497955456,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497955457,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497955476,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497955476,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209543614,
+                "timestamp": 1597497955715,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209543802,
+                "timestamp": 1597497955726,
                 "type": ""
             }
         ],
-        "timestamp": 1597209537684,
-        "duration": 1942
+        "timestamp": 1597497951355,
+        "duration": 3010
     },
     {
         "description": "Verify user should able to seen welcome message after login|Guru99Bank HomePage TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -477,74 +507,51 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209544265,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209546094,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209546094,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://simpli.fi/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209546286,
+                "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
+                "timestamp": 1597497957260,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1597209546674,
+                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497957576,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497957577,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497957579,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209550546,
+                "timestamp": 1597497957927,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209550548,
+                "timestamp": 1597497957929,
                 "type": ""
             }
         ],
-        "timestamp": 1597209546653,
-        "duration": 4289
+        "timestamp": 1597497958555,
+        "duration": 313
     },
     {
         "description": "Verify user should able to see the manager id from which he login|Guru99Bank HomePage TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
-        "browser": {
-            "name": "chrome",
-            "version": "84.0.4147.125"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1597209551125,
-        "duration": 387
-    },
-    {
-        "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -553,118 +560,136 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "trace": "",
         "browserLogs": [
             {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209555721,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209555721,
-                "type": ""
-            },
-            {
                 "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565157,
+                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497959686,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565157,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565157,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565571,
+                "timestamp": 1597497959932,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565571,
+                "timestamp": 1597497959945,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209565838,
+                "timestamp": 1597497959968,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209565839,
+                "timestamp": 1597497959970,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209565890,
+                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497960203,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209566116,
+                "timestamp": 1597497960241,
                 "type": ""
             },
             {
                 "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497960248,
+                "type": ""
+            }
+        ],
+        "timestamp": 1597497958891,
+        "duration": 159
+    },
+    {
+        "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
+        "browser": {
+            "name": "chrome",
+            "version": "84.0.4147.125"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1597209567599,
+                "timestamp": 1597497961382,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497961704,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209567880,
+                "timestamp": 1597497961704,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497962084,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497962085,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209568462,
+                "timestamp": 1597497962308,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209568463,
+                "timestamp": 1597497962309,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php 292 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209569443,
+                "timestamp": 1597497963753,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php 292 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209569447,
+                "timestamp": 1597497963754,
                 "type": ""
             }
         ],
-        "timestamp": 1597209570135,
-        "duration": 1080
+        "timestamp": 1597497964165,
+        "duration": 854
     },
     {
         "description": "Verify costumer name field with invalid name invallid chracters |Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -672,16 +697,16 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1597209571262,
-        "duration": 501
+        "timestamp": 1597497965069,
+        "duration": 631
     },
     {
         "description": "Verify costumer name filed with invalid name space|Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -689,16 +714,33 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1597209571831,
-        "duration": 460
+        "timestamp": 1597497965750,
+        "duration": 656
     },
     {
         "description": "Verify the maximum characters limit in costumer name filed by enterig maximum characters|Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
+        "browser": {
+            "name": "chrome",
+            "version": "84.0.4147.125"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "timestamp": 1597497966433,
+        "duration": 460
+    },
+    {
+        "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -709,50 +751,32 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209572848,
+                "timestamp": 1597497967248,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209572848,
+                "timestamp": 1597497967248,
                 "type": ""
-            }
-        ],
-        "timestamp": 1597209572343,
-        "duration": 734
-    },
-    {
-        "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
-        "browser": {
-            "name": "chrome",
-            "version": "84.0.4147.125"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
+            },
             {
                 "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php - A cookie associated with a resource at http://blismedia.com/ was set with `SameSite=None` but without `Secure`. A future release of Chrome will only deliver cookies marked `SameSite=None` if they are also marked `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209573176,
+                "message": "http://www.demo.guru99.com/V4/manager/addcustomerpage.php - A cookie associated with a cross-site resource at https://simpli.fi/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1597497967459,
                 "type": ""
             }
         ],
-        "timestamp": 1597209573130,
-        "duration": 575
+        "timestamp": 1597497966916,
+        "duration": 883
     },
     {
         "description": "verify edit costumer id by entering alphabets|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -762,129 +786,129 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "browserLogs": [
             {
                 "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497968790,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209574677,
+                "timestamp": 1597497968791,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209574713,
+                "timestamp": 1597497968803,
                 "type": ""
             },
             {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209574727,
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497968891,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497968892,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209575419,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209575432,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209575510,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209575510,
+                "timestamp": 1597497969126,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209576076,
+                "timestamp": 1597497969128,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209576077,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209578509,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209578510,
+                "timestamp": 1597497969345,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1597209578625,
+                "timestamp": 1597497971421,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209578850,
+                "timestamp": 1597497971701,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497971702,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497971967,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497971981,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209579312,
+                "timestamp": 1597497972147,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209579313,
+                "timestamp": 1597497972149,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209580567,
+                "timestamp": 1597497973481,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php 214 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209580602,
+                "timestamp": 1597497973493,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php 214 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209580604,
+                "timestamp": 1597497973494,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read property 'select' of undefined",
-                "timestamp": 1597209580849,
+                "timestamp": 1597497973741,
                 "type": ""
             }
         ],
-        "timestamp": 1597209580915,
-        "duration": 1174
+        "timestamp": 1597497973746,
+        "duration": 532
     },
     {
         "description": "Verify edit costumer id alert |Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -895,20 +919,20 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php 203:113 Uncaught ReferenceError: validatebal is not defined",
-                "timestamp": 1597209582960,
+                "timestamp": 1597497974968,
                 "type": ""
             }
         ],
-        "timestamp": 1597209582212,
-        "duration": 960
+        "timestamp": 1597497974326,
+        "duration": 668
     },
     {
         "description": "Verify costumer id field by entering special characters|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -916,16 +940,16 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1597209583347,
-        "duration": 928
+        "timestamp": 1597497975055,
+        "duration": 654
     },
     {
         "description": "Verify costumer id field by entering space|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -936,26 +960,74 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209584665,
+                "timestamp": 1597497976369,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209584665,
+                "timestamp": 1597497976369,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497977235,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497977498,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497977507,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497977591,
+                "type": ""
+            },
+            {
+                "level": "WARNING",
+                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
+                "timestamp": 1597497977594,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497978052,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497978668,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497978955,
                 "type": ""
             }
         ],
-        "timestamp": 1597209584368,
-        "duration": 899
+        "timestamp": 1597497975762,
+        "duration": 767
     },
     {
         "description": "Verify CustomerId Message By entering aphlabets|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -965,123 +1037,87 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "browserLogs": [
             {
                 "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php - A cookie associated with a cross-site resource at http://digitaleast.mobi/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209585366,
+                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at http://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1597497980445,
                 "type": ""
             },
             {
                 "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/manager/EditCustomer.php - A cookie associated with a cross-site resource at http://tidaltv.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
-                "timestamp": 1597209585673,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586325,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586568,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586605,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209586670,
-                "type": ""
-            },
-            {
-                "level": "WARNING",
-                "message": "http://www.demo.guru99.com/V4/index.php 229 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209586672,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586842,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586892,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://www.demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209586934,
+                "message": "http://www.demo.guru99.com/V4/index.php - A cookie associated with a cross-site resource at https://yahoo.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.",
+                "timestamp": 1597497980446,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1597209588683,
+                "timestamp": 1597497980821,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209588955,
+                "timestamp": 1597497981317,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497981321,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://www.demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
+                "timestamp": 1597497981332,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209589387,
+                "timestamp": 1597497981501,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/Managerhomepage.php 211 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209589388,
+                "timestamp": 1597497981501,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1597209591045,
+                "timestamp": 1597497982302,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/DeleteCustomerInput.php 318 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209591087,
+                "timestamp": 1597497982309,
                 "type": ""
             },
             {
                 "level": "WARNING",
                 "message": "http://www.demo.guru99.com/V4/manager/DeleteCustomerInput.php 318 A parser-blocking, cross site (i.e. different eTLD+1) script, https://live.sekindo.com/live/liveView.php?s=99260&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=%%WIDTH%%&y=%%HEIGHT%%&vp_content=plembed12b3ytonphis&vp_template=6453&subId=[SUBID_ENCODED], is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details.",
-                "timestamp": 1597209591088,
+                "timestamp": 1597497982310,
                 "type": ""
             },
             {
                 "level": "SEVERE",
                 "message": "http://www.demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read property 'select' of undefined",
-                "timestamp": 1597209591331,
+                "timestamp": 1597497982589,
                 "type": ""
             }
         ],
-        "timestamp": 1597209591406,
-        "duration": 875
+        "timestamp": 1597497981992,
+        "duration": 1042
     },
     {
         "description": "Verify CustomerId Message By entering specialcharacters|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "074ba4cc2a60128146c53a2cea6ee0e1",
-        "instanceId": 2728,
+        "sessionId": "8a5ce339449b00eb682e7362c42696db",
+        "instanceId": 8268,
         "browser": {
             "name": "chrome",
             "version": "84.0.4147.125"
@@ -1089,8 +1125,8 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1597209592360,
-        "duration": 899
+        "timestamp": 1597497983080,
+        "duration": 764
     }
 ];
 
