@@ -1,9 +1,7 @@
 from tkinter import *
 import subprocess
-import os
 import shlex
 import signal
-import psutil
 import threading
 
 #Decorator
@@ -29,15 +27,15 @@ class ScriptRunner:
         self.console_frame.columnconfigure(0, weight = 1)
         self.pm.add(self.console_frame)
         self.pm.paneconfigure(self.console_frame, minsize=135)
-        self.label_frame = LabelFrame(self.console_frame, text = "Script Output", padx = 5, pady = 5)
-        self.button_frame = LabelFrame(self.console_frame, text = "Buttons", padx = 5, pady = 5)
-        self.scrolled_text = Text(self.label_frame, state = "normal", wrap = "none", borderwidth = 0)
-        self.start_button = Button(self.button_frame, text = "Start", bg = "green", command =lambda:self.start_execution() , height=2, width=12, padx = 5, pady = 5)
-        self.stop_button = Button(self.button_frame, text = "Stop", bg = "indianred", command =lambda:self.stop_execution() , height=2, width=12, padx = 5, pady = 5)
-        self.install_button = Button(self.button_frame, text = "Install Library", bg = "yellow", command = lambda:self.install_library(),height=2, width=12, padx = 5, pady = 5)
-        self.update_button = Button(self.button_frame, text = "Webdriver Update", bg = "RoyalBlue1", command = lambda:self.webdriver_update(),height=2, width=12, padx = 5, pady = 5)
-        self.text_vsb = Scrollbar(self.label_frame, orient ="vertical", command = self.scrolled_text.yview)
-        self.text_hsb = Scrollbar(self.label_frame, orient ="horizontal", command = self.scrolled_text.xview)
+        self.label_frame = LabelFrame(self.console_frame, text = "Script Output", padx = 5, pady = 5, font = "TkHeadingFont", background = "white smoke")
+        self.button_frame = LabelFrame(self.console_frame, text = "Buttons", padx = 5, pady = 5, font = "TkHeadingFont", background = "white smoke")
+        self.scrolled_text = Text(self.label_frame, state = "normal", wrap = "none", borderwidth = 0, height = 32, width = 40)
+        self.start_button = Button(self.button_frame, text = "Start", bg = "lime green", command =lambda:self.start_execution() , height=2, width=12, padx = 5, pady = 5, foreground="white")
+        self.stop_button = Button(self.button_frame, text = "Stop", bg = "orange Red", command =lambda:self.stop_execution() , height=2, width=12, padx = 5, pady = 5, foreground="snow")
+        self.install_button = Button(self.button_frame, text = "Install Library", bg = "gold", command = lambda:self.install_library(),height=2, width=12, padx = 5, pady = 5, foreground="Red")
+        self.update_button = Button(self.button_frame, text = "Webdriver Update", bg = "RoyalBlue1", command = lambda:self.webdriver_update(),height=2, width=12, padx = 5, pady = 5, foreground="white")
+        self.text_vsb = Scrollbar(self.label_frame, orient ="vertical", command = self.scrolled_text.yview, background = "gray21")
+        self.text_hsb = Scrollbar(self.label_frame, orient ="horizontal", command = self.scrolled_text.xview, background = "gray21")
         self.scrolled_text.configure(yscrollcommand = self.text_vsb.set, xscrollcommand = self.text_hsb.set)
         self.scrolled_text.grid(row = 0, column = 0, sticky = N+S+W+E)
         self.text_vsb.grid(row = 0, column = 1, sticky = "ns")
@@ -52,12 +50,14 @@ class ScriptRunner:
         self.install_button.grid(row = 2, column = 0)
         self.update_button.grid(row = 3, column = 0)
         self.scrolled_text.tag_config("DEBUG", foreground ="RoyalBlue1")
-        self.scrolled_text.tag_config("DEFAULT", foreground ="light gray")
+        self.scrolled_text.tag_config("DEFAULT", foreground ="snow")
         self.scrolled_text.tag_config("STOP", foreground = "Red", font = "bold")
-        self.scrolled_text.tag_config("RUNNINGIT", foreground ="SpringGreen2")
-        self.scrolled_text.tag_config("RUNNINGTEST", foreground ="purple")
-        self.scrolled_text.tag_config("SUCCESS", foreground ="Green")
-        self.scrolled_text.tag_config("FAILED", foreground ="Red")
+        self.scrolled_text.tag_config("RUNNINGIT", foreground ="cyan")
+        self.scrolled_text.tag_config("RUNNINGTEST", foreground ="slate blue")
+        self.scrolled_text.tag_config("SUCCESS", foreground ="SpringGreen2")
+        self.scrolled_text.tag_config("FAILED", foreground ="Red2")
+        self.scrolled_text.tag_config("PASSED", foreground = "SpringGreen2")
+        self.scrolled_text.tag_config("FAILURES", foreground = "Red2", font="bold")
         self.pm.pack(fill = BOTH, expand = 1)
         self.process = None
         
@@ -80,6 +80,14 @@ class ScriptRunner:
                 elif "SUCCESS" in string_output:
                     self.scrolled_text.insert(END, output.strip(), "SUCCESS")
                 elif "FAILED" in string_output:
+                    self.scrolled_text.insert(END, output.strip(), "FAILED")
+                elif "Failures" in string_output:
+                    self.scrolled_text.insert(END, output.strip(), "FAILURES")
+                elif "Failed" in string_output:
+                    self.scrolled_text.insert(END, output.strip(), "FAILED")
+                elif '32m' in string_output:
+                    self.scrolled_text.insert(END, output.strip(), "PASSED")
+                elif '31m' in string_output:
                     self.scrolled_text.insert(END, output.strip(), "FAILED")
                 else:
                     self.scrolled_text.insert(END, output.strip(), "DEFAULT")
