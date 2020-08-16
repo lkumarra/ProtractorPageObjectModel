@@ -30,10 +30,13 @@
 	Junit , Pdf and Html Reports
 
 
-# TestExecution can simply started by Running:
-1. *TestRunner.exe*
+# TestExecution started by Running Script_Running.exe:
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/Script_Runner.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Script_Runner.JPG "ScripRuner")
 
-	This Executable will install all dependencies and start executation
+1. Run Script_Runner.exe
+2. Click on Install Library Button
+3. Click on Webdriver Update Button
+4. Click on Start Button
 
 # During run time spec report will look like that:
 ![Spec Reporter](./Projects/Guru99BankTestAutomation/SampleReport/SpecReportSample.JPG)
