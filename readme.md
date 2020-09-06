@@ -31,7 +31,7 @@
 
 
 # TestExecution started by Running Script_Running.exe:
-[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/Script_Runner.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Script_Runner.JPG "ScripRuner")
+[![PDF](./Projects/Guru99BankTestAutomation/SampleReport/Script_Runner_New.JPG)](https://github.com/lkumarra/ProtractorPageObjectModel/tree/master/Projects/Guru99BankTestAutomation/SampleReport/Script_Runner_New.JPG "ScripRuner")
 
 1. Run Script_Runner.exe
 2. Click on Install Library Button
