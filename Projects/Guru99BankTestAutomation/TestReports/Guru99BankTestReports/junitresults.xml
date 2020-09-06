@@ -1,27 +1,260 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="14" time="47.123">
- <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2020-08-16T11:24:14" hostname="localhost" time="6.669" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="1.148" />
+<testsuites disabled="0" errors="0" failures="9" tests="14" time="53.239">
+ <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2020-09-06T13:34:29" hostname="localhost" time="8.199" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="2.766" />
  </testsuite>
- <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2020-08-16T11:24:21" hostname="localhost" time="5.997" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="0.327" />
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.345" />
+ <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2020-09-06T13:34:37" hostname="localhost" time="5.317" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="0.315" />
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.228">
+   <failure type="toBe" message="Expected &apos;Manger Id : mngr283108&apos; to be &apos;Manger Id : mngr276676&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\HomePageTest.js:22:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]>
+   </failure>
+  </testcase>
  </testsuite>
- <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2020-08-16T11:24:27" hostname="localhost" time="7.17" errors="0" tests="5" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="0.323" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.44" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.498" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="0.646" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.42" />
+ <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2020-09-06T13:34:43" hostname="localhost" time="7.646" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="0.731" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.531" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.271" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="0.421" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.628" />
  </testsuite>
- <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2020-08-16T11:24:34" hostname="localhost" time="7.034" errors="0" tests="4" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="0.339" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="0.315" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="0.361" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.354" />
+ <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2020-09-06T13:34:50" hostname="localhost" time="24.14" errors="0" tests="4" skipped="0" disabled="0" failures="8">
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="0.016">
+   <failure type="exception" message="Failed: No element found using locator: By(link text, Edit Customer)"><![CDATA[NoSuchElementError: No element found using locator: By(link text, Edit Customer)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\built\element.js:814:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:17:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+   <failure type="exception" message="Failed: Cannot read property &apos;verifyCostumerIdWithInvalidCharacters&apos; of undefined"><![CDATA[TypeError: Cannot read property 'verifyCostumerIdWithInvalidCharacters' of undefined
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:23:43)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:95:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at callWhenIdle (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:62:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:22:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="6.695">
+   <failure type="exception" message="Failed: No element found using locator: By(link text, Edit Customer)"><![CDATA[NoSuchElementError: No element found using locator: By(link text, Edit Customer)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\built\element.js:814:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:17:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+   <failure type="exception" message="Failed: Cannot read property &apos;verifyCostumerIDAlertMessage&apos; of undefined"><![CDATA[TypeError: Cannot read property 'verifyCostumerIDAlertMessage' of undefined
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:27:43)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:95:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at callWhenIdle (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:62:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:26:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="0.448">
+   <failure type="exception" message="Failed: No element found using locator: By(link text, Edit Customer)"><![CDATA[NoSuchElementError: No element found using locator: By(link text, Edit Customer)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\built\element.js:814:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:17:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+   <failure type="exception" message="Failed: Cannot read property &apos;verifyCostumerIdWithInvalidCharacters&apos; of undefined"><![CDATA[TypeError: Cannot read property 'verifyCostumerIdWithInvalidCharacters' of undefined
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:31:43)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:95:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at callWhenIdle (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:62:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:30:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.437">
+   <failure type="exception" message="Failed: No element found using locator: By(link text, Edit Customer)"><![CDATA[NoSuchElementError: No element found using locator: By(link text, Edit Customer)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\built\element.js:814:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:17:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+   <failure type="exception" message="Failed: Cannot read property &apos;verifyCostumerIdWithInvalidCharacters&apos; of undefined"><![CDATA[TypeError: Cannot read property 'verifyCostumerIdWithInvalidCharacters' of undefined
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:35:43)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:95:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at SimpleScheduler.execute (E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2227:17)
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at callWhenIdle (E:\NodeJsTestingProjects\Protractor\node_modules\jasminewd2\index.js:62:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:34:5)
+    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+    at Array.forEach (<anonymous>)
+    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
+    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+   </failure>
+  </testcase>
  </testsuite>
- <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2020-08-16T11:24:41" hostname="localhost" time="20.253" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.533" />
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="0.44" />
+ <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2020-09-06T13:35:14" hostname="localhost" time="7.937" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.532" />
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="0.667" />
  </testsuite>
 </testsuites>

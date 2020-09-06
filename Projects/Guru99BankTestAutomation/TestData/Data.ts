@@ -1,7 +1,7 @@
 export const DATA = {
   URL: "http://www.demo.guru99.com/V4/index.php",
-  USER_NAME: "mngr276676",
-  PASSWORD: "mavYmyq",
+  USER_NAME: "mngr283108",
+  PASSWORD: "userEqA",
 };
 export let NewCostumerData = {
   costumerNameField: {

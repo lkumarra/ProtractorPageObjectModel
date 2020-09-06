@@ -1,8 +1,14 @@
 from tkinter import *
+from tkinter import ttk
 import subprocess
 import shlex
 import signal
 import threading
+try:
+    from ctypes import windll
+    windll.shcore.SetProcessDpiAwareness(1)
+except:
+    pass
 
 #Decorator
 def start_thraed():
@@ -20,7 +26,10 @@ class ScriptRunner:
     def __init__(self, obj):
         self.root = obj
         self.root.title("Guru99Bank Script Runnner")
-        self.root.geometry("1000x600")
+        self.root.geometry("1280x720")
+        self.root.iconphoto(True, PhotoImage(master=self.root,file = r"C:\Users\Lavendra rajput\git\PythonSelenium\PageObjectModel\Guru99.PNG"))
+        self.style = ttk.Style(self.root)
+        self.style.theme_use("clam")
         self.pm = PanedWindow(self.root, orient = VERTICAL, sashpad = 4, sashrelief = 'raised', sashwidth = 6)
         self.console_frame = Frame(self.root, padx = 3, pady = 3)
         self.console_frame.rowconfigure(0, weight = 1)
@@ -29,11 +38,13 @@ class ScriptRunner:
         self.pm.paneconfigure(self.console_frame, minsize=135)
         self.label_frame = LabelFrame(self.console_frame, text = "Script Output", padx = 5, pady = 5, font = "TkHeadingFont", background = "white smoke")
         self.button_frame = LabelFrame(self.console_frame, text = "Buttons", padx = 5, pady = 5, font = "TkHeadingFont", background = "white smoke")
-        self.scrolled_text = Text(self.label_frame, state = "normal", wrap = "none", borderwidth = 0, height = 32, width = 40)
-        self.start_button = Button(self.button_frame, text = "Start", bg = "lime green", command =lambda:self.start_execution() , height=2, width=12, padx = 5, pady = 5, foreground="white")
-        self.stop_button = Button(self.button_frame, text = "Stop", bg = "orange Red", command =lambda:self.stop_execution() , height=2, width=12, padx = 5, pady = 5, foreground="snow")
-        self.install_button = Button(self.button_frame, text = "Install Library", bg = "gold", command = lambda:self.install_library(),height=2, width=12, padx = 5, pady = 5, foreground="Red")
-        self.update_button = Button(self.button_frame, text = "Webdriver Update", bg = "RoyalBlue1", command = lambda:self.webdriver_update(),height=2, width=12, padx = 5, pady = 5, foreground="white")
+        self.scrolled_text = Text(self.label_frame, state = "normal", wrap = "none", borderwidth = 0, height = 28, width = 35)
+        self.start_button = Button(self.button_frame, text = "Start", bg = "lime green", command =lambda:self.start_execution() ,width=10, padx = 5, pady = 5, foreground="white")
+        self.stop_button = Button(self.button_frame, text = "Stop", bg = "orange Red", command =lambda:self.stop_execution(), width=10, padx = 5, pady = 5, foreground="snow")
+        self.install_button = Button(self.button_frame, text = "Install Lib", bg = "gold", command = lambda:self.install_library(), width=10, padx = 5, pady = 5, foreground="Red")
+        self.update_button = Button(self.button_frame, text = "Binary Update", bg = "RoyalBlue1", command = lambda:self.webdriver_update(),width=10, padx = 5, pady = 5, foreground="white")
+        self.image = PhotoImage(file="Guru99.PNG")
+        self.label = Label(self.button_frame, image = self.image, background = "white")
         self.text_vsb = Scrollbar(self.label_frame, orient ="vertical", command = self.scrolled_text.yview, background = "gray21")
         self.text_hsb = Scrollbar(self.label_frame, orient ="horizontal", command = self.scrolled_text.xview, background = "gray21")
         self.scrolled_text.configure(yscrollcommand = self.text_vsb.set, xscrollcommand = self.text_hsb.set)
@@ -45,10 +56,15 @@ class ScriptRunner:
         self.label_frame.columnconfigure(0, weight = 1)
         self.label_frame.grid(row = 0, column = 0, sticky = E+W+N+S)
         self.button_frame.grid(row =0, column = 1, sticky = E+W+N+S)
-        self.start_button.grid(row = 0, column = 0)
-        self.stop_button.grid(row = 1, column = 0)
-        self.install_button.grid(row = 2, column = 0)
-        self.update_button.grid(row = 3, column = 0)
+        self.label.pack(side = TOP, padx = 5, pady = 5, fill = "both", expand = "True")
+        # self.start_button.grid(row = 1, column = 0, padx = 5, pady = 5)
+        self.start_button.pack(side = TOP, padx = 5, pady = 5)
+        # self.stop_button.grid(row = 2, column = 0, padx = 5, pady = 5)
+        self.stop_button.pack(side = TOP, padx = 5, pady = 5)
+        # self.install_button.grid(row = 3, column = 0, padx = 5, pady = 5)
+        self.install_button.pack(side = TOP,  padx = 5, pady = 5)
+        # self.update_button.grid(row = 4, column = 0, padx = 5, pady = 5)
+        self.update_button.pack(side = TOP,  padx = 5, pady = 5)
         self.scrolled_text.tag_config("DEBUG", foreground ="RoyalBlue1")
         self.scrolled_text.tag_config("DEFAULT", foreground ="snow")
         self.scrolled_text.tag_config("STOP", foreground = "Red", font = "bold")
