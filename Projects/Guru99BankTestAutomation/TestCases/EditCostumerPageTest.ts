@@ -34,8 +34,7 @@ describe("Guru99Bank EditCostumer Page TestCases Workflow", () => {
 
   it("Verify edit costumer id alert ", async () => {
     let text: string = await editCostumerPage.verifyCostumerIDAlertMessage(
-      data.characters
-    );
+      data.whiteSpace);
     expect(text).toBe(message.alertMessage);
   });
 

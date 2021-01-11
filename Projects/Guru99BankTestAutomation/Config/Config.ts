@@ -3,6 +3,7 @@ import { params, suites } from "../Suites/Suites";
 import * as nodemailer from "nodemailer";
 import * as moveFile from "move-file";
 import * as process from "process";
+import { LogUtils } from '../LogManager/LogUtils';
 let HtmlReporter = require("protractor-beautiful-reporter");
 let jasmineReporters = require("jasmine-reporters");
 let exec = require("child_process");
@@ -131,6 +132,7 @@ export let config: Config = {
             colors.bgBlue(' Running test: "' + result.description + '" ') +
             "\n"
         );
+        LogUtils.debugMessage(' Running IT: "' + result.description + '" ', result.description);
       },
       specStarted: (result) => {
         console.log(
@@ -138,6 +140,7 @@ export let config: Config = {
             colors.bgCyan(' Running IT: "' + result.description + '" ') +
             "\n"
         );
+        LogUtils.debugMessage(' Running IT: "' + result.description + '" ', result.description)
       },
     };
     jasmine.getEnv().clearReporters();

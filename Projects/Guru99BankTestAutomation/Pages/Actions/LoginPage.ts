@@ -70,4 +70,45 @@ export class LoginPage implements ILoginPage {
     LogUtils.debugMessage("Login Completed", this.className);
     return new HomePage();
   }
+
+  /**
+   * Return the text of UserId label.
+   */
+  public async getUserIdLabelText(): Promise<String> {
+    let userIdLabelText: string = await this._testUtil.getWebElementText(
+      this._loginPageElements.getUserIdLabelLocator()
+    );
+    LogUtils.debugMessage(
+      "UserId label text is : " + userIdLabelText,
+      this.className
+    );
+    return userIdLabelText;
+  }
+
+  /**
+   * Return the text of password label.
+   */
+  public async getPasswordLabelText(): Promise<String> {
+    let passwordLabelText: string = await this._testUtil.getWebElementText(
+      this._loginPageElements.getPasswordLabelLocator()
+    );
+    LogUtils.debugMessage(
+      "Password label text is : " + passwordLabelText,
+      this.className
+    );
+    return passwordLabelText;
+  }
+
+  /**
+   * Return the text of alert without entering userId and password.
+   */
+  public async getAlertTextWithoutEnteringUserIdAndPassword(): Promise<String> {
+    await this._testUtil.clickOnElement(
+      this._loginPageElements.getLoginButtonLocator()
+    );
+    let alertText: string = await this._testUtil.getAlertText();
+    LogUtils.debugMessage("Alert text is :" + alertText, this.className);
+    this._testUtil.acceptAlert();
+    return alertText;
+  }
 }

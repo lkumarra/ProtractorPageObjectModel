@@ -23,6 +23,12 @@ export class LoginPageElements {
   @findBy(How.NAME, "btnReset")
   private _resetButton: ElementFinder;
 
+  @findBy(How.XPATH, "(//td[@align = 'right'])[1]")
+  private _userIdLabel:ElementFinder;
+
+  @findBy(How.XPATH, "(//td[@align = 'right'])[2]")
+  private _passwordLabel:ElementFinder;
+
   //#endregion
 
   //#region  GetterMethods
@@ -53,6 +59,20 @@ export class LoginPageElements {
    */
   public getResetButtonLocator(): ElementFinder {
     return this._resetButton;
+  }
+
+  /**
+   * Return the locator of userId label.
+   */
+  public getUserIdLabelLocator(): ElementFinder{
+    return this._userIdLabel;
+  }
+
+  /**
+   * Return the locator of password label.
+   */
+  public getPasswordLabelLocator(): ElementFinder{
+    return this._passwordLabel;
   }
 
   //#endregion
