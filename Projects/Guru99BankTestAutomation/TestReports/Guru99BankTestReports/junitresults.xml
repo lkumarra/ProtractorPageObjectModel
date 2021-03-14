@@ -1,78 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="2" tests="17" time="127.971">
- <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2021-01-11T21:13:44" hostname="localhost" time="9.827" errors="0" tests="4" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify userId label on login page is UserID" time="0.186" />
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify password label on login page is Password" time="0.152" />
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify alert text without entering UserId and Password is User or Password is not valid" time="0.98" />
-  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="2.715" />
+<testsuites disabled="0" errors="0" failures="1" tests="17" time="47.104">
+ <testsuite name="Guru99Bank LoginPage TestCases WorkFlow " timestamp="2021-03-14T14:06:02" hostname="localhost" time="23.164" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify userId label on login page is UserID" time="0.214" />
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify password label on login page is Password" time="0.253" />
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Verify alert text without entering UserId and Password is User or Password is not valid" time="11.862" />
+  <testcase classname="Guru99Bank LoginPage TestCases WorkFlow " name="Login to Guru99Bank application" time="6.896" />
  </testsuite>
- <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2021-01-11T21:13:53" hostname="localhost" time="6.138" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="0.239" />
-  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.458" />
- </testsuite>
- <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2021-01-11T21:14:00" hostname="localhost" time="13.089" errors="0" tests="5" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="1.042" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.359" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.261" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="0.302" />
-  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.365" />
- </testsuite>
- <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2021-01-11T21:14:13" hostname="localhost" time="72.053" errors="0" tests="4" skipped="0" disabled="0" failures="2">
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="10.078">
-   <failure type="exception" message="Failed: Element is not present on page limit was 30 second
-Wait timed out after 10070ms"><![CDATA[TimeoutError: Element is not present on page limit was 30 second
-Wait timed out after 10070ms
-    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From asynchronous test: 
-Error
-    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:22:5)
-    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
-    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
-    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
-    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
-    at Module._compile (internal/modules/cjs/loader.js:956:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
-    at Module.load (internal/modules/cjs/loader.js:812:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
-    at Module.require (internal/modules/cjs/loader.js:849:19)
-    at require (internal/modules/cjs/helpers.js:74:18)
-    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
-    at Array.forEach (<anonymous>)
-    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
-    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
+ <testsuite name="Guru99Bank HomePage TestCases Workflow" timestamp="2021-03-14T14:06:26" hostname="localhost" time="3.862" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to seen welcome message after login" time="0.131" />
+  <testcase classname="Guru99Bank HomePage TestCases Workflow" name="Verify user should able to see the manager id from which he login" time="0.17">
+   <failure type="toBe" message="Expected &apos;Manger Id : mngr314196&apos; to be &apos;Manger Id : mngr302250&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\HomePageTest.js:22:50)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]>
    </failure>
   </testcase>
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="10.577">
-   <failure type="exception" message="Failed: Element is not present on page limit was 30 second
-Wait timed out after 10068ms"><![CDATA[TimeoutError: Element is not present on page limit was 30 second
-Wait timed out after 10068ms
-    at E:\NodeJsTestingProjects\Protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From asynchronous test: 
-Error
-    at Suite.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:26:5)
-    at addSpecsToSuite (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
-    at Env.describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
-    at describe (E:\NodeJsTestingProjects\Protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
-    at Object.<anonymous> (E:\NodeJsTestingProjects\Protractor\e2e_tests\TestCases\EditCostumerPageTest.js:16:1)
-    at Module._compile (internal/modules/cjs/loader.js:956:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
-    at Module.load (internal/modules/cjs/loader.js:812:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
-    at Module.require (internal/modules/cjs/loader.js:849:19)
-    at require (internal/modules/cjs/helpers.js:74:18)
-    at E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
-    at Array.forEach (<anonymous>)
-    at Jasmine.loadSpecs (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:92:18)
-    at Jasmine.execute (E:\NodeJsTestingProjects\Protractor\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:197:8)]]>
-   </failure>
-  </testcase>
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="2.582" />
-  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.338" />
  </testsuite>
- <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2021-01-11T21:15:25" hostname="localhost" time="26.864" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.836" />
-  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="0.281" />
+ <testsuite name="Guru99Bank NewCostumer Page Testcases workflow" timestamp="2021-03-14T14:06:29" hostname="localhost" time="6.61" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field  with invalid name numbers " time="0.273" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name field with invalid name invallid chracters " time="0.288" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify costumer name filed with invalid name space" time="0.278" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="Verify the maximum characters limit in costumer name filed by enterig maximum characters" time="0.315" />
+  <testcase classname="Guru99Bank NewCostumer Page Testcases workflow" name="verify costumer name message without entering any value" time="0.408" />
+ </testsuite>
+ <testsuite name="Guru99Bank EditCostumer Page TestCases Workflow" timestamp="2021-03-14T14:06:36" hostname="localhost" time="6.929" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="verify edit costumer id by entering alphabets" time="0.275" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify edit costumer id alert " time="0.28" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering special characters" time="0.336" />
+  <testcase classname="Guru99Bank EditCostumer Page TestCases Workflow" name="Verify costumer id field by entering space" time="0.296" />
+ </testsuite>
+ <testsuite name="Guru99Bank DeleteCustomer Page TestCases WorkFlow " timestamp="2021-03-14T14:06:43" hostname="localhost" time="6.539" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering aphlabets" time="0.279" />
+  <testcase classname="Guru99Bank DeleteCustomer Page TestCases WorkFlow " name="Verify CustomerId Message By entering specialcharacters" time="0.272" />
  </testsuite>
 </testsuites>

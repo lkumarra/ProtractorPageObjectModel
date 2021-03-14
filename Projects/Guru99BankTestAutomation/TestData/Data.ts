@@ -1,7 +1,7 @@
 export const DATA = {
   URL: "http://www.demo.guru99.com/V4/index.php",
-  USER_NAME: "mngr302250",
-  PASSWORD: "vYpAnEg",
+  USER_NAME: "mngr314196",
+  PASSWORD: "UtUvYbu",
 };
 export let LoginPageData = {
   userIdLabel:"UserID",

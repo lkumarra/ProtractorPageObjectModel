@@ -5,6 +5,7 @@ import {
   Locator,
   element,
   ProtractorExpectedConditions,
+  ProtractorBy,
 } from "protractor";
 import { Workbook, Worksheet } from "exceljs";
 import { ITestUtil } from "../Interface/ITestUtil";
