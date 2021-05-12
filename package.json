@@ -22,7 +22,7 @@
     "typedoc": "^0.17.7",
     "typescript": "3.8.3",
     "exceljs": "3.9.0",
-    "nodemailer": "6.4.2",
+    "nodemailer": "6.4.16",
     "current-dir": "1.0.0",
     "fs": "0.0.1-security",
     "process": "^0.11.10",
