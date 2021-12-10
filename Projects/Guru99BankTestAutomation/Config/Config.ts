@@ -217,7 +217,7 @@ export let config: Config = {
       // create reusable transporter object using the default SMTP transport
       let transporter = await nodemailer.createTransport({
         service: "Gmail",
-        port: 587,
+        port: 465,
         secure: false, // true for 465, false for other ports
         auth: {
           user: process.env["email"].toString(), // generated ethereal user

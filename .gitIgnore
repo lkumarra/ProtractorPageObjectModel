@@ -5,3 +5,8 @@ Guru99Bank.log
 Projects/Guru99BankTestAutomation/OldTestReports/*
 allure-results
 Guru99Bank.log*
+Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/app.js
+Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/combined.json
+Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/Guru99Bank.pdf
+Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/junitresults.xml
+Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/*

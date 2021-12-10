@@ -8,10 +8,10 @@ export let params = {
   nodeMailer: {
     sendMail: {
       fromUser: "lavendrarajput2001@gmail.com", // sender address
-      toUser: "lavendrarajput2001@gmail.com", // list of receivers
-      subjectOfMail: "Guru99Bank Test Automation reports", // Subject line
+      toUser: "lavendra.rajputc1@outlook.com", // list of receivers
+      subjectOfMail: "Guru99Bank TestReport", // Subject line
       textOfMail:
-        "Hi Lavendra\n \nPlease find the attached screenshot of testreports \nThanks\nNodeMailer",
+        "Hi,\n \nPFA Guru99Bank TestReport \nThanks\nNodeMailer",
     },
   },
 };
