@@ -48,6 +48,17 @@ A detailed document listing:
 - ✅ File and folder organization problems
 - ✅ Quick fix checklist
 - ✅ Automated fix script
+
+### 4. NAMING_CONVENTIONS_REFACTOR.md (New)
+**Location:** `/ProtractorPageObjectModel/NAMING_CONVENTIONS_REFACTOR.md`
+
+A comprehensive plan for standardizing folder naming:
+- ✅ Current issues with PascalCase folders
+- ✅ TypeScript/JavaScript naming convention standards
+- ✅ Detailed folder rename mappings
+- ✅ Implementation strategy and phases
+- ✅ Impact assessment and verification steps
+
 - ✅ Search and replace patterns
 - ✅ Priority levels for fixes
 
@@ -86,9 +97,12 @@ Improved gitignore file with:
 #### 1. **Typo: "Costumer" instead of "Customer"**
    - **Impact:** 16 files affected
    - **Severity:** 🔴 Critical (affects professionalism)
-   - **Status:** ⚠️ Documented, needs manual fix
+#### 1. **"Costumer" vs "Customer" Typo in Filenames**
+   - **Impact:** Unprofessional, typo-ridden codebase
+   - **Severity:** 🔴 Critical
+   - **Status:** ✅ Fixed
    
-   **Files to rename:**
+   **Files renamed:**
    - `IEditCostumerPage.ts` → `IEditCustomerPage.ts`
    - `INewCostumerPage.ts` → `INewCustomerPage.ts`
    - `EditCostumerPage.ts` → `EditCustomerPage.ts`
@@ -97,8 +111,30 @@ Improved gitignore file with:
    - `NewCostumerPageLocators.ts` → `NewCustomerPageLocators.ts`
    - `EditCostumerPageTest.ts` → `EditCustomerPageTest.ts`
    - `NewCostumerPageTest.ts` → `NewCustomerPageTest.ts`
+   
+   All code references updated and TypeScript successfully compiled.
 
-#### 2. **Repository Contains Compiled Files**
+#### 2. **Folder Naming Convention Issues**
+   - **Impact:** Inconsistent with TypeScript/JavaScript standards
+   - **Severity:** 🟡 Important
+   - **Status:** ✅ Fixed
+   
+   **Folders renamed from PascalCase to kebab-case:**
+   - `Config/` → `config/`
+   - `Exception/` → `exceptions/`
+   - `Exports/` → `exports/`
+   - `Interface/` → `interfaces/`
+   - `LogManager/` → `log-manager/`
+   - `Pages/` → `pages/` (with `actions/`, `base/`, `locators/` subdirs)
+   - `Suites/` → `suites/`
+   - `TestCases/` → `test-cases/`
+   - `TestData/` → `test-data/`
+   - `TestReports/` → `test-reports/`
+   - `Utils/` → `utils/`
+   
+   All import paths updated throughout the codebase.
+
+#### 3. **Repository Contains Compiled Files**
    - **Impact:** Bloats repository
    - **Severity:** 🟡 Important
    - **Status:** ✅ Fixed in .gitIgnore
@@ -111,7 +147,7 @@ Improved gitignore file with:
    git rm --cached Guru99Bank.log
    ```
 
-#### 3. **Missing Documentation**
+#### 4. **Missing Documentation**
    - **Impact:** Difficult for new contributors
    - **Severity:** 🟡 Important
    - **Status:** ✅ Completed
@@ -120,62 +156,40 @@ Improved gitignore file with:
    - README.md (comprehensive)
    - CONTRIBUTING.md (complete guidelines)
    - CODING_STANDARDS_FIXES.md (fix guide)
+   - NAMING_CONVENTIONS_REFACTOR.md (folder naming guide)
 
 ## 📋 Next Steps for You
 
-### Immediate Actions Required:
+### Recommended Actions:
 
 1. **Review the Documentation**
-   - Read through README.md
-   - Review CONTRIBUTING.md
-   - Understand CODING_STANDARDS_FIXES.md
+   - Read through README.md for setup and execution instructions
+   - Review CONTRIBUTING.md for development guidelines
+   - Check NAMING_CONVENTIONS_REFACTOR.md for details on recent changes
 
-2. **Fix the "Costumer" Typo** (Critical)
-   
-   **Option A: Manual Fix**
-   - Follow the checklist in CODING_STANDARDS_FIXES.md
-   - Rename each file carefully
-   - Update all imports and references
-   - Test compilation with `npm run tsc`
-   
-   **Option B: Script-Assisted (Recommended)**
-   ```bash
-   # Use the script provided in CODING_STANDARDS_FIXES.md
-   # Then manually update code references
-   # Use Find & Replace in IDE:
-   #   Find: "Costumer" → Replace: "Customer"
-   #   Find: "costumer" → Replace: "customer"
-   ```
-
-3. **Clean Up Repository**
+2. **Clean Up Repository** (Optional)
    
    ```bash
-   # Remove compiled files from git
+   # Remove compiled files from git tracking
    git rm -r --cached e2e_tests/
    git rm -r --cached allure-results/
    git rm --cached Guru99Bank.log*
    
-   # Remove old test reports
-   rm -rf Projects/Guru99BankTestAutomation/OldTestReports/
-   
-   # Recompile
-   npm run tsc
-   
    # Commit changes
-   git add .gitIgnore
-   git commit -m "chore: update .gitignore and remove compiled files from tracking"
+   git add .gitignore
+   git commit -m "chore: remove compiled files from git tracking"
    ```
 
-4. **Test Everything**
+3. **Test Everything**
    
    ```bash
-   # Install dependencies
+   # Install dependencies (if needed)
    npm install
    
    # Update webdriver
    npm run webdrivermanager:update
    
-   # Compile TypeScript
+   # Verify compilation
    npm run tsc
    
    # Run tests
