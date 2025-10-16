@@ -1,4 +1,4 @@
-import { Log4j } from "./ConfigLog4j";
+import { Log4j } from "./log4jConfig";
 export class LogUtils {
   /**
    * Log the debug message in the log file.

@@ -1,6 +1,6 @@
-import { TestUtil, LogUtils } from "../../exports/ExportUtils";
-import { EditCustomerElements } from "../../exports/ExportLocators";
-import { IEditCustomerPage } from "../../exports/ExportInterface";
+import { TestUtil, LogUtils } from "../../exports/utils";
+import { EditCustomerElements } from "../../exports/locators";
+import { IEditCustomerPage } from "../../exports/interfaces";
 
 export class EditCustomerPage implements IEditCustomerPage {
   private _testUtil: TestUtil = TestUtil.getInstance();

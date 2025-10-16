@@ -1,4 +1,4 @@
-import { findBy, How } from "../../exports/ExportUtils";
+import { findBy, How } from "../../exports/utils";
 import { ElementFinder } from "protractor";
 
 export class DeleteCustomerElements {

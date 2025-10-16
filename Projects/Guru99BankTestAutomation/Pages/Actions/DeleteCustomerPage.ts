@@ -1,6 +1,6 @@
-import { DeleteCustomerElements } from "../../exports/ExportLocators";
-import { TestUtil, LogUtils } from "../../exports/ExportUtils";
-import { IDeleteCustomerPage } from "../../exports/ExportInterface";
+import { DeleteCustomerElements } from "../../exports/locators";
+import { TestUtil, LogUtils } from "../../exports/utils";
+import { IDeleteCustomerPage } from "../../exports/interfaces";
 
 export class DeleteCustomerPage implements IDeleteCustomerPage {
   private _testUtil: TestUtil = TestUtil.getInstance();

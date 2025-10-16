@@ -58,30 +58,28 @@ google-chrome --version  # On macOS: /Applications/Google\ Chrome.app/Contents/M
 ProtractorPageObjectModel/
 ├── Projects/
 │   └── Guru99BankTestAutomation/
-│       ├── config/              # Configuration files
+│       ├── Config/              # Configuration files
 │       │   └── Config.ts        # Protractor configuration
-│       ├── exceptions/          # Custom exception handlers
-│       ├── exports/             # Barrel exports for clean imports
-│       ├── interfaces/          # TypeScript interfaces
-│       ├── log-manager/         # Logging configuration and utilities
-│       ├── pages/               # Page Object Model implementation
-│       │   ├── actions/         # Page action implementations
-│       │   ├── base/            # Base page class
-│       │   └── locators/        # Element locators
-│       ├── suites/              # Test suite definitions
-│       ├── test-cases/          # Test specifications
-│       ├── test-data/           # Test data files
-│       ├── test-reports/        # Generated test reports
-│       └── utils/               # Utility functions
-├── e2e_tests/                   # Compiled JavaScript output (gitignored)
-├── allure-results/              # Allure test results (gitignored)
+│       ├── Exception/           # Custom exception handlers
+│       ├── Exports/             # Barrel exports
+│       ├── Interface/           # TypeScript interfaces
+│       ├── LogManager/          # Logging configuration and utilities
+│       ├── Pages/               # Page Object Model implementation
+│       │   ├── Actions/         # Page action implementations
+│       │   ├── BasePage/        # Base page class
+│       │   └── Locators/        # Element locators
+│       ├── Suites/              # Test suite definitions
+│       ├── TestCases/           # Test specifications
+│       ├── TestData/            # Test data files
+│       ├── TestReports/         # Generated test reports
+│       └── Utils/               # Utility functions
+├── e2e_tests/                   # Compiled JavaScript output
+├── allure-results/              # Allure test results
 ├── package.json                 # Node dependencies
 ├── tsconfig.json                # TypeScript configuration
 ├── README.md                    # This file
 └── CONTRIBUTING.md              # Contribution guidelines
 ```
-
-**Note:** All folder names follow kebab-case convention (lowercase with hyphens) as per TypeScript/JavaScript industry standards.
 
 ## 🚀 Installation
 

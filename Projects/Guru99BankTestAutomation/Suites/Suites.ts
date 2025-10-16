@@ -20,9 +20,9 @@ export let params = {
  * Export the test suite of spec files.
  */
 export let suites = [
-  "../test-cases/LoginPageTest.js",
-  "../test-cases/HomePageTest.js",
-  "../test-cases/NewCustomerPageTest.js",
-  "../test-cases/EditCustomerPageTest.js",
-  "../test-cases/DeleteCustomerPageTest.js",
+  "../test-cases/loginPage.spec.js",
+  "../test-cases/homePage.spec.js",
+  "../test-cases/newCustomerPage.spec.js",
+  "../test-cases/editCustomerPage.spec.js",
+  "../test-cases/deleteCustomerPage.spec.js",
 ];

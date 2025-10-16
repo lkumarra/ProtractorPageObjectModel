@@ -1,6 +1,6 @@
 import { Config, browser } from "protractor";
 import * as chromedriver from "chromedriver";
-import { params, suites } from "../suites/Suites";
+import { params, suites } from "../suites/suites";
 import * as nodemailer from "nodemailer";
 import moveFile from "move-file";
 import { LogUtils } from '../log-manager/LogUtils';

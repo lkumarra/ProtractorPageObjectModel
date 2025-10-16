@@ -1,5 +1,5 @@
 import { ElementFinder } from "protractor";
-import { findBy, How } from "../../exports/ExportUtils";
+import { findBy, How } from "../../exports/utils";
 
 export class NewCustomerElements {
   private static _instance: NewCustomerElements = new NewCustomerElements();

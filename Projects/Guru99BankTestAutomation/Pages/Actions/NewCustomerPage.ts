@@ -1,6 +1,6 @@
-import { TestUtil, LogUtils } from "../../exports/ExportUtils";
-import { NewCustomerElements } from "../../exports/ExportLocators";
-import { INewCustomerPage } from "../../exports/ExportInterface";
+import { TestUtil, LogUtils } from "../../exports/utils";
+import { NewCustomerElements } from "../../exports/locators";
+import { INewCustomerPage } from "../../exports/interfaces";
 
 export class NewCustomerPage implements INewCustomerPage {
   private _newCustomerElements: NewCustomerElements = NewCustomerElements.getInstance();
