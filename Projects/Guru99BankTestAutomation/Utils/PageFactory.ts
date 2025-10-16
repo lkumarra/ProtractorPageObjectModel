@@ -1,5 +1,5 @@
 import { element, by, ElementFinder } from "protractor";
-import { InvaildElementFinder } from "../exceptions/InvalidElementFinder";
+import { InvalidElementFinder } from "../exceptions/InvalidElementFinder";
 class PageFactory {
   /**
    * Return ElementFinder By Xpath.
@@ -157,7 +157,7 @@ class PageFactory {
         break;
       }
       default: {
-        throw new InvaildElementFinder("Invalid ElementFinder Strategy");
+        throw new InvalidElementFinder("Invalid ElementFinder Strategy");
       }
     }
     return webElement;

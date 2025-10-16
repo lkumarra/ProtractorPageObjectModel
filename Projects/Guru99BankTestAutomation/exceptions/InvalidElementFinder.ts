@@ -1,4 +1,4 @@
-export class InvaildElementFinder extends Error{
+export class InvalidElementFinder extends Error{
     
     constructor(message:string){
         super(message);

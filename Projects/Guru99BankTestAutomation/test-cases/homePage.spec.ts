@@ -1,5 +1,5 @@
 //#region  ModuleImports
-import { Page } from "../pages/base/Page";
+import { Page } from "../pages/base/basePage.page";
 import { ILoginPage, IHomePage } from "../exports/interfaces";
 import { LoginPage } from "../exports/pages";
 import { DATA, HomePageData } from "../test-data/testData";

@@ -1,4 +1,4 @@
-import { HomePage } from "../pages/actions/HomePage";
+import { HomePage } from "../pages/actions/homePage.page";
 export interface ILoginPage {
 
   login(userName: string, password: string): Promise<HomePage>;

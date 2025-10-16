@@ -1,6 +1,6 @@
-import { NewCustomerPage } from "../pages/actions/NewCustomerPage";
-import { EditCustomerPage } from "../pages/actions/EditCustomerPage";
-import { DeleteCustomerPage } from "../pages/actions/DeleteCustomerPage";
+import { NewCustomerPage } from "../pages/actions/newCustomerPage.page";
+import { EditCustomerPage } from "../pages/actions/editCustomerPage.page";
+import { DeleteCustomerPage } from "../pages/actions/deleteCustomerPage.page";
 export interface IHomePage {
   /**
    *Return the message of welcome message after user login successfully

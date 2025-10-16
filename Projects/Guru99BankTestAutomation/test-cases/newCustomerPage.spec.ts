@@ -1,5 +1,5 @@
 //#region Module Imports
-import { Page } from "../pages/base/Page";
+import { Page } from "../pages/base/basePage.page";
 import { NewCustomerData, DATA } from "../test-data/testData";
 import {
   ILoginPage,

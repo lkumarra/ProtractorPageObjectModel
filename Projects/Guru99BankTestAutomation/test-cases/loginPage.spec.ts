@@ -1,7 +1,7 @@
 //#region ModuleImports
 import { LoginPage } from "../exports/pages";
 import { ILoginPage } from "../exports/interfaces";
-import { Page } from "../pages/base/Page";
+import { Page } from "../pages/base/basePage.page";
 import { DATA, LoginPageData } from "../test-data/testData";
 //#endregion
 

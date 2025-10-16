@@ -6,7 +6,7 @@ import {
   IEditCustomerPage,
 } from "../exports/interfaces";
 import { LoginPage } from "../exports/pages";
-import { Page } from "../pages/base/Page";
+import { Page } from "../pages/base/basePage.page";
 //#endregion
 
 //#region  Fields

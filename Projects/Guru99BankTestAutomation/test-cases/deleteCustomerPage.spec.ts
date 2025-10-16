@@ -5,7 +5,7 @@ import {
   IHomePage,
   IDeleteCustomerPage,
 } from "../exports/interfaces";
-import { Page } from "../pages/base/Page";
+import { Page } from "../pages/base/basePage.page";
 import { DATA, DeleteCustomerData } from "../test-data/testData";
 //#endregion
 
