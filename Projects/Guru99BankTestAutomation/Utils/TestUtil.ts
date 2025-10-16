@@ -8,7 +8,7 @@ import {
   ProtractorBy,
 } from "protractor";
 import { Workbook, Worksheet } from "exceljs";
-import { ITestUtil } from "../interfaces/ITestUtil";
+import { ITestUtil } from "../contracts/testUtil.contract";
 
 let until: ProtractorExpectedConditions = ExpectedConditions;
 let process = require("process");
