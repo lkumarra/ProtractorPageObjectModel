@@ -260,21 +260,23 @@ export class LoginPage extends Page {
 
 ### Folder Naming
 
-Use PascalCase for folder names to maintain consistency:
+Use kebab-case (lowercase with hyphens) for folder names following TypeScript/JavaScript industry standards:
 
 ```
 ✅ Good:
+- pages/
+- test-cases/
+- test-data/
+- log-manager/
+
+❌ Bad (old PascalCase convention):
 - Pages/
 - TestCases/
 - TestData/
 - LogManager/
-
-❌ Bad:
-- pages/
-- test-cases/
-- testdata/
-- log_manager/
 ```
+
+**Note:** This project has been refactored to follow modern kebab-case convention for all folders.
 
 ### Variable Naming
 
@@ -312,20 +314,20 @@ async wait(el: any): Promise<void>
 
 ```
 Projects/Guru99BankTestAutomation/
-├── Config/              # Configuration files
-├── Exception/           # Custom exception classes
-├── Exports/             # Barrel exports for modules
-├── Interface/           # TypeScript interfaces
-├── LogManager/          # Logging configuration and utilities
-├── Pages/
-│   ├── Actions/         # Page action implementations
-│   ├── BasePage/        # Base page class
-│   └── Locators/        # Element locators (separate from actions)
-├── Suites/              # Test suite definitions
-├── TestCases/           # Test specifications
-├── TestData/            # Test data (JSON, Excel, etc.)
-├── TestReports/         # Generated test reports
-└── Utils/               # Utility functions and helpers
+├── config/              # Configuration files
+├── exceptions/          # Custom exception classes
+├── exports/             # Barrel exports for modules
+├── interfaces/          # TypeScript interfaces
+├── log-manager/         # Logging configuration and utilities
+├── pages/
+│   ├── actions/         # Page action implementations
+│   ├── base/            # Base page class
+│   └── locators/        # Element locators (separate from actions)
+├── suites/              # Test suite definitions
+├── test-cases/          # Test specifications
+├── test-data/           # Test data (JSON, Excel, etc.)
+├── test-reports/        # Generated test reports
+└── utils/               # Utility functions and helpers
 ```
 
 ### File Organization Rules
@@ -333,16 +335,16 @@ Projects/Guru99BankTestAutomation/
 1. **One class per file**: Each file should contain only one class or interface
 2. **Logical grouping**: Related files should be in the same directory
 3. **Separation of concerns**: 
-   - Locators in `Locators/` folder
-   - Actions in `Actions/` folder
-   - Test cases in `TestCases/` folder
-4. **Barrel exports**: Use `Exports/` for centralized exports
+   - Locators in `pages/locators/` folder
+   - Actions in `pages/actions/` folder
+   - Test cases in `test-cases/` folder
+4. **Barrel exports**: Use `exports/` for centralized exports
 
 ### Page Object Model Structure
 
 Each page should have three components:
 
-1. **Interface** (in `Interface/`):
+1. **Interface** (in `interfaces/`):
    ```typescript
    // ILoginPage.ts
    export interface ILoginPage {
@@ -353,7 +355,7 @@ Each page should have three components:
    }
    ```
 
-2. **Locators** (in `Pages/Locators/`):
+2. **Locators** (in `pages/locators/`):
    ```typescript
    // LoginPageLocators.ts
    export class LoginPageLocators {
@@ -363,7 +365,7 @@ Each page should have three components:
    }
    ```
 
-3. **Actions** (in `Pages/Actions/`):
+3. **Actions** (in `pages/actions/`):
    ```typescript
    // LoginPage.ts
    export class LoginPage extends Page implements ILoginPage {
@@ -566,16 +568,16 @@ import * as fs from 'fs';
 import { browser, element, by, ElementFinder } from 'protractor';
 
 // Internal - Interfaces
-import { ILoginPage } from '../Interface/ILoginPage';
+import { ILoginPage } from '../interfaces/ILoginPage';
 
 // Internal - Pages
-import { Page } from '../Pages/BasePage/Page';
+import { Page } from '../pages/base/Page';
 
 // Internal - Locators
-import { LoginPageLocators } from '../Pages/Locators/LoginPageLocators';
+import { LoginPageLocators } from '../pages/locators/LoginPageLocators';
 
 // Internal - Utils
-import { LogUtils } from '../LogManager/LogUtils';
+import { LogUtils } from '../log-manager/LogUtils';
 ```
 
 ## ✅ Testing Guidelines
