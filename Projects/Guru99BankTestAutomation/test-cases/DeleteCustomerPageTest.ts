@@ -1,12 +1,12 @@
 //#region ModuleImports
-import { LoginPage } from "../Exports/ExportPages";
+import { LoginPage } from "../exports/ExportPages";
 import {
   ILoginPage,
   IHomePage,
   IDeleteCustomerPage,
-} from "../Exports/ExportInterface";
-import { Page } from "../Pages/BasePage/Page";
-import { DATA, DeleteCustomerData } from "../TestData/Data";
+} from "../exports/ExportInterface";
+import { Page } from "../pages/base/Page";
+import { DATA, DeleteCustomerData } from "../test-data/Data";
 //#endregion
 
 //#region Fields

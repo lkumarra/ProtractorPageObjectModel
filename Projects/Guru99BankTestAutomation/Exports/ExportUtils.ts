@@ -1,3 +1,3 @@
-export { TestUtil } from "../Utils/TestUtil";
-export { LogUtils } from "../LogManager/LogUtils";
-export { findBy, How } from "../Utils/PageFactory";
+export { TestUtil } from "../utils/TestUtil";
+export { LogUtils } from "../log-manager/LogUtils";
+export { findBy, How } from "../utils/PageFactory";

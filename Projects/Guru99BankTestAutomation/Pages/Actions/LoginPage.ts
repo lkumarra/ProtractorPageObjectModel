@@ -1,7 +1,7 @@
-import { TestUtil, LogUtils } from "../../Exports/ExportUtils";
-import { LoginPageElements } from "../../Exports/ExportLocators";
-import { ILoginPage } from "../../Exports/ExportInterface";
-import { HomePage } from "../../Exports/ExportPages";
+import { TestUtil, LogUtils } from "../../exports/ExportUtils";
+import { LoginPageElements } from "../../exports/ExportLocators";
+import { ILoginPage } from "../../exports/ExportInterface";
+import { HomePage } from "../../exports/ExportPages";
 
 export class LoginPage implements ILoginPage {
   private _loginPageElements: LoginPageElements = LoginPageElements.getInstance();

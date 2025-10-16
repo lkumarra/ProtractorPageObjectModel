@@ -1,5 +1,5 @@
 import { element, by, ElementFinder } from "protractor";
-import { InvaildElementFinder } from "../Exception/InvalidElementFinder";
+import { InvaildElementFinder } from "../exceptions/InvalidElementFinder";
 class PageFactory {
   /**
    * Return ElementFinder By Xpath.

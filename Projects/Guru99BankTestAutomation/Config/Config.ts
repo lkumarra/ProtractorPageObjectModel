@@ -1,9 +1,9 @@
 import { Config, browser } from "protractor";
 import * as chromedriver from "chromedriver";
-import { params, suites } from "../Suites/Suites";
+import { params, suites } from "../suites/Suites";
 import * as nodemailer from "nodemailer";
 import moveFile from "move-file";
-import { LogUtils } from '../LogManager/LogUtils';
+import { LogUtils } from '../log-manager/LogUtils';
 let HtmlReporter = require("protractor-beautiful-reporter");
 let jasmineReporters = require("jasmine-reporters");
 let exec = require("child_process");

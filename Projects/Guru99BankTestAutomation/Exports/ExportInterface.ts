@@ -1,5 +1,5 @@
-export { ILoginPage } from "../Interface/ILoginPage";
-export { IHomePage } from "../Interface/IHomePage";
-export { INewCustomerPage } from "../Interface/INewCustomerPage";
-export { IEditCustomerPage } from "../Interface/IEditCustomerPage";
-export { IDeleteCustomerPage } from "../Interface/IDeleteCustomerPage";
+export { ILoginPage } from "../interfaces/ILoginPage";
+export { IHomePage } from "../interfaces/IHomePage";
+export { INewCustomerPage } from "../interfaces/INewCustomerPage";
+export { IEditCustomerPage } from "../interfaces/IEditCustomerPage";
+export { IDeleteCustomerPage } from "../interfaces/IDeleteCustomerPage";

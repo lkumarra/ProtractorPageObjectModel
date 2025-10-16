@@ -1,11 +1,11 @@
-import { TestUtil, LogUtils } from "../../Exports/ExportUtils";
-import { HomePageElements } from "../../Exports/ExportLocators";
-import { IHomePage } from "../../Exports//ExportInterface";
+import { TestUtil, LogUtils } from "../../exports/ExportUtils";
+import { HomePageElements } from "../../exports/ExportLocators";
+import { IHomePage } from "../../exports//ExportInterface";
 import {
   EditCustomerPage,
   NewCustomerPage,
   DeleteCustomerPage,
-} from "../../Exports/ExportPages";
+} from "../../exports/ExportPages";
 export class HomePage implements IHomePage {
   private _homePageElements: HomePageElements = HomePageElements.getInstance();
   private _testUtil: TestUtil = TestUtil.getInstance();
