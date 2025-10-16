@@ -1,5 +1,5 @@
-import { NewCostumerPage } from "../Pages/Actions/NewCostumerPage";
-import { EditCostumerPage } from "../Pages/Actions/EditCostumerPage";
+import { NewCustomerPage } from "../Pages/Actions/NewCustomerPage";
+import { EditCustomerPage } from "../Pages/Actions/EditCustomerPage";
 import { DeleteCustomerPage } from "../Pages/Actions/DeleteCustomerPage";
 export interface IHomePage {
   /**
@@ -13,14 +13,14 @@ export interface IHomePage {
   verifyManagerId(): Promise<string>;
 
   /**
-   * Click on new costumer link available on home page
+   * Click on new customer link available on home page
    */
-  clickOnNewCostumerLink(): Promise<NewCostumerPage>;
+  clickOnNewCustomerLink(): Promise<NewCustomerPage>;
 
   /**
-   * Click on edit costumer link available on home page
+   * Click on edit customer link available on home page
    */
-  clickOnEditCostumerLink(): Promise<EditCostumerPage>;
+  clickOnEditCustomerLink(): Promise<EditCustomerPage>;
 
   /**
    * Click on Delete Customer link available on home page.

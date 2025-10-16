@@ -1,8 +1,8 @@
 import { Config, browser } from "protractor";
+import * as chromedriver from "chromedriver";
 import { params, suites } from "../Suites/Suites";
 import * as nodemailer from "nodemailer";
-import * as moveFile from "move-file";
-import * as process from "process";
+import moveFile from "move-file";
 import { LogUtils } from '../LogManager/LogUtils';
 let HtmlReporter = require("protractor-beautiful-reporter");
 let jasmineReporters = require("jasmine-reporters");
@@ -73,8 +73,20 @@ export let config: Config = {
   suites: suites,
   useAllAngular2AppRoots: true,
   framework: "jasmine2",
+  directConnect: true,
+  chromeDriver: chromedriver.path,
   capabilities: {
     browserName: params.browserName,
+    chromeOptions: {
+      binary: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      args: [
+        "--headless",
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--window-size=1920,1080"
+      ]
+    }
   },
   // multiCapabilities: [{
   //     "browserName": "chrome"

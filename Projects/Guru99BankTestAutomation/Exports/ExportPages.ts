@@ -1,5 +1,5 @@
 export { HomePage } from "../Pages/Actions/HomePage";
-export { NewCostumerPage } from "../Pages/Actions/NewCostumerPage";
+export { NewCustomerPage } from "../Pages/Actions/NewCustomerPage";
 export { DeleteCustomerPage } from "../Pages/Actions/DeleteCustomerPage";
-export { EditCostumerPage } from "../Pages/Actions/EditCostumerPage";
+export { EditCustomerPage } from "../Pages/Actions/EditCustomerPage";
 export { LoginPage } from "../Pages/Actions/LoginPage";

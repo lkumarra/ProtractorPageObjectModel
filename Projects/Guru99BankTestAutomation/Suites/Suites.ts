@@ -22,7 +22,7 @@ export let params = {
 export let suites = [
   "../TestCases/LoginPageTest.js",
   "../TestCases/HomePageTest.js",
-  "../TestCases/NewCostumerPageTest.js",
-  "../TestCases/EditCostumerPageTest.js",
+  "../TestCases/NewCustomerPageTest.js",
+  "../TestCases/EditCustomerPageTest.js",
   "../TestCases/DeleteCustomerPageTest.js",
 ];

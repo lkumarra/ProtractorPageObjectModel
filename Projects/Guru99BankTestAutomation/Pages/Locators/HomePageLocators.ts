@@ -19,10 +19,10 @@ export class HomePageElements {
   private _managerId: ElementFinder;
 
   @findBy(How.LINKTEXT, "New Customer")
-  private _newCostumerLink: ElementFinder;
+  private _newCustomerLink: ElementFinder;
 
   @findBy(How.LINKTEXT, "Edit Customer")
-  private _editCostumerLink: ElementFinder;
+  private _editCustomerLink: ElementFinder;
 
   @findBy(How.LINKTEXT, "Delete Customer")
   private _deleteCustomerLink: ElementFinder;
@@ -48,15 +48,15 @@ export class HomePageElements {
   /**
    * Return new costume link locator.
    */
-  public getNewCostumerLinkLocator(): ElementFinder {
-    return this._newCostumerLink;
+  public getNewCustomerLinkLocator(): ElementFinder {
+    return this._newCustomerLink;
   }
 
   /**
-   * Return edit costumer link locator.
+   * Return edit customer link locator.
    */
-  public getEditCostumerLinkLocator(): ElementFinder {
-    return this._editCostumerLink;
+  public getEditCustomerLinkLocator(): ElementFinder {
+    return this._editCustomerLink;
   }
 
   /**

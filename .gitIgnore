@@ -1,12 +1,73 @@
-.vscode
-e2e_tests
-node_modules
-Guru99Bank.log
-Projects/Guru99BankTestAutomation/OldTestReports/*
-allure-results
+# Protractor Page Object Model - Git Ignore File
+
+# Compiled output - TypeScript compilation results
+e2e_tests/
+*.js
+*.js.map
+
+# Test Reports and Results
+allure-results/
+TestReports/
+Projects/Guru99BankTestAutomation/TestReports/
+Projects/Guru99BankTestAutomation/OldTestReports/
+Projects/Guru99BankTestAutomation/SampleReport/
+
+# Logs
+logs/
+*.log
+*.log.*
 Guru99Bank.log*
-Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/app.js
-Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/combined.json
-Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/Guru99Bank.pdf
-Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/junitresults.xml
-Projects/Guru99BankTestAutomation/TestReports/Guru99BankTestReports/*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+
+# Package lock files
+package-lock.json
+
+# IDE - Visual Studio Code
+.vscode/
+.history/
+*.vsix
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test screenshots and videos
+screenshots/
+videos/
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/

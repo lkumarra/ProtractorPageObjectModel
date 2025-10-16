@@ -286,2928 +286,802 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "description": "Verify userId label on login page is UserID|Guru99Bank LoginPage TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140103696,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110661,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140103698,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110663,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140103699,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110664,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140104424,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110664,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140105191,
+                "message": "https://demo.guru99.com/V4/ 26 Mixed Content: The page at 'https://demo.guru99.com/V4/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595110860,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140105409,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110860,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140105415,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140105891,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595110860,
                 "type": ""
             }
         ],
-        "timestamp": 1639140105694,
-        "duration": 479
+        "timestamp": 1760595111809,
+        "duration": 28
     },
     {
         "description": "Verify password label on login page is Password|Guru99Bank LoginPage TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140106353,
-        "duration": 215
+        "timestamp": 1760595111848,
+        "duration": 17
     },
     {
         "description": "Verify alert text without entering UserId and Password is User or Password is not valid|Guru99Bank LoginPage TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140107458,
+                "message": "https://demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595111978,
                 "type": ""
             }
         ],
-        "timestamp": 1639140106629,
-        "duration": 861
+        "timestamp": 1760595111867,
+        "duration": 285
     },
     {
         "description": "Login to Guru99Bank application|Guru99Bank LoginPage TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140107812,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112336,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140108211,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112338,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140108214,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112338,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140108622,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112338,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140108622,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112338,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140109031,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112578,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140109031,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112578,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140109357,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112579,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140109379,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112579,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140111086,
+                "message": "https://demo.guru99.com/V4/index.php 26 Mixed Content: The page at 'https://demo.guru99.com/V4/index.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595112580,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140111395,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112587,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140111800,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595112775,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140111800,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595113598,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595113599,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595113601,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595113610,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595113610,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/Managerhomepage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/Managerhomepage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595113662,
                 "type": ""
             }
         ],
-        "timestamp": 1639140107544,
-        "duration": 4949
+        "timestamp": 1760595112155,
+        "duration": 1871
     },
     {
         "description": "Verify user should able to seen welcome message after login|Guru99Bank HomePage TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113375,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114442,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113378,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114443,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113390,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114443,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113692,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114444,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113709,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114445,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140113713,
+                "message": "https://demo.guru99.com/V4/ 26 Mixed Content: The page at 'https://demo.guru99.com/V4/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595114446,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140116438,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595114637,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140116814,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595115394,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140116814,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595115395,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140117230,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595115401,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140117230,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595115404,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595115414,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/Managerhomepage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/Managerhomepage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595115466,
                 "type": ""
             }
         ],
-        "timestamp": 1639140117383,
-        "duration": 294
+        "timestamp": 1760595114910,
+        "duration": 777
     },
     {
         "description": "Verify user should able to see the manager id from which he login|Guru99Bank HomePage TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140117759,
-        "duration": 287
+        "timestamp": 1760595115690,
+        "duration": 20
     },
     {
         "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140118896,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116134,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140119272,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116134,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140119273,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116136,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140119681,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116136,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140119693,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116137,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140119694,
+                "message": "https://demo.guru99.com/V4/ 26 Mixed Content: The page at 'https://demo.guru99.com/V4/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595116138,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140120000,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595116329,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140121948,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595117016,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140122240,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595117022,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140122655,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595117022,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140122656,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595117022,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595117022,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/Managerhomepage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/Managerhomepage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595117062,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/addcustomerpage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/addcustomerpage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595117523,
                 "type": ""
             }
         ],
-        "timestamp": 1639140123718,
-        "duration": 656
+        "timestamp": 1760595117728,
+        "duration": 79
     },
     {
         "description": "Verify costumer name field with invalid name invallid chracters |Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140124419,
-        "duration": 478
+        "timestamp": 1760595117809,
+        "duration": 70
     },
     {
         "description": "Verify costumer name filed with invalid name space|Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140124965,
-        "duration": 674
+        "timestamp": 1760595117881,
+        "duration": 46
     },
     {
         "description": "Verify the maximum characters limit in costumer name filed by enterig maximum characters|Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140125696,
-        "duration": 507
+        "timestamp": 1760595117929,
+        "duration": 47
     },
     {
         "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140126241,
-        "duration": 808
+        "timestamp": 1760595117978,
+        "duration": 179
     },
     {
         "description": "verify edit costumer id by entering alphabets|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140127871,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118672,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140127871,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118685,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140128280,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118686,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140128298,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118686,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140128689,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118688,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140128690,
+                "message": "https://demo.guru99.com/V4/ 26 Mixed Content: The page at 'https://demo.guru99.com/V4/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595118689,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140129933,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595118885,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140130328,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595119589,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140130650,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595119589,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140131766,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595119591,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140131809,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595119591,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595119593,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/Managerhomepage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/Managerhomepage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595119653,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/EditCustomer.php 12 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/EditCustomer.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595120113,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595120308,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
+                "timestamp": 1760595120516,
                 "type": ""
             }
         ],
-        "timestamp": 1639140131847,
-        "duration": 599
+        "timestamp": 1760595120519,
+        "duration": 78
     },
     {
         "description": "Verify edit costumer id alert |Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 203:113 Uncaught ReferenceError: validatebal is not defined",
-                "timestamp": 1639140133098,
+                "message": "https://demo.guru99.com/V4/manager/EditCustomer.php 240:113 Uncaught ReferenceError: validatebal is not defined",
+                "timestamp": 1760595120740,
                 "type": ""
             }
         ],
-        "timestamp": 1639140132496,
-        "duration": 671
+        "timestamp": 1760595120599,
+        "duration": 149
     },
     {
         "description": "Verify costumer id field by entering special characters|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140133257,
-        "duration": 381
+        "timestamp": 1760595120752,
+        "duration": 72
     },
     {
         "description": "Verify costumer id field by entering space|Guru99Bank EditCostumer Page TestCases Workflow",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140133677,
-        "duration": 437
+        "timestamp": 1760595120826,
+        "duration": 57
     },
     {
         "description": "Verify CustomerId Message By entering aphlabets|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135044,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121377,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135045,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121380,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135364,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121386,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135403,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121391,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135682,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121396,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140135691,
+                "message": "https://demo.guru99.com/V4/ 26 Mixed Content: The page at 'https://demo.guru99.com/V4/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595121397,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140137110,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595121595,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140137496,
+                "message": "https://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595122478,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140137497,
+                "message": "https://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595122857,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140137497,
+                "message": "https://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595122858,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140137907,
+                "message": "https://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595123140,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140137907,
+                "message": "https://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595123340,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140139033,
+                "message": "https://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595123389,
                 "type": ""
             },
             {
                 "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140139085,
+                "message": "https://demo.guru99.com/V4/manager/Managerhomepage.php 17 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/Managerhomepage.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595123895,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/DeleteCustomerInput.php 23 Mixed Content: The page at 'https://demo.guru99.com/V4/manager/DeleteCustomerInput.php' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'. This request has been blocked; the content must be served over HTTPS.",
+                "timestamp": 1760595124415,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 ()",
+                "timestamp": 1760595124587,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "https://demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
+                "timestamp": 1760595124789,
                 "type": ""
             }
         ],
-        "timestamp": 1639140139111,
-        "duration": 738
+        "timestamp": 1760595124792,
+        "duration": 74
     },
     {
         "description": "Verify CustomerId Message By entering specialcharacters|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
         "passed": true,
         "pending": false,
-        "os": "windows",
-        "sessionId": "d38381572ebeba5a122c7188cb1359f6",
-        "instanceId": 17296,
+        "os": "Mac OS X",
+        "instanceId": 55409,
         "browser": {
             "name": "chrome",
-            "version": "96.0.4664.93"
+            "version": "141.0.7390.78"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "timestamp": 1639140139912,
-        "duration": 600
-    },
-    {
-        "description": "Verify userId label on login page is UserID|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140410036,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140410047,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140410054,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140411378,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140411617,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140411625,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140412183,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140412152,
-        "duration": 417
-    },
-    {
-        "description": "Verify password label on login page is Password|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140412754,
-        "duration": 209
-    },
-    {
-        "description": "Verify alert text without entering UserId and Password is User or Password is not valid|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140413756,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140413024,
-        "duration": 788
-    },
-    {
-        "description": "Login to Guru99Bank application|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140414078,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140414422,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140414422,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140414791,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140414795,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140415207,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140415209,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140415529,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140415576,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140416910,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140417250,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140417252,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140417255,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140417574,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140417578,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421104,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421110,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421422,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421466,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421742,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140421747,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140413891,
-        "duration": 5763
-    },
-    {
-        "description": "Verify user should able to seen welcome message after login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140423245,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140423547,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140423559,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140423917,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140423917,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140424083,
-        "duration": 366
-    },
-    {
-        "description": "Verify user should able to see the manager id from which he login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140424545,
-        "duration": 284
-    },
-    {
-        "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140425754,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140425755,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140425756,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140426073,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140426084,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140426386,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140426402,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140428148,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140428481,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140428823,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140429846,
-        "duration": 761
-    },
-    {
-        "description": "Verify costumer name field with invalid name invallid chracters |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140430677,
-        "duration": 554
-    },
-    {
-        "description": "Verify costumer name filed with invalid name space|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140431288,
-        "duration": 422
-    },
-    {
-        "description": "Verify the maximum characters limit in costumer name filed by enterig maximum characters|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140431757,
-        "duration": 473
-    },
-    {
-        "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140432299,
-        "duration": 700
-    },
-    {
-        "description": "verify edit costumer id by entering alphabets|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434149,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434150,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434152,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434559,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434580,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434873,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140434881,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140436023,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140436379,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140436379,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140436715,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140436718,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140437647,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140437671,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140437693,
-        "duration": 454
-    },
-    {
-        "description": "Verify edit costumer id alert |Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 203:113 Uncaught ReferenceError: validatebal is not defined",
-                "timestamp": 1639140438537,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140438195,
-        "duration": 390
-    },
-    {
-        "description": "Verify costumer id field by entering special characters|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140438664,
-        "duration": 442
-    },
-    {
-        "description": "Verify costumer id field by entering space|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140439157,
-        "duration": 377
-    },
-    {
-        "description": "Verify CustomerId Message By entering aphlabets|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140440805,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441219,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441220,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441541,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441563,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441931,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140441931,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140443092,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140443398,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140443399,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140443724,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140443730,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140444728,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140444767,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140444790,
-        "duration": 415
-    },
-    {
-        "description": "Verify CustomerId Message By entering specialcharacters|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "e7b12bff070604b50ed005b3c5a8422a",
-        "instanceId": 7696,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140445253,
-        "duration": 347
-    },
-    {
-        "description": "Verify userId label on login page is UserID|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140592982,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140592995,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140592999,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140594409,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140594535,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140594540,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140594992,
-        "duration": 331
-    },
-    {
-        "description": "Verify password label on login page is Password|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140595503,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140595483,
-        "duration": 205
-    },
-    {
-        "description": "Verify alert text without entering UserId and Password is User or Password is not valid|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140597110,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140595750,
-        "duration": 3433
-    },
-    {
-        "description": "Login to Guru99Bank application|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140599307,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140599307,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140599628,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600136,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600441,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600453,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600754,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600776,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140600802,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140602235,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140602521,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140602524,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140602529,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140602841,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140602855,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604251,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604251,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604251,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604646,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604653,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604989,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140604989,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140599273,
-        "duration": 4039
-    },
-    {
-        "description": "Verify user should able to seen welcome message after login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140606667,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140607004,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140607416,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140607417,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140607579,
-        "duration": 237
-    },
-    {
-        "description": "Verify user should able to see the manager id from which he login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140607877,
-        "duration": 248
-    },
-    {
-        "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140608981,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140608984,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140608994,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140609405,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140609405,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140609405,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140610692,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140613969,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140614374,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140614698,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140614704,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140615503,
-        "duration": 582
-    },
-    {
-        "description": "Verify costumer name field with invalid name invallid chracters |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140616142,
-        "duration": 404
-    },
-    {
-        "description": "Verify costumer name filed with invalid name space|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140616592,
-        "duration": 441
-    },
-    {
-        "description": "Verify the maximum characters limit in costumer name filed by enterig maximum characters|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140617099,
-        "duration": 465
-    },
-    {
-        "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140617615,
-        "duration": 618
-    },
-    {
-        "description": "verify edit costumer id by entering alphabets|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140619092,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140619092,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140619402,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140619419,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140619727,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140620928,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140624609,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140624924,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140624925,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140625257,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140625271,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140626360,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140626400,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140626432,
-        "duration": 473
-    },
-    {
-        "description": "Verify edit costumer id alert |Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 203:113 Uncaught ReferenceError: validatebal is not defined",
-                "timestamp": 1639140627322,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140626958,
-        "duration": 421
-    },
-    {
-        "description": "Verify costumer id field by entering special characters|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140627429,
-        "duration": 498
-    },
-    {
-        "description": "Verify costumer id field by entering space|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140627977,
-        "duration": 380
-    },
-    {
-        "description": "Verify CustomerId Message By entering aphlabets|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140629454,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140629463,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140629768,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140629848,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140630081,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140630126,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140631448,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140631743,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140631754,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140631765,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140633144,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140633208,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140633249,
-        "duration": 469
-    },
-    {
-        "description": "Verify CustomerId Message By entering specialcharacters|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "d29fe1690953cd1e34ab710da09bf7c9",
-        "instanceId": 15644,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140633766,
-        "duration": 391
-    },
-    {
-        "description": "Verify userId label on login page is UserID|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140747599,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140747600,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140747603,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140748415,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140749084,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140749448,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140749449,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/favicon.ico - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140749951,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140749653,
-        "duration": 425
-    },
-    {
-        "description": "Verify password label on login page is Password|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140750296,
-        "duration": 290
-    },
-    {
-        "description": "Verify alert text without entering UserId and Password is User or Password is not valid|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140751332,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140750665,
-        "duration": 694
-    },
-    {
-        "description": "Login to Guru99Bank application|Guru99Bank LoginPage TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140751692,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140751692,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752009,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752030,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752416,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752428,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752428,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752921,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752921,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140752921,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140753251,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140754838,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140755140,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140755467,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140755476,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757072,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757073,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757076,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757398,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757399,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757445,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140757750,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140751430,
-        "duration": 4764
-    },
-    {
-        "description": "Verify user should able to seen welcome message after login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140759817,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140760193,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140760195,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140760198,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140760618,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140760618,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140760813,
-        "duration": 227
-    },
-    {
-        "description": "Verify user should able to see the manager id from which he login|Guru99Bank HomePage TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762218,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762219,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762232,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762544,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762552,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140762552,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140761103,
-        "duration": 343
-    },
-    {
-        "description": "Verify costumer name field  with invalid name numbers |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140763993,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140764334,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140764335,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140764339,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140764673,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140764675,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140765733,
-        "duration": 621
-    },
-    {
-        "description": "Verify costumer name field with invalid name invallid chracters |Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140766471,
-        "duration": 581
-    },
-    {
-        "description": "Verify costumer name filed with invalid name space|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140767103,
-        "duration": 365
-    },
-    {
-        "description": "Verify the maximum characters limit in costumer name filed by enterig maximum characters|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140767513,
-        "duration": 422
-    },
-    {
-        "description": "verify costumer name message without entering any value|Guru99Bank NewCostumer Page Testcases workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140768013,
-        "duration": 573
-    },
-    {
-        "description": "verify edit costumer id by entering alphabets|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140769919,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140769921,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140770328,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140770349,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140770746,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140770747,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140771945,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140772276,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140772276,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140772691,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140772691,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140774838,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 38:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140774917,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140774968,
-        "duration": 412
-    },
-    {
-        "description": "Verify edit costumer id alert |Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/EditCustomer.php 203:113 Uncaught ReferenceError: validatebal is not defined",
-                "timestamp": 1639140775889,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140775427,
-        "duration": 498
-    },
-    {
-        "description": "Verify costumer id field by entering special characters|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140775993,
-        "duration": 355
-    },
-    {
-        "description": "Verify costumer id field by entering space|Guru99Bank EditCostumer Page TestCases Workflow",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140778010,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140778419,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140778419,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/3.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140778743,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140778747,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/2.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140779042,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140776403,
-        "duration": 329
-    },
-    {
-        "description": "Verify CustomerId Message By entering aphlabets|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/index.php 0:37 Uncaught SyntaxError: missing ) after argument list",
-                "timestamp": 1639140780466,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/validate_login.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140780751,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/commonstyle.css - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140780762,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/scripts/basic_functions.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140781188,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/images/1.gif - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140781188,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/scripts/validatefuncs.js - Failed to load resource: the server responded with a status of 404 (Not Found)",
-                "timestamp": 1639140782259,
-                "type": ""
-            },
-            {
-                "level": "SEVERE",
-                "message": "http://demo.guru99.com/V4/manager/DeleteCustomerInput.php 75:71 Uncaught TypeError: Cannot read properties of undefined (reading 'select')",
-                "timestamp": 1639140782291,
-                "type": ""
-            }
-        ],
-        "timestamp": 1639140782309,
-        "duration": 601
-    },
-    {
-        "description": "Verify CustomerId Message By entering specialcharacters|Guru99Bank DeleteCustomer Page TestCases WorkFlow ",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "9b0a2d5d7c4e24e2bd473692e66c6d8a",
-        "instanceId": 16492,
-        "browser": {
-            "name": "chrome",
-            "version": "96.0.4664.93"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "timestamp": 1639140782995,
-        "duration": 555
+        "timestamp": 1760595124868,
+        "duration": 65
     }
 ];
 

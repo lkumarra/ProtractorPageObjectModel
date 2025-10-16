@@ -2,8 +2,8 @@ import { TestUtil, LogUtils } from "../../Exports/ExportUtils";
 import { HomePageElements } from "../../Exports/ExportLocators";
 import { IHomePage } from "../../Exports//ExportInterface";
 import {
-  EditCostumerPage,
-  NewCostumerPage,
+  EditCustomerPage,
+  NewCustomerPage,
   DeleteCustomerPage,
 } from "../../Exports/ExportPages";
 export class HomePage implements IHomePage {
@@ -35,27 +35,27 @@ export class HomePage implements IHomePage {
   }
 
   /**
-   * Click on new costumer link available on home page
-   * @returns Return the object of New Costumer page
+   * Click on new customer link available on home page
+   * @returns Return the object of New Customer page
    */
-  public async clickOnNewCostumerLink(): Promise<NewCostumerPage> {
+  public async clickOnNewCustomerLink(): Promise<NewCustomerPage> {
     await this._testUtil.jsClick(
-      this._homePageElements.getNewCostumerLinkLocator()
+      this._homePageElements.getNewCustomerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on NewCustomer Link ", this.className);
-    return new NewCostumerPage();
+    return new NewCustomerPage();
   }
 
   /**
-   * Click on edit costumer link available on home page
-   * @returns Return the object on Edit costumer page
+   * Click on edit customer link available on home page
+   * @returns Return the object on Edit customer page
    */
-  public async clickOnEditCostumerLink(): Promise<EditCostumerPage> {
+  public async clickOnEditCustomerLink(): Promise<EditCustomerPage> {
     await this._testUtil.jsClick(
-      this._homePageElements.getEditCostumerLinkLocator()
+      this._homePageElements.getEditCustomerLinkLocator()
     );
     LogUtils.debugMessage("Clicked on EditCustomer Link ", this.className);
-    return new EditCostumerPage();
+    return new EditCustomerPage();
   }
 
   /**
